@@ -4,6 +4,7 @@ import type {
   DailyReport,
   TradingSection,
 } from "../ai/pipeline";
+import type { PersonalizationResult } from "../ai/personalize";
 import type { WatchlistPick } from "../ai/trading-commentary";
 import { REPORT_LOCALE } from "../sources/registry";
 import { getReportTz } from "../utils";
@@ -31,6 +32,7 @@ const TEXTS_ZH = {
   catTrading: "市场行情",
   catCommunity: "社区讨论",
   subAiNews: "AI 媒体",
+  subTechNews: "中文科技",
   subTrendingPapers: "热门论文",
   subXViral: "X 推文",
   subBlogWeekly: "博客周刊",
@@ -70,6 +72,10 @@ const TEXTS_ZH = {
   mdTodayKeywords: "今日关键词",
   mdImportance: "重要度",
   archiveLink: "← 历史归档",
+  catForYou: "为你推荐",
+  forYouEmpty: "暂无与你的关键词匹配的内容。",
+  forYouScoreLabel: "匹配分",
+  forYouHitLabel: "命中",
 };
 
 const TEXTS_EN: typeof TEXTS_ZH = {
@@ -80,6 +86,7 @@ const TEXTS_EN: typeof TEXTS_ZH = {
   catTrading: "Markets",
   catCommunity: "Community",
   subAiNews: "AI Media",
+  subTechNews: "Chinese Tech",
   subTrendingPapers: "Trending Papers",
   subXViral: "X Viral",
   subBlogWeekly: "Blog Weekly",
@@ -120,6 +127,10 @@ const TEXTS_EN: typeof TEXTS_ZH = {
   mdTodayKeywords: "Keywords",
   mdImportance: "Importance",
   archiveLink: "← Archive",
+  catForYou: "For You",
+  forYouEmpty: "No content matches your keywords yet.",
+  forYouScoreLabel: "Match score",
+  forYouHitLabel: "Matched",
 };
 
 const STR = REPORT_LOCALE === "en" ? TEXTS_EN : TEXTS_ZH;
@@ -171,16 +182,17 @@ const SUBCATEGORY_ORDER: Partial<Record<Category, string[]>> = {
   // Locale filtering at registry level decides which actually appears:
   // zh mode keeps cn-community (V2EX / LinuxDo); en mode keeps
   // overseas-community (Hacker News / r/stocks).
-  tech: ["github-trending", "trending-papers", "x-viral", "ai-news", "cn-community", "overseas-community"],
+  tech: ["github-trending", "trending-papers", "x-viral", "ai-news", "tech-news", "cn-community", "overseas-community"],
   finance: ["news"],
   politics: ["world"],
 };
 
-const TECH_MAIN_SUBS = new Set(["github-trending", "trending-papers", "x-viral", "ai-news"]);
+const TECH_MAIN_SUBS = new Set(["github-trending", "trending-papers", "x-viral", "ai-news", "tech-news"]);
 const TECH_COMMUNITY_SUBS = new Set(["cn-community", "overseas-community"]);
 
 const SUBCATEGORY_LABELS: Record<string, string> = {
   "github-trending": "GitHub Trending",
+  "tech-news": STR.subTechNews,
   "trending-papers": STR.subTrendingPapers,
   "cn-community": STR.subCnCommunity,
   "overseas-community": STR.subOverseasCommunity,
@@ -201,6 +213,7 @@ const SUBCATEGORY_LABELS: Record<string, string> = {
  */
 const SOURCE_DISPLAY_LIMITS: Record<string, number> = {
   "tech:github-trending": 20,
+  "tech:tech-news": 10,
   "tech:cn-community": 10,
   "tech:x-viral": 20,
   "tech:trending-papers": 20,
@@ -442,7 +455,11 @@ function formatDate(d: Date | undefined): string {
 
 // ----- raw article renderers -----
 
-function renderArticleHtml(a: ArticleInput, showSource = false): string {
+function renderArticleHtml(
+  a: ArticleInput,
+  showSource = false,
+  hits?: string[],
+): string {
   const title = escapeHtml(a.title);
   const url = escapeHtml(a.url);
   const excerpt = a.excerpt ? escapeHtml(a.excerpt) : "";
@@ -456,8 +473,13 @@ function renderArticleHtml(a: ArticleInput, showSource = false): string {
   // News-style summary label for finance/politics, project-intro style for GH/tech.
   const newsy = a.category === "finance" || a.category === "politics";
   const summaryLabel = newsy ? STR.summaryLabelNews : STR.summaryLabelIntro;
+  const hitBadge =
+    hits && hits.length > 0
+      ? `<p class="article-hit">🎯 ${STR.forYouHitLabel}: ${hits.map((h) => escapeHtml(h)).join(", ")}</p>`
+      : "";
   return `<article class="article">
   <h3 class="article-title"><a href="${url}" target="_blank" rel="noopener noreferrer">${title}</a></h3>
+  ${hitBadge}
   ${meta ? `<p class="article-stats">${meta}</p>` : ""}
   ${metaLine ? `<p class="article-meta">${metaLine}</p>` : ""}
   ${excerpt ? `<p class="article-excerpt">${excerpt}</p>` : ""}
@@ -465,15 +487,41 @@ function renderArticleHtml(a: ArticleInput, showSource = false): string {
 </article>`;
 }
 
+/**
+ * P5: "For You" panel — the personalized top-picks (computed by
+ * lib/ai/personalize.ts, threaded in via renderHtml's 4th arg). Offline: the
+ * caller may recompute scores from the cached `-articles.json`.
+ */
+function renderForYouPanel(
+  topPicks: ArticleInput[],
+  personal: PersonalizationResult,
+): string {
+  if (topPicks.length === 0) return `<p class="empty">${STR.forYouEmpty}</p>`;
+  const items = topPicks
+    .map((a) => {
+      const score = personal.scoreMap.get(a.url) ?? 0;
+      const scoreText = Number.isInteger(score) ? String(score) : score.toFixed(1);
+      const hits = personal.hitsMap.get(a.url) ?? [];
+      const hitText = hits.map((h) => escapeHtml(h)).join(", ");
+      const badge = `<p class="for-you-badge">🎯 ${STR.forYouScoreLabel} ${scoreText}${
+        hitText ? ` · ${STR.forYouHitLabel}: ${hitText}` : ""
+      }</p>`;
+      return `<div class="for-you-item">${badge}${renderArticleHtml(a, true)}</div>`;
+    })
+    .join("\n");
+  return `<div class="for-you-list">${items}</div>`;
+}
+
 function renderSourceContent(
   category: Category,
   subId: string,
   source: SourceGroup,
   isActive: boolean,
+  hitsMap?: Map<string, string[]>,
 ): string {
   const showSource = source.merged === true;
   return `<div class="source-content${isActive ? " active" : ""}" data-source-content="${escapeHtml(source.sourceId)}" data-sub="${escapeHtml(subId)}" data-cat="${category}">
-    ${source.items.length === 0 ? `<p class="empty">${STR.emptySource}</p>` : source.items.map((a) => renderArticleHtml(a, showSource)).join("\n")}
+    ${source.items.length === 0 ? `<p class="empty">${STR.emptySource}</p>` : source.items.map((a) => renderArticleHtml(a, showSource, hitsMap?.get(a.url))).join("\n")}
   </div>`;
 }
 
@@ -494,11 +542,16 @@ function renderSourceTabs(
     .join("")}</nav>`;
 }
 
-function renderSubContent(category: Category, sub: SubGroup, isActive: boolean): string {
+function renderSubContent(
+  category: Category,
+  sub: SubGroup,
+  isActive: boolean,
+  hitsMap?: Map<string, string[]>,
+): string {
   return `<div class="sub-content${isActive ? " active" : ""}" data-sub-content="${escapeHtml(sub.id)}" data-cat="${category}">
     ${renderSourceTabs(category, sub.id, sub.sources)}
     <div class="source-contents">
-      ${sub.sources.map((s, i) => renderSourceContent(category, sub.id, s, i === 0)).join("\n")}
+      ${sub.sources.map((s, i) => renderSourceContent(category, sub.id, s, i === 0, hitsMap)).join("\n")}
     </div>
   </div>`;
 }
@@ -506,12 +559,13 @@ function renderSubContent(category: Category, sub: SubGroup, isActive: boolean):
 function renderRawCategoryPanel(
   category: Category,
   subs: SubGroup[],
+  hitsMap?: Map<string, string[]>,
 ): string {
   if (subs.length === 0) {
     return `<p class="empty">${STR.emptyCategory}</p>`;
   }
   if (subs.length === 1) {
-    return renderSubContent(category, subs[0], true);
+    return renderSubContent(category, subs[0], true, hitsMap);
   }
   const subTabs = subs
     .map((s, i) => {
@@ -520,7 +574,7 @@ function renderRawCategoryPanel(
     })
     .join("");
   const panels = subs
-    .map((s, i) => renderSubContent(category, s, i === 0))
+    .map((s, i) => renderSubContent(category, s, i === 0, hitsMap))
     .join("\n");
   return `<nav class="sub-tabs">${subTabs}</nav>\n<div class="sub-contents">${panels}</div>`;
 }
@@ -531,8 +585,11 @@ export function renderHtml(
   report: DailyReport,
   raw: RawByCategory,
   date: string,
+  personal?: PersonalizationResult | null,
 ): string {
   const trading = report.trading;
+  const topPicks = personal?.topPicks ?? [];
+  const hasForYou = topPicks.length > 0;
 
   // Split tech raw subgroups: "tech" L1 panel (github-trending + ai-news)
   // vs. "community" L1 panel (cn-community). Keeps the registry simple
@@ -814,6 +871,33 @@ export function renderHtml(
     padding: 0.25rem 0.7rem;
     border-radius: 999px;
     font-size: 0.8rem;
+  }
+
+  /* ===== for-you (personalized) ===== */
+  .for-you-list { display: grid; gap: 0.6rem; }
+  .for-you-item {
+    background: var(--bg-elevated);
+    border: 1px solid var(--rule);
+    border-left: 4px solid var(--link);
+    border-radius: 0.5rem;
+    padding: 0.9rem 1.1rem;
+  }
+  .for-you-badge {
+    margin: 0 0 0.4rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--link);
+    letter-spacing: 0.02em;
+  }
+  .article-hit {
+    display: inline-block;
+    margin: 0 0 0.35rem;
+    font-size: 0.68rem;
+    font-weight: 600;
+    color: var(--link);
+    background: var(--card);
+    padding: 0.1rem 0.45rem;
+    border-radius: 999px;
   }
 
   /* ===== L2 sub-tabs ===== */
@@ -1199,25 +1283,27 @@ export function renderHtml(
   </header>
 
   <nav class="tabs" role="tablist">
-    <button class="tab active" data-tab="tech">${CATEGORY_LABELS.tech}<span class="count">${counts.tech}</span></button>
+    ${hasForYou ? `<button class="tab active" data-tab="foryou">${STR.catForYou}<span class="count">${topPicks.length}</span></button>` : ""}
+    <button class="tab${hasForYou ? "" : " active"}" data-tab="tech">${CATEGORY_LABELS.tech}<span class="count">${counts.tech}</span></button>
     ${trading ? `<button class="tab" data-tab="trading">${STR.catTrading}<span class="count">${trading.tickers.length}</span></button>` : ""}
     <button class="tab" data-tab="politics">${CATEGORY_LABELS.politics}<span class="count">${counts.politics}</span></button>
     <button class="tab" data-tab="finance">${CATEGORY_LABELS.finance}<span class="count">${counts.finance}</span></button>
     ${techCommunitySubs.length > 0 ? `<button class="tab" data-tab="community">${STR.catCommunity}<span class="count">${counts.community}</span></button>` : ""}
   </nav>
 
-  <section class="panel active" data-panel="tech">
-    ${renderRawCategoryPanel("tech", techMainSubs)}
+  ${hasForYou ? `<section class="panel active" data-panel="foryou">${renderForYouPanel(topPicks, personal as PersonalizationResult)}</section>` : ""}
+  <section class="panel${hasForYou ? "" : " active"}" data-panel="tech">
+    ${renderRawCategoryPanel("tech", techMainSubs, personal?.hitsMap)}
   </section>
   ${trading ? `<section class="panel" data-panel="trading">${renderTradingPanel(trading)}</section>` : ""}
   <section class="panel" data-panel="politics">
-    ${renderRawCategoryPanel("politics", raw.politics)}
+    ${renderRawCategoryPanel("politics", raw.politics, personal?.hitsMap)}
   </section>
   <section class="panel" data-panel="finance">
-    ${renderRawCategoryPanel("finance", raw.finance)}
+    ${renderRawCategoryPanel("finance", raw.finance, personal?.hitsMap)}
   </section>
   ${techCommunitySubs.length > 0 ? `<section class="panel" data-panel="community">
-    ${renderRawCategoryPanel("tech", techCommunitySubs)}
+    ${renderRawCategoryPanel("tech", techCommunitySubs, personal?.hitsMap)}
   </section>` : ""}
 
   <footer>

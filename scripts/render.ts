@@ -4,6 +4,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 import type { ArticleInput, DailyReport } from "../lib/ai/pipeline";
+import { applyPersonalization, tryLoadProfile } from "../lib/ai/personalize";
 import { groupRaw, renderHtml, renderMarkdown } from "../lib/output/render";
 import { sources } from "../lib/sources/registry";
 import { todayKey } from "../lib/utils";
@@ -58,10 +59,20 @@ async function main() {
   console.log(`[render] loaded ${articles.length} articles + report`);
 
   const raw = groupRaw(articles, sources);
+
+  const { profile, error: profileError } = tryLoadProfile();
+  if (profileError) console.warn(`[personalize] ${profileError}`);
+  const personal = profile ? applyPersonalization(articles, profile) : null;
+  if (personal && personal.topPicks.length > 0) {
+    console.log(
+      `[render] personalization: ${personal.topPicks.length} topPicks (include: ${profile!.include.join(", ")})`,
+    );
+  }
+
   const dateDir = path.join(OUTPUT_DIR, date);
   fs.mkdirSync(dateDir, { recursive: true });
   const base = path.join(dateDir, date);
-  fs.writeFileSync(`${base}.html`, renderHtml(report, raw, date), "utf8");
+  fs.writeFileSync(`${base}.html`, renderHtml(report, raw, date, personal), "utf8");
   if (process.env.OUTPUT_MARKDOWN === "true") {
     fs.writeFileSync(`${base}.md`, renderMarkdown(report, date), "utf8");
     console.log(`[render] wrote ${base}.{html,md}`);

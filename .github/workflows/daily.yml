@@ -233,6 +233,11 @@ jobs:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
           REPORT_LOCALE: ${{ vars.REPORT_LOCALE || 'zh' }}
+          # Personalization profile. profile.config.json is gitignored, so a CI
+          # checkout has none → personalization silently degrades (no 🎯 tab,
+          # no hit badges, no digest preference). Point at the committed
+          # profile.ci.json instead (docs: 运行与部署指南 §7.1).
+          PROFILE_PATH: profile.ci.json
           REPORT_TZ: ${{ vars.REPORT_TZ }}
           # Sources to skip in CI (comma-separated ids). linux.do's WAF blocks
           # datacenter egress from Actions runners (and Cloudflare Workers too —

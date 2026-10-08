@@ -8,9 +8,15 @@
 .env*
 !.env.example
 
+# personal keyword profile (long-term user config; keep the .example committed)
+/profile.config.json
+
 # trending pipeline output (each fork generates its own)
 /daily_reports/
 /logs/
+
+# local verification / run records (kept on disk, never committed)
+/test/
 
 # Claude Code local state (skills + commands ARE committed; cache/state aren't)
 /.claude/state/

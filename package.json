@@ -11,6 +11,7 @@
     "quota-report": "tsx scripts/quota-report.ts",
     "sources": "tsx scripts/sources.ts",
     "sources:check": "tsx scripts/sources.ts check",
+    "profile:check": "tsx scripts/profile.ts",
     "deploy": "node scripts/deploy.mjs",
     "build-site": "node scripts/build-site.mjs",
     "open": "node scripts/open-report.mjs"
@@ -23,7 +24,7 @@
     "rss-parser": "^3.13.0"
   },
   "devDependencies": {
-    "@types/node": "^20",
+    "@types/node": "^20.19.43",
     "dotenv": "^17.4.2",
     "tsx": "^4.21.0",
     "typescript": "^5"

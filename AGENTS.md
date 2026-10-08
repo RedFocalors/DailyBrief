@@ -98,3 +98,20 @@ sources.config.json   # SINGLE SOURCE OF TRUTH for the source registry
 - `FORKING.md` — common customizations (LLM provider, sources, layout, styling)
 - `.claude/skills/daily-brief/SKILL.md` — fuller operational reference (Claude Code auto-loads it; other agents can read it directly)
 - `sources.config.json` — see what sources look like in practice
+
+### Long-term notes index — `../documents/` (read these first)
+
+Six AI-oriented guides live **outside the repo** in `../documents/` (so they survive upstream syncs). Each opens with an "AI 执行头" (AI header) giving its role, when to load it, the execution contract, and hard constraints. Load the one that matches the task:
+
+| Note (in `../documents/`) | Load it when |
+|---|---|
+| `DailyBrief-架构通读笔记.md` | Any code change — block map (A–H), data flow, contracts, cross-cutting invariants. **Read before touching code.** |
+| `DailyBrief-环境配置笔记.md` | Config / API keys / LLM backend / timezone / deploy / CI errors. |
+| `DailyBrief-调试与功能验证全流程.md` | After any change — gated (Gate 0–8) verification, pass criteria, evidence locations. |
+| `DailyBrief-抓取内容逻辑与关键词个性化方案.md` | Changing fetch/filter/ranking rules, or building keyword personalization. |
+| `DailyBrief-二次开发流程与AI协作手册.md` | Starting secondary development — workflow, AI collaboration protocol, phased plan. |
+| `DailyBrief-运行与部署指南.md` | Running locally or deploying (GH Actions + Pages / local scheduler / self-hosted) — incl. the CI personalization pitfall. |
+
+> **Doc placement**: long-term / AI-facing docs go in `../documents/` (outside the repo). Test & run records go in the repo's `test/`, which is `.gitignore`d and stays **local-only — never committed** (see the verification note §17). Keep the two separate.
+
+> Convention: these notes describe structure and roles; concrete constants and fields follow the code. When a note and the code disagree, the code wins — update the note accordingly. Commands in the notes are written for Windows PowerShell unless stated otherwise.

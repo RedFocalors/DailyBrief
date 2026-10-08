@@ -65,10 +65,15 @@ const MAX_AGE_DAYS = 14;
  * until we hit the limit. Sources with fewer items naturally drop out
  * and others absorb the slack.
  */
-function selectRoundRobin(
+export function selectRoundRobin(
   items: ArticleInput[],
   limit: number,
+  scoreMap?: Map<string, number>,
 ): ArticleInput[] {
+  // Personalization bias: only reorder *within* each source bucket — the
+  // round-robin below still guarantees every source its turn (fairness kept).
+  // No scoreMap → this degenerates to the previous pure date-desc order.
+  const scoreOf = (it: ArticleInput) => scoreMap?.get(it.url) ?? 0;
   const cutoff = Date.now() - MAX_AGE_DAYS * 86_400_000;
   const fresh = items.filter(
     (it) => !it.publishedAt || it.publishedAt.getTime() >= cutoff,
@@ -83,6 +88,7 @@ function selectRoundRobin(
   for (const arr of bySource.values()) {
     arr.sort(
       (a, b) =>
+        scoreOf(b) - scoreOf(a) ||
         (b.publishedAt?.getTime() ?? 0) - (a.publishedAt?.getTime() ?? 0),
     );
   }
@@ -102,13 +108,80 @@ function selectRoundRobin(
   return out;
 }
 
-async function callOnce(userPayloadJson: string): Promise<DailyReport> {
+/** Reader preferences injected into the digest user prompt (P4). */
+export interface DigestPreferences {
+  include: string[];
+  exclude: string[];
+}
+
+/**
+ * Build the one-line preference instruction prepended to the digest prompt.
+ * Soft guidance only: the system prompt still forbids inventing items.
+ */
+function buildPreferenceLine(prefs?: DigestPreferences | null): string {
+  if (!prefs) return "";
+  const inc = prefs.include.filter(Boolean);
+  const exc = prefs.exclude.filter(Boolean);
+  if (inc.length === 0 && exc.length === 0) return "";
+  if (REPORT_LOCALE === "en") {
+    return `Reader preference: prioritise candidate items related to [${inc.join(", ")}]${exc.length ? `; de-prioritise [${exc.join(", ")}]` : ""}. This only affects which candidates you pick, never invent items that are not in the candidate list.`;
+  }
+  return `读者偏好：请优先选取与 [${inc.join(", ")}] 相关的候选条目${exc.length ? `，并尽量避免 [${exc.join(", ")}]` : ""}。此偏好仅影响你的取舍排序，绝不可编造候选列表之外的条目。`;
+}
+
+/**
+ * Best-effort dump of the raw LLM output + the JSON-extracted text so that
+ * malformed / truncated responses stay diagnosable after the fact.
+ */
+async function dumpRawLogs(prefix: string, text: string, cleaned: string): Promise<void> {
+  try {
+    const fs = await import("node:fs");
+    fs.mkdirSync("logs", { recursive: true });
+    const ts = new Date().toISOString().replace(/[:.]/g, "-");
+    fs.writeFileSync(`logs/${prefix}-${ts}.txt`, text, "utf8");
+    fs.writeFileSync(`logs/${prefix}-cleaned-${ts}.txt`, cleaned, "utf8");
+    console.warn(`[pipeline] raw output dumped to logs/${prefix}-${ts}.txt`);
+  } catch {
+    // best-effort logging
+  }
+}
+
+/**
+ * A digest is "complete" only when every required section is populated.
+ * jsonrepair can turn a truncated model response into a *partial* object that
+ * still parses, so parse-success alone is not enough.
+ */
+function isComplete(r: DailyReport): boolean {
+  return (
+    r.tech_briefs.length > 0 &&
+    r.finance_briefs.length > 0 &&
+    r.politics_briefs.length > 0 &&
+    r.editor_note.trim().length > 0 &&
+    r.keywords.length >= 5
+  );
+}
+
+/** Rough richness metric — used to keep the better of two incomplete attempts. */
+function contentScore(r: DailyReport): number {
+  return (
+    r.tech_briefs.length +
+    r.finance_briefs.length +
+    r.politics_briefs.length +
+    (r.editor_note.trim() ? 2 : 0) +
+    Math.min(r.keywords.length, 5)
+  );
+}
+
+async function callOnce(
+  userPayloadJson: string,
+  prefs?: DigestPreferences | null,
+): Promise<DailyReport> {
   // Claude Code CLI's built-in system prompt biases the model toward
   // conversational markdown output. Anchor the format expectation in the
   // user message (instruction recency wins) *and* explicitly demand every
   // schema field be populated — without this Sonnet has been observed to
   // emit a JSON shell with empty arrays to "satisfy" a JSON-only ask.
-  const userPrompt =
+  const basePrompt =
     REPORT_LOCALE === "en"
       ? [
           "**Output language: ENGLISH ONLY.** Every string value in the JSON — hero_headline, daily_overview, every brief's title/summary, editor_note, keywords — must be written entirely in English. No Chinese characters anywhere.",
@@ -150,6 +223,8 @@ async function callOnce(userPayloadJson: string): Promise<DailyReport> {
           "候选新闻（JSON 数组，共 " + userPayloadJson.length + " 字符）：",
           userPayloadJson,
         ].join("\n");
+  const prefLine = buildPreferenceLine(prefs);
+  const userPrompt = prefLine ? `${prefLine}\n\n${basePrompt}` : basePrompt;
   const { text } = await runLlm({
     systemPrompt: SYSTEM_PROMPT_DIGEST,
     userPrompt,
@@ -166,6 +241,9 @@ async function callOnce(userPayloadJson: string): Promise<DailyReport> {
       const repaired = jsonrepair(cleaned);
       parsed = JSON.parse(repaired) as Partial<DailyReport>;
       console.warn("[pipeline] JSON.parse failed but jsonrepair recovered");
+      // Dump even on a *successful* repair: a repair that yields only a partial
+      // object (e.g. truncated output) would otherwise leave no evidence.
+      await dumpRawLogs("claude-repaired", text, cleaned);
     } catch {
       try {
         const fs = await import("node:fs");
@@ -195,6 +273,8 @@ async function callOnce(userPayloadJson: string): Promise<DailyReport> {
 
 export async function generateDailyReport(
   articles: ArticleInput[],
+  scoreMap?: Map<string, number>,
+  prefs?: DigestPreferences | null,
 ): Promise<{ report: DailyReport; tokensUsed: number }> {
   const grouped: Record<Category, ArticleInput[]> = {
     tech: [],
@@ -203,8 +283,10 @@ export async function generateDailyReport(
   };
   for (const a of articles) grouped[a.category].push(a);
 
+  // Personalization: bias which items each source contributes (see
+  // selectRoundRobin). No scoreMap → unchanged behaviour.
   const compact = (Object.keys(grouped) as Category[]).flatMap((c) =>
-    selectRoundRobin(grouped[c], PER_CATEGORY_LIMIT[c]),
+    selectRoundRobin(grouped[c], PER_CATEGORY_LIMIT[c], scoreMap),
   );
 
   const userPayload = compact.map((a, i) => ({
@@ -218,9 +300,15 @@ export async function generateDailyReport(
   }));
   const userPayloadJson = JSON.stringify(userPayload);
 
+  if (prefs && (prefs.include.length > 0 || prefs.exclude.length > 0)) {
+    console.log(
+      `[pipeline] preferences → digest prompt  include=[${prefs.include.join(", ")}]  exclude=[${prefs.exclude.join(", ")}]`,
+    );
+  }
+
   let report: DailyReport;
   try {
-    report = await callOnce(userPayloadJson);
+    report = await callOnce(userPayloadJson, prefs);
   } catch (firstErr) {
     // One retry — claude CLI occasionally wraps in narration on the first
     // pass but obeys when the same prompt is repeated.
@@ -229,7 +317,31 @@ export async function generateDailyReport(
         firstErr instanceof Error ? firstErr.message : String(firstErr)
       }`,
     );
-    report = await callOnce(userPayloadJson);
+    report = await callOnce(userPayloadJson, prefs);
+  }
+
+  // Completeness gate — jsonrepair may "recover" a truncated response into a
+  // partial object (missing politics_briefs / editor_note / keywords). Require
+  // every section, retry once, and keep the richer of the two attempts.
+  if (!isComplete(report)) {
+    console.warn(
+      `[pipeline] digest incomplete (tech ${report.tech_briefs.length} / finance ${report.finance_briefs.length} / politics ${report.politics_briefs.length} / note ${report.editor_note.trim() ? "y" : "n"} / kw ${report.keywords.length}) — retrying once`,
+    );
+    try {
+      const retry = await callOnce(userPayloadJson, prefs);
+      if (contentScore(retry) > contentScore(report)) report = retry;
+      console.warn(
+        isComplete(report)
+          ? "[pipeline] retry produced a complete digest"
+          : "[pipeline] retry still incomplete — keeping the richer result",
+      );
+    } catch (retryErr) {
+      console.warn(
+        `[pipeline] completeness retry failed: ${
+          retryErr instanceof Error ? retryErr.message : String(retryErr)
+        }`,
+      );
+    }
   }
 
   // Max subscription has no per-call token meter — we expose 0 for schema

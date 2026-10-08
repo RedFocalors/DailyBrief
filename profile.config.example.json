@@ -1,0 +1,14 @@
+{
+  "_readme": "复制为 profile.config.json 并改成你的关键词。约束：include + exclude 合计 ≤ 10 个；每个关键词 ≤ 12 字符；同一词不得同时出现在 include 与 exclude。",
+  "enabled": true,
+  "locale": "zh",
+  "include": ["大模型", "开源", "芯片", "监管", "黄金"],
+  "exclude": ["体育", "娱乐"],
+  "boost": 3,
+  "matchFields": ["title", "excerpt", "summary", "source"],
+  "fieldWeights": { "title": 3, "excerpt": 1, "summary": 2, "source": 1 },
+  "keywordWeights": { "大模型": 3, "开源": 2 },
+  "mode": "boost",
+  "excludePenalty": 5,
+  "topPicks": { "enabled": true, "count": 6 }
+}

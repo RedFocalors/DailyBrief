@@ -1,0 +1,14 @@
+{
+  "_readme": "CI 专用个性化画像（可入库）。本仓库 .gitignore 忽略 /profile.config.json，CI checkout 后拿不到它，会导致个性化静默降级；因此把可公开的画像单独放在这里，并在 .github/workflows/daily.yml 用 PROFILE_PATH 指向本文件。约束：include + exclude 合计 ≤ 10；单关键词 ≤ 12 字符；同一词不得同时出现在 include 与 exclude。",
+  "enabled": true,
+  "locale": "zh",
+  "include": ["大模型", "ai", "token", "github", "智能体", "算力"],
+  "exclude": ["体育", "演员", "娱乐圈"],
+  "boost": 3,
+  "matchFields": ["title", "excerpt", "summary", "source"],
+  "fieldWeights": { "title": 3, "excerpt": 1, "summary": 2, "source": 1 },
+  "keywordWeights": { "ai": 1, "大模型": 3 },
+  "mode": "boost",
+  "excludePenalty": 5,
+  "topPicks": { "enabled": true, "count": 6 }
+}

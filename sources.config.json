@@ -31,11 +31,11 @@
     "url": "https://linux.do/top.rss?period=daily",
     "category": "tech",
     "subcategory": "cn-community",
-    "enabled": true,
+    "enabled": false,
     "locales": [
       "zh"
     ],
-    "notes": "Discourse RSS feed; fetcher falls back to /latest.rss if /top.rss fails"
+    "notes": "Discourse RSS feed; fetcher falls back to /latest.rss if /top.rss fails. 2026-09-26: 本机网络下 Cloudflare 持续拦截，暂时禁用"
   },
   {
     "id": "juejin",
@@ -44,7 +44,8 @@
     "url": "https://juejin.cn/rss",
     "category": "tech",
     "subcategory": "cn-community",
-    "enabled": false,
+    "lang": "zh",
+    "enabled": true,
     "locales": [
       "zh"
     ]
@@ -84,7 +85,8 @@
     "enabled": false,
     "locales": [
       "zh"
-    ]
+    ],
+    "notes": "2026-09: TLS 证书主机名不匹配（ERR_TLS_CERT_ALTNAME_INVALID，含裸域），本机网络下不可达；如需启用请另找可用 feed 或走代理"
   },
   {
     "id": "openai-news",
@@ -106,7 +108,8 @@
     "url": "https://deepmind.google/blog/rss.xml",
     "category": "tech",
     "subcategory": "ai-news",
-    "enabled": true,
+    "enabled": false,
+    "notes": "2026-09-26: 本机网络长期超时，暂时禁用（恢复后可改回 true）",
     "locales": [
       "zh",
       "en"
@@ -119,7 +122,8 @@
     "url": "https://huggingface.co/blog/feed.xml",
     "category": "tech",
     "subcategory": "ai-news",
-    "enabled": true,
+    "enabled": false,
+    "notes": "2026-09-26: 本机网络长期超时，暂时禁用（恢复后可改回 true）",
     "locales": [
       "zh",
       "en"
@@ -211,11 +215,11 @@
     "type": "rss",
     "url": "https://www.solidot.org/index.rss",
     "category": "tech",
-    "subcategory": "overseas-news",
-    "enabled": false,
+    "subcategory": "cn-community",
+    "lang": "zh",
+    "enabled": true,
     "locales": [
-      "zh",
-      "en"
+      "zh"
     ]
   },
   {
@@ -353,7 +357,8 @@
     "url": "https://feeds.bloomberg.com/markets/news.rss",
     "category": "finance",
     "subcategory": "news",
-    "enabled": true,
+    "enabled": false,
+    "notes": "2026-09-26: 本机网络长期超时，暂时禁用（恢复后可改回 true）",
     "locales": [
       "zh",
       "en"
@@ -392,7 +397,8 @@
     "url": "https://www.ft.com/companies?format=rss",
     "category": "finance",
     "subcategory": "news",
-    "enabled": true,
+    "enabled": false,
+    "notes": "2026-09-26: 本机网络长期超时，暂时禁用（恢复后可改回 true）",
     "locales": [
       "zh",
       "en"
@@ -443,7 +449,8 @@
     "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
     "category": "finance",
     "subcategory": "news",
-    "enabled": true,
+    "enabled": false,
+    "notes": "2026-09-26: 本机网络长期超时，暂时禁用（恢复后可改回 true）",
     "locales": [
       "zh",
       "en"
@@ -456,7 +463,8 @@
     "url": "https://www.economist.com/finance-and-economics/rss.xml",
     "category": "finance",
     "subcategory": "news",
-    "enabled": true,
+    "enabled": false,
+    "notes": "2026-09-26: 本机网络 DNS 无法解析，暂时禁用（恢复后可改回 true）",
     "locales": [
       "zh",
       "en"
@@ -522,7 +530,8 @@
     "url": "http://www.people.com.cn/rss/finance.xml",
     "category": "finance",
     "subcategory": "news",
-    "enabled": false,
+    "lang": "zh",
+    "enabled": true,
     "locales": [
       "zh"
     ]
@@ -546,7 +555,8 @@
     "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
     "category": "politics",
     "subcategory": "world",
-    "enabled": true,
+    "enabled": false,
+    "notes": "2026-09-26: 本机网络长期超时/DNS 失败，暂时禁用（恢复后可改回 true）",
     "locales": [
       "zh",
       "en"
@@ -559,7 +569,8 @@
     "url": "https://www.theguardian.com/world/rss",
     "category": "politics",
     "subcategory": "world",
-    "enabled": true,
+    "enabled": false,
+    "notes": "2026-09-26: 本机网络长期超时/连接重置，暂时禁用（恢复后可改回 true）",
     "locales": [
       "zh",
       "en"
@@ -572,7 +583,8 @@
     "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
     "category": "politics",
     "subcategory": "world",
-    "enabled": true,
+    "enabled": false,
+    "notes": "2026-09-26: 本机网络 DNS 无法解析，暂时禁用（恢复后可改回 true）",
     "locales": [
       "zh",
       "en"
@@ -598,7 +610,8 @@
     "url": "https://rss.dw.com/rdf/rss-chi-all",
     "category": "politics",
     "subcategory": "world",
-    "enabled": true,
+    "enabled": false,
+    "notes": "2026-09-26: 本机网络 DNS 无法解析，暂时禁用（恢复后可改回 true）",
     "locales": [
       "zh"
     ]
@@ -610,7 +623,8 @@
     "url": "https://www.aljazeera.com/xml/rss/all.xml",
     "category": "politics",
     "subcategory": "world",
-    "enabled": true,
+    "enabled": false,
+    "notes": "2026-09-26: 本机网络长期超时/连接重置，暂时禁用（恢复后可改回 true）",
     "locales": [
       "zh",
       "en"
@@ -623,7 +637,8 @@
     "url": "https://thediplomat.com/feed/",
     "category": "politics",
     "subcategory": "world",
-    "enabled": true,
+    "enabled": false,
+    "notes": "2026-09-26: 本机网络长期超时/连接重置，暂时禁用（恢复后可改回 true）",
     "locales": [
       "zh",
       "en"
@@ -635,7 +650,9 @@
     "type": "rss",
     "url": "http://www.people.com.cn/rss/politics.xml",
     "category": "politics",
-    "enabled": false,
+    "subcategory": "world",
+    "lang": "zh",
+    "enabled": true,
     "locales": [
       "zh"
     ]
@@ -646,7 +663,9 @@
     "type": "rss",
     "url": "http://www.people.com.cn/rss/world.xml",
     "category": "politics",
-    "enabled": false,
+    "subcategory": "world",
+    "lang": "zh",
+    "enabled": true,
     "locales": [
       "zh"
     ]
@@ -657,7 +676,9 @@
     "type": "rss",
     "url": "http://www.xinhuanet.com/politics/news_politics.xml",
     "category": "politics",
-    "enabled": false,
+    "subcategory": "world",
+    "lang": "zh",
+    "enabled": true,
     "locales": [
       "zh"
     ]
@@ -669,6 +690,138 @@
     "url": "https://www.rfa.org/mandarin/RSS",
     "category": "politics",
     "enabled": false,
+    "locales": [
+      "zh"
+    ]
+  },
+  {
+    "id": "jiqizhixin",
+    "name": "机器之心",
+    "type": "rss",
+    "url": "https://www.jiqizhixin.com/rss",
+    "category": "tech",
+    "subcategory": "ai-news",
+    "lang": "zh",
+    "enabled": false,
+    "locales": [
+      "zh"
+    ],
+    "notes": "2026-09: /rss 已返回 HTML 而非 RSS，暂时禁用（需另找可用 feed）"
+  },
+  {
+    "id": "infoq-cn",
+    "name": "InfoQ 中文",
+    "type": "rss",
+    "url": "https://www.infoq.cn/feed",
+    "category": "tech",
+    "subcategory": "ai-news",
+    "lang": "zh",
+    "useCurl": true,
+    "enabled": true,
+    "locales": [
+      "zh"
+    ]
+  },
+  {
+    "id": "36kr",
+    "name": "36氪",
+    "type": "rss",
+    "url": "https://www.36kr.com/feed",
+    "category": "finance",
+    "subcategory": "news",
+    "lang": "zh",
+    "enabled": true,
+    "locales": [
+      "zh"
+    ]
+  },
+  {
+    "id": "sspai",
+    "name": "少数派",
+    "type": "rss",
+    "url": "https://sspai.com/feed",
+    "category": "tech",
+    "subcategory": "tech-news",
+    "lang": "zh",
+    "enabled": true,
+    "locales": [
+      "zh"
+    ]
+  },
+  {
+    "id": "ithome",
+    "name": "IT之家",
+    "type": "rss",
+    "url": "https://www.ithome.com/rss/",
+    "category": "tech",
+    "subcategory": "tech-news",
+    "lang": "zh",
+    "enabled": true,
+    "locales": [
+      "zh"
+    ]
+  },
+  {
+    "id": "ifanr",
+    "name": "爱范儿",
+    "type": "rss",
+    "url": "https://www.ifanr.com/feed",
+    "category": "tech",
+    "subcategory": "tech-news",
+    "lang": "zh",
+    "enabled": true,
+    "locales": [
+      "zh"
+    ]
+  },
+  {
+    "id": "leiphone",
+    "name": "雷锋网",
+    "type": "rss",
+    "url": "https://www.leiphone.com/feed",
+    "category": "tech",
+    "subcategory": "tech-news",
+    "lang": "zh",
+    "enabled": true,
+    "locales": [
+      "zh"
+    ]
+  },
+  {
+    "id": "tmtpost",
+    "name": "钛媒体",
+    "type": "rss",
+    "url": "https://www.tmtpost.com/rss.xml",
+    "category": "tech",
+    "subcategory": "tech-news",
+    "lang": "zh",
+    "enabled": true,
+    "locales": [
+      "zh"
+    ]
+  },
+  {
+    "id": "jiemian",
+    "name": "界面新闻",
+    "type": "rss",
+    "url": "https://a.jiemian.com/index.php?m=article&a=rss",
+    "category": "tech",
+    "subcategory": "tech-news",
+    "lang": "zh",
+    "enabled": true,
+    "locales": [
+      "zh"
+    ]
+  },
+  {
+    "id": "oschina",
+    "name": "开源中国",
+    "type": "rss",
+    "url": "https://www.oschina.net/news/rss",
+    "category": "tech",
+    "subcategory": "tech-news",
+    "lang": "zh",
+    "enabled": true,
     "locales": [
       "zh"
     ]

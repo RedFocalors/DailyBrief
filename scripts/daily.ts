@@ -10,6 +10,7 @@ import {
   type ArticleInput,
 } from "../lib/ai/pipeline";
 import { getModelTag, validateBackendCredentials } from "../lib/ai/llm";
+import { applyPersonalization, tryLoadProfile } from "../lib/ai/personalize";
 import {
   enrichFinanceNewsSummaries,
   enrichGithubTrendingSummaries,
@@ -269,9 +270,22 @@ async function main() {
     console.warn(`[daily] trading section failed: ${msg}`);
   }
 
+  // P3/P5: personalization — computed BEFORE the digest so the score can bias
+  // selection (P3) and it also feeds the "For You" tab (P5). Boost mode only.
+  const { profile, error: profileError } = tryLoadProfile();
+  if (profileError) console.warn(`[personalize] ${profileError}`);
+  const personal = profile ? applyPersonalization(articles, profile) : null;
+  if (personal && personal.topPicks.length > 0) {
+    console.log(`[daily] personalization: ${personal.topPicks.length} topPicks`);
+  }
+
   console.log(`[daily] generating digest with ${getModelTag()}…`);
   const t0 = Date.now();
-  const { report } = await generateDailyReport(articles);
+  const { report } = await generateDailyReport(
+    articles,
+    personal?.scoreMap,
+    profile ? { include: profile.include, exclude: profile.exclude } : null,
+  );
   if (trading) report.trading = trading;
   console.log(`[daily] digest ready in ${((Date.now() - t0) / 1000).toFixed(1)}s`);
 
@@ -279,6 +293,7 @@ async function main() {
   fs.mkdirSync(dateDir, { recursive: true });
   const base = path.join(dateDir, date);
   const raw = groupRaw(articles, sources);
+
   fs.writeFileSync(`${base}.json`, JSON.stringify(report, null, 2), "utf8");
   // Sidecar with all fetched articles + LLM-attached summary, so
   // scripts/render.ts can rebuild HTML/MD for UI iteration without
@@ -288,7 +303,7 @@ async function main() {
     JSON.stringify({ date, articles }, null, 2),
     "utf8",
   );
-  fs.writeFileSync(`${base}.html`, renderHtml(report, raw, date), "utf8");
+  fs.writeFileSync(`${base}.html`, renderHtml(report, raw, date, personal), "utf8");
   if (process.env.OUTPUT_MARKDOWN === "true") {
     fs.writeFileSync(`${base}.md`, renderMarkdown(report, date), "utf8");
     console.log(`[daily] wrote ${base}.{json,html,md,articles.json}`);
