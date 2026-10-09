@@ -6,90 +6,90 @@
       "title": "boykopovar/AnyPS5",
       "url": "https://github.com/boykopovar/AnyPS5",
       "excerpt": "Tool for automatic PS5 executables porting to Linux and Windows",
-      "meta": "C++ · ★ 15,998 · 🍴 1,264 · 📈 4,669 stars today",
+      "meta": "C++ · ★ 16,078 · 🍴 1,274 · 📈 4,669 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "面向 PS5 可执行文件的自动移植工具，目标是让原本只能在 PlayStation 5 上运行的程序迁移到 Linux 和 Windows 平台。项目通过分析并转换可执行文件的平台相关调用与格式，降低手工重写的工作量。适合做主机游戏移植、逆向研究或跨平台兼容层开发的工程师，用于快速验证 PS5 程序在 PC 与 Linux 上的运行可行性。"
+      "summary": "把 PS5 可执行文件自动移植到 Linux 和 Windows 的工具，通过二进制转换与静态分析处理平台差异，降低跨平台移植门槛。适合研究主机软件移植、逆向工程的开发者，典型场景是将 PS5 程序迁移到 PC 上测试运行。"
     },
     {
       "sourceId": "github-trending",
       "title": "cathrynlavery/diagram-design",
       "url": "https://github.com/cathrynlavery/diagram-design",
       "excerpt": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "meta": "HTML · ★ 46,451 · 🍴 2,954 · 📈 1,160 stars today",
+      "meta": "HTML · ★ 46,505 · 🍴 2,955 · 📈 1,160 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "为 AI 编码助手（Claude Code、Codex、GitHub Copilot、Factory Droid、Pi）准备的图表设计规范集，覆盖 42 种图表类型。输出为自包含的 HTML + SVG，无阴影等多余装饰，明显区别于 Mermaid 生成的粗糙图形。适合需要让 AI 直接产出可发布、杂志级图表的技术写作者、文档工程师和产品团队，用作提示词与设计约束。"
+      "summary": "为 Claude Code、Codex、GitHub Copilot 等 AI 编程助手提供编辑级图表设计能力，内置 42 种图表类型，输出自包含的 HTML + SVG，不依赖 Mermaid，也没有多余阴影。适合需要高质量信息图与架构图的设计师和工程师。"
     },
     {
       "sourceId": "github-trending",
       "title": "morluto/rea",
       "url": "https://github.com/morluto/rea",
       "excerpt": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "meta": "TypeScript · ★ 27,391 · 🍴 3,125 · 📈 7,738 stars today",
+      "meta": "TypeScript · ★ 27,799 · 🍴 3,188 · 📈 7,738 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "基于 AI agent 的逆向工程工具集，分析范围从应用层行为一路深入到原生二进制文件。通过让 agent 驱动反汇编、动态调试与行为观察等环节，把原本依赖人工经验的逆向流程自动化。适合安全研究员、漏洞分析人员和恶意样本分析者，用于快速摸清未知程序的结构、协议与关键逻辑。"
+      "summary": "基于 AI agent 的逆向工程工具，可从应用层行为一路分析到原生二进制，覆盖协议、接口与可执行文件等不同层级。适合安全研究员、逆向工程师和漏洞分析人员，用于理解闭源软件的运行机制、梳理调用链路与定位关键逻辑。"
     },
     {
       "sourceId": "github-trending",
       "title": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
       "excerpt": "Skills for Real Engineers. Straight from my .agents directory.",
-      "meta": "Shell · ★ 281,177 · 🍴 23,563 · 📈 1,774 stars today",
+      "meta": "Shell · ★ 281,212 · 🍴 23,565 · 📈 1,774 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "作者从自己 .agents 目录中整理出的 AI agent 技能（skills）集合，面向真正做工程的人而非演示场景。内容以可直接复用的提示词与工作流配置为主，覆盖日常编码任务。适合使用 Claude Code 等 agent 工具的开发者，把成熟经验直接接入自己的工作目录，减少从零调教 agent 的成本。"
+      "summary": "面向工程师的 AI agent 技能集合，作者直接公开自己 .agents 目录中的配置与技能定义，可作为 Claude Code 等工具的现成素材。适合希望让编码助手遵循固定工程规范、复用成熟工作流的开发者，按需挑选或改造后放进自己的项目。"
     },
     {
       "sourceId": "github-trending",
       "title": "thedotmack/claude-mem",
       "url": "https://github.com/thedotmack/claude-mem",
       "excerpt": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-      "meta": "TypeScript · ★ 98,519 · 🍴 8,637 · 📈 670 stars today",
+      "meta": "TypeScript · ★ 98,546 · 🍴 8,640 · 📈 670 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "为各类 AI agent 提供跨会话的持久记忆：记录 agent 在会话中的所有操作，用 AI 压缩成精简记忆，再在新会话中自动注入相关上下文。解决 agent 每次都从零开始、反复解释背景的问题。支持 Claude 等工具，适合长期维护同一代码库、希望 agent 记住项目约定的开发者。"
+      "summary": "为 AI agent 提供跨会话持久记忆：自动记录 agent 在会话中的所有操作，用 AI 压缩成摘要，再在未来会话中注入相关上下文，兼容 Claude 等工具。适合长时间使用编码助手、需要延续历史上下文的开发者，省去每次重新交代项目背景。"
     },
     {
       "sourceId": "github-trending",
       "title": "EpicGames/raddebugger",
       "url": "https://github.com/EpicGames/raddebugger",
       "excerpt": "A native, user-mode, multi-process, graphical debugger.",
-      "meta": "C · ★ 8,129 · 🍴 391 · 📈 279 stars today",
+      "meta": "C · ★ 8,138 · 🍴 391 · 📈 279 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Epic Games 开源的图形化调试器，定位为原生、用户态、多进程调试工具。支持同时附加和调试多个进程，界面为原生图形客户端，非 Electron 套壳。相比 WinDbg 等工具更轻量直观，适合在 Windows 上排查游戏引擎、多进程应用和原生 C/C++ 程序的崩溃与性能问题。"
+      "summary": "Epic Games 出品的原生用户态图形化调试器，支持多进程调试，专注原生代码的调试体验。适合开发大型 C/C++ 应用、游戏引擎与系统级软件的工程师，用于排查崩溃、查看内存与调用栈等典型调试场景。"
     },
     {
       "sourceId": "github-trending",
       "title": "anthropics/knowledge-work-plugins",
       "url": "https://github.com/anthropics/knowledge-work-plugins",
       "excerpt": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-      "meta": "Python · ★ 27,629 · 🍴 3,207 · 📈 392 stars today",
+      "meta": "Python · ★ 27,662 · 🍴 3,208 · 📈 392 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Anthropic 开源的知识工作插件仓库，主要面向在 Claude Cowork 中办公的非工程类用户。插件用于把文档处理、信息整理、协作流程等日常知识工作接入 Claude，减少重复手工操作。适合产品、运营、研究等岗位，用自然语言完成任务而不必自己写代码或搭建工具链。"
+      "summary": "Anthropic 开源的插件仓库，主要面向知识工作者，配合 Claude Cowork 使用，用插件形式扩展文档处理、信息整理等日常办公能力。适合非技术岗位的知识工作者，在写作、研究、资料汇总等场景中把 Claude 接入自己的工作流。"
     },
     {
       "sourceId": "github-trending",
       "title": "storytold/artcraft",
       "url": "https://github.com/storytold/artcraft",
       "excerpt": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
-      "meta": "Rust · ★ 8,119 · 🍴 1,156 · 📈 2,103 stars today",
+      "meta": "Rust · ★ 8,197 · 🍴 1,167 · 📈 2,103 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "ArtCraft 是一个面向艺术家、设计师和影视创作者的创作引擎，强调有意为之的精细控制而非一键生成。它把创作过程拆解为可控步骤，让使用者按自己的意图逐步构建视觉内容，同时保留生成式流程的便利。典型场景包括概念设计、分镜预演和影视视觉开发等需要反复迭代与精确调整的工作。"
+      "summary": "ArtCraft 是面向艺术家、设计师和影视创作者的创作引擎，强调有意图、可控的创作方式。适合需要把程序化或生成式手段融入作品制作的创作者，用于搭建自己的创作流程与素材管线。"
     },
     {
       "sourceId": "github-trending",
       "title": "liquidslr/system-design-notes",
       "url": "https://github.com/liquidslr/system-design-notes",
       "excerpt": "Notes of the book System Desgin Interview - An Insider's Guide",
-      "meta": "★ 24,676 · 🍴 4,608 · 📈 393 stars today",
+      "meta": "★ 24,703 · 🍴 4,609 · 📈 393 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "对《System Design Interview - An Insider's Guide》一书的中文梳理笔记，把书中的系统设计方法论、经典题型与权衡取舍整理成便于检索的复习材料。内容包括可扩展性、存储、缓存、消息队列等常见考点。适合准备后端与架构岗位面试的工程师，用作速查与查漏补缺。"
+      "summary": "对《System Design Interview》一书的学习笔记整理，梳理分布式系统设计中的常见题型与解题思路。适合准备系统设计面试的工程师复习缓存、分片、一致性、限流等核心概念，也可作为面试前的速查资料。"
     },
     {
       "sourceId": "v2ex-hot",
@@ -129,6 +129,15 @@
     },
     {
       "sourceId": "v2ex-hot",
+      "title": "你们用 AI 写代码，会每次都看它改了什么吗？",
+      "url": "https://www.v2ex.com/t/1247211",
+      "excerpt": "29 回复 · 程序员 节点",
+      "publishedAt": "2026-10-08T16:12:07.000Z",
+      "category": "tech",
+      "source": "V2EX"
+    },
+    {
+      "sourceId": "v2ex-hot",
       "title": "Fedora 上最好用的截图工具 - 微信",
       "url": "https://www.v2ex.com/t/1243829",
       "excerpt": "29 回复 · Linux 节点",
@@ -140,17 +149,8 @@
       "sourceId": "v2ex-hot",
       "title": "18PM 刚买完 AC 第二天就碎屏了",
       "url": "https://www.v2ex.com/t/1246920",
-      "excerpt": "28 回复 · Apple 节点",
+      "excerpt": "29 回复 · Apple 节点",
       "publishedAt": "2026-10-08T01:56:32.000Z",
-      "category": "tech",
-      "source": "V2EX"
-    },
-    {
-      "sourceId": "v2ex-hot",
-      "title": "你们用 AI 写代码，会每次都看它改了什么吗？",
-      "url": "https://www.v2ex.com/t/1247211",
-      "excerpt": "25 回复 · 程序员 节点",
-      "publishedAt": "2026-10-08T16:12:07.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -158,7 +158,7 @@
       "sourceId": "v2ex-hot",
       "title": "准备抢 2 台 duo，一台自用一台倒卖，倒卖抢多少的比较容易出啊？",
       "url": "https://www.v2ex.com/t/1247028",
-      "excerpt": "22 回复 · Apple 节点",
+      "excerpt": "23 回复 · Apple 节点",
       "publishedAt": "2026-10-08T05:56:32.000Z",
       "category": "tech",
       "source": "V2EX"
@@ -192,15 +192,6 @@
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "开了一款 Loon 的 bilibili 插件",
-      "url": "https://www.v2ex.com/t/1246768",
-      "excerpt": "13 回复 · Apple 节点",
-      "publishedAt": "2026-10-07T06:44:04.000Z",
-      "category": "tech",
-      "source": "V2EX"
-    },
-    {
-      "sourceId": "v2ex-hot",
       "title": "Tkinter 的正确使用方法。。",
       "url": "https://www.v2ex.com/t/1243855",
       "excerpt": "11 回复 · Python 节点",
@@ -212,8 +203,17 @@
       "sourceId": "v2ex-hot",
       "title": "Mac Mini M6 降到 4999 了，大家怎么看？",
       "url": "https://www.v2ex.com/t/1247188",
-      "excerpt": "10 回复 · Apple 节点",
+      "excerpt": "11 回复 · Apple 节点",
       "publishedAt": "2026-10-08T14:02:35.000Z",
+      "category": "tech",
+      "source": "V2EX"
+    },
+    {
+      "sourceId": "v2ex-hot",
+      "title": "最近 vibe coding，天天改，每天地方都得自己改！",
+      "url": "https://www.v2ex.com/t/1247242",
+      "excerpt": "10 回复 · 程序员 节点",
+      "publishedAt": "2026-10-09T01:16:35.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -246,10 +246,10 @@
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "最近 vibe coding，天天改，每天地方都得自己改！",
-      "url": "https://www.v2ex.com/t/1247242",
+      "title": "为了用 claude， 在美国公司没下来之前， 我先用了国外的朋友家里主机",
+      "url": "https://www.v2ex.com/t/1247220",
       "excerpt": "8 回复 · 程序员 节点",
-      "publishedAt": "2026-10-09T01:16:35.000Z",
+      "publishedAt": "2026-10-08T19:37:21.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -273,10 +273,10 @@
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "为了用 claude， 在美国公司没下来之前， 我先用了国外的朋友家里主机",
-      "url": "https://www.v2ex.com/t/1247220",
+      "title": "我免费开源的 Archify 约 8 万 Star 了，别人先做出了 $19/月的在线版",
+      "url": "https://www.v2ex.com/t/1247235",
       "excerpt": "6 回复 · 程序员 节点",
-      "publishedAt": "2026-10-08T19:37:21.000Z",
+      "publishedAt": "2026-10-09T01:02:19.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -300,6 +300,15 @@
     },
     {
       "sourceId": "v2ex-hot",
+      "title": "买了心心念念的 clip2，双设备不能自动切？",
+      "url": "https://www.v2ex.com/t/1247138",
+      "excerpt": "6 回复 · Apple 节点",
+      "publishedAt": "2026-10-08T10:17:27.000Z",
+      "category": "tech",
+      "source": "V2EX"
+    },
+    {
+      "sourceId": "v2ex-hot",
       "title": "libcr 项目组发布多分栏多页签文件管理器 crFiles for Linux",
       "url": "https://www.v2ex.com/t/1244699",
       "excerpt": "5 回复 · Linux 节点",
@@ -308,13 +317,94 @@
       "source": "V2EX"
     },
     {
-      "sourceId": "v2ex-hot",
-      "title": "解决 iOS 27 相册调色后，实况照片过曝光的问题",
-      "url": "https://www.v2ex.com/t/1246855",
-      "excerpt": "5 回复 · Apple 节点",
-      "publishedAt": "2026-10-07T15:42:59.000Z",
+      "sourceId": "juejin",
+      "title": "第 04 篇·DeepSeek Harness 沙箱实测：AI 替代测试开发 3.4→4.6，差距只在一个权限模式",
+      "url": "https://juejin.cn/post/7694122417649975331",
+      "excerpt": "原文链接：第 04 篇·DeepSeek Harness 沙箱实测：AI 替代测试开发 3.4→4.6，差距只在一个权限模式 上一篇（第03篇）我让 dsh 在标准模式下从零写了个五子棋游戏——tki",
+      "publishedAt": "2026-10-08T12:41:45.000Z",
       "category": "tech",
-      "source": "V2EX"
+      "source": "掘金"
+    },
+    {
+      "sourceId": "juejin",
+      "title": "用仓颉语言写一个漂亮的桌面音乐播放器：cj-tauri 实战",
+      "url": "https://juejin.cn/post/7694134378718478371",
+      "excerpt": "cj-tauri项目地址： https://atomgit.com/qq8864/cj-tauri 音乐播放器项目地址： https://gitcode.com/qq8864/cj-tauri/tre",
+      "publishedAt": "2026-10-08T15:25:55.000Z",
+      "category": "tech",
+      "source": "掘金"
+    },
+    {
+      "sourceId": "juejin",
+      "title": "rtk 拆解：git log 输出压掉 98%，8 万星的 token 代理适合哪些场景",
+      "url": "https://juejin.cn/post/7694184962663071744",
+      "excerpt": "rtk 用 hook 把 agent 的 shell 命令换成压缩版，git log 输出压掉 98%。本文拆解实现原理、60-90% 的口径、能省多少 input token 和截断风险。",
+      "publishedAt": "2026-10-09T02:15:57.000Z",
+      "category": "tech",
+      "source": "掘金"
+    },
+    {
+      "sourceId": "juejin",
+      "title": "MySQL 索引为什么会失效？用同一张表前后 EXPLAIN 定位原因",
+      "url": "https://juejin.cn/post/7693828979246956594",
+      "excerpt": "MySQL 索引为什么会失效？用同一张表前后 EXPLAIN 定位原因 实验环境：Windows 11，MySQL Community Server 8.0.45，utf8mb4 字符集，InnoDB",
+      "publishedAt": "2026-10-08T13:44:59.000Z",
+      "category": "tech",
+      "source": "掘金"
+    },
+    {
+      "sourceId": "juejin",
+      "title": "裁员裁掉了那个干了14年的人：我这才看清职场的5条潜规则",
+      "url": "https://juejin.cn/post/7694185019603337256",
+      "excerpt": "中秋节前后，公司开始裁人了。 不是什么风声，是实打实的动作。先是行政群突然安静了，平时中午还有人发拼饭链接，那几天一条消息都没有。然后是会议室，玻璃门上贴了张A4纸，写着\"会议中，请勿打扰\"，一天能贴",
+      "publishedAt": "2026-10-09T02:11:11.000Z",
+      "category": "tech",
+      "source": "掘金"
+    },
+    {
+      "sourceId": "juejin",
+      "title": "RAG 的 precision 只有 0.55，我以为检索烂了，MRR 一测才发现是我用错了尺子",
+      "url": "https://juejin.cn/post/7694123609883869227",
+      "excerpt": "precision@4 只有 0.55，我上 rerank 反而更差。先数了一次排名：hit@1、MRR 全是 1.0，排序早就满分——0.55 是尺子错，不是系统差。",
+      "publishedAt": "2026-10-08T12:57:34.000Z",
+      "category": "tech",
+      "source": "掘金"
+    },
+    {
+      "sourceId": "juejin",
+      "title": "【计算基础｜网络01】网络模型与一次完整请求全景",
+      "url": "https://juejin.cn/post/7694107051321442323",
+      "excerpt": "【计算基础｜网络01】网络模型与一次完整请求全景 \"在浏览器地址栏敲一个网址回车，到页面画出来，中间到底发生了什么？\"——这道题几乎是所有后端、运维、前端面试的开场必问题。答得碎、答得散，说明你脑子里",
+      "publishedAt": "2026-10-08T12:44:05.000Z",
+      "category": "tech",
+      "source": "掘金"
+    },
+    {
+      "sourceId": "juejin",
+      "title": "Spring AI Alibaba 之三：graph-core 状态图引擎深拆",
+      "url": "https://juejin.cn/post/7694115089583489033",
+      "excerpt": "Spring AI Alibaba 之三：graph-core 状态图引擎深拆.graph-core 是 SAA 真正落地的第一个增量层，把智能体的流程建模成一张有向图，这篇先把引擎本身拆清楚。",
+      "publishedAt": "2026-10-09T02:10:41.000Z",
+      "category": "tech",
+      "source": "掘金"
+    },
+    {
+      "sourceId": "juejin",
+      "title": "🧐 为什么大厂 RAG 从不用纯向量检索？",
+      "url": "https://juejin.cn/post/7694205589761441807",
+      "excerpt": "前言 Hello~大家好，我是秋天的一阵风 做 RAG 的朋友大概率都踩过这个坑：本地跑测试看着效果很不错，一上线直接翻车 —— 专有名词搜不到、产品型号匹配串台、代码关键字召回不出来，大模型还动不动",
+      "publishedAt": "2026-10-09T01:56:55.000Z",
+      "category": "tech",
+      "source": "掘金"
+    },
+    {
+      "sourceId": "juejin",
+      "title": "GraphQL 在国内为什么水土不服？",
+      "url": "https://juejin.cn/post/7694187254181494820",
+      "excerpt": "GraphQL理论优势显著，但落地需重建缓存、治理N+1、推动后端改造，成本高昂。国内多数团队更适合REST加BFF方案，以低复杂度实现数据聚合与裁剪。",
+      "publishedAt": "2026-10-09T01:49:12.000Z",
+      "category": "tech",
+      "source": "掘金"
     },
     {
       "sourceId": "juejin",
@@ -407,96 +497,6 @@
       "source": "掘金"
     },
     {
-      "sourceId": "juejin",
-      "title": "Python 装饰器到底是个啥？从 @ 符号到手写一个，5 个例子讲透",
-      "url": "https://juejin.cn/post/7694182514017976361",
-      "excerpt": "结论先行：Python 里的装饰器（decorator）本质就是一个\"接收函数、返回函数\"的高阶函数。@log 写在 def foo() 上面，等价于 foo = log(foo)。它不创造新语法，只",
-      "publishedAt": "2026-10-09T01:14:13.000Z",
-      "category": "tech",
-      "source": "掘金"
-    },
-    {
-      "sourceId": "juejin",
-      "title": "别再瞎装 RabbitMQ 了！从 0 到 1 部署到 Spring Boot 全链路实战，生产级坑全填平",
-      "url": "https://juejin.cn/post/7694182755944988735",
-      "excerpt": "RabbitMQ 从 0 到 1 生产级实战：RPM 单机部署、生产配置避坑、Spring Boot 全链路集成，含 Confirm/Return、手动 ACK、幂等消费、死信队列、镜像集群与 Pro",
-      "publishedAt": "2026-10-09T01:11:27.000Z",
-      "category": "tech",
-      "source": "掘金"
-    },
-    {
-      "sourceId": "juejin",
-      "title": "Spec Kit vs OpenSpec vs Superpowers：8 个 Skill 的落地实录与工程方法论",
-      "url": "https://juejin.cn/post/7694184507926495267",
-      "excerpt": "前一篇我把三个主流 AI 编码框架拆了一遍，最后哪个都没选——拿 OpenSpec 做底座、补 Superpowers 的铁律、套 Spec Kit 的宪法，自己搭了一套三层架构，也跑通了一个完整案例",
-      "publishedAt": "2026-10-09T01:10:50.000Z",
-      "category": "tech",
-      "source": "掘金"
-    },
-    {
-      "sourceId": "juejin",
-      "title": "35个组件，把GPU特效直接跑在真实DOM上：Canvas UI正在重新定义Web视觉",
-      "url": "https://juejin.cn/post/7694182514017943593",
-      "excerpt": "一、先搞懂一件事：HTML-in-Canvas不是“把HTML画成图片” 在讲Canvas UI之前，必须先理解它背后的底层API。 过去要在Canvas里渲染HTML，开发者只能用html2canv",
-      "publishedAt": "2026-10-09T01:09:53.000Z",
-      "category": "tech",
-      "source": "掘金"
-    },
-    {
-      "sourceId": "juejin",
-      "title": "我免费开源的 Archify 约 8 万 Star，别人先做出了 $19/月的在线版",
-      "url": "https://juejin.cn/post/7694182755944923199",
-      "excerpt": "我还在免费维护开源项目，第三方已经做出了标价 $19/月的在线版。名字只差一个字母，先讲清楚：这不是我做的，也不是我在收费。",
-      "publishedAt": "2026-10-09T01:06:38.000Z",
-      "category": "tech",
-      "source": "掘金"
-    },
-    {
-      "sourceId": "juejin",
-      "title": "让大模型在本地持续进化：YoungAi 如何用 Sidecar 和后训练重新思考本地 AI",
-      "url": "https://juejin.cn/post/7694182514017861673",
-      "excerpt": "让大模型在本地持续进化：YoungAi 如何用 Sidecar 和后训练重新思考本地 AI 项目地址： https://github.com/fodelf/YoungAi 当我们讨论本地部署大模型时，",
-      "publishedAt": "2026-10-09T01:04:28.000Z",
-      "category": "tech",
-      "source": "掘金"
-    },
-    {
-      "sourceId": "juejin",
-      "title": "大模型训练介绍：一个模型是怎么炼成的",
-      "url": "https://juejin.cn/post/7694209041488363547",
-      "excerpt": "2024 年 12 月，DeepSeek 开源 DeepSeek-V3 模型，这是一个 671B 参数的**混合专家（Mixture-of-Experts，简称 MoE）**模型，每次前向只激活 37",
-      "publishedAt": "2026-10-09T01:02:29.000Z",
-      "category": "tech",
-      "source": "掘金"
-    },
-    {
-      "sourceId": "juejin",
-      "title": "夯爆了，谷歌又一强大AI自动化开源神器，Appium慌了！",
-      "url": "https://juejin.cn/post/7694199322347110427",
-      "excerpt": "8 月 13 号，谷歌在 GitHub 上开源了一个项目，ARTEMIS。 这个项目的作用，用自然语言指挥 AI，去操作真实的安卓手机。",
-      "publishedAt": "2026-10-09T01:01:07.000Z",
-      "category": "tech",
-      "source": "掘金"
-    },
-    {
-      "sourceId": "juejin",
-      "title": "多 Agent 系统面试怎么答？我总结了 4 种经典架构",
-      "url": "https://juejin.cn/post/7694150823396245545",
-      "excerpt": "第七章：多 Agent 系统与协作 7.1 多 Agent 系统概述：为什么需要多个 Agent 在单 Agent 架构中，一个 LLM 实例承担全部职责：理解意图、检索信息、推理决策、生成内容、执行",
-      "publishedAt": "2026-10-09T00:39:51.000Z",
-      "category": "tech",
-      "source": "掘金"
-    },
-    {
-      "sourceId": "juejin",
-      "title": "别只拿 Claude 当聊天窗口！Projects 专属大脑与 Artifacts 高阶玩法实测",
-      "url": "https://juejin.cn/post/7694136010596302883",
-      "excerpt": "实测解析 Claude Projects 上传代码工程骨架、构建技术栈专属大脑的高阶姿势，结合 Artifacts 动态原型与高阶 System Prompt 约束治理，附可执行工程规范与多模式性能对",
-      "publishedAt": "2026-10-09T00:35:02.000Z",
-      "category": "tech",
-      "source": "掘金"
-    },
-    {
       "sourceId": "openai-news",
       "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
       "url": "https://openai.com/index/oracle",
@@ -504,7 +504,7 @@
       "publishedAt": "2026-10-08T16:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI 介绍 Oracle 借助 ChatGPT Work 与 Codex，在招聘、工程和运营等环节将专家知识转化为快速、可复用的工作流，把原本数天的工作缩短至数分钟。"
+      "summary": "OpenAI 介绍 Oracle 在招聘、工程与运营环节使用 ChatGPT Work 和 Codex，将专家知识转化为快速、可重复的工作流程，把原本数天的工作缩短至数分钟。"
     },
     {
       "sourceId": "openai-news",
@@ -514,7 +514,7 @@
       "publishedAt": "2026-10-08T12:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI 介绍 Pollo AI 借助 GPT-5.6、GPT-6 Astra 与 GPT-Image-2.5，帮助创作者把创意转化为精细图像与电影级视频广告。"
+      "summary": "OpenAI 介绍 Pollo AI 借助 GPT-5.6、GPT-6 Astra 与 GPT-Image-2.5，帮助创作者将创意转化为细节丰富的图像和电影级视频广告。"
     },
     {
       "sourceId": "openai-news",
@@ -524,7 +524,7 @@
       "publishedAt": "2026-10-08T12:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "LegalOn 将 Codex 每日预估成本削减65%，同时保持开发速度；其做法是按任务匹配 Astra、Sol 与 Luna 等模型，并对预算进行策略性管理。"
+      "summary": "据 OpenAI 介绍，LegalOn 将 Astra、Sol 与 Luna 匹配至相应任务并策略性管理预算，使 Codex 每日预估成本下降65%，同时保持开发速度；标题称成本减半。"
     },
     {
       "sourceId": "openai-news",
@@ -771,28 +771,6 @@
     },
     {
       "sourceId": "huggingface-papers",
-      "title": "STEPQuant: When and Where Errors Matter in Delta-Rule Recurrent State Quantization",
-      "url": "https://huggingface.co/papers/2609.38169",
-      "excerpt": "Linear attention replaces growing KV caches with fixed-size recurrent states, yet these persistent states can become a substantial memory bottleneck under concurrent serving. Directly quantizing recurrent states to low precision often leads to severe accuracy degradation, as quantization errors prop",
-      "publishedAt": "2026-09-29T00:00:00.000Z",
-      "meta": "👍 100",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers",
-      "summary": "线性注意力用固定大小递归状态替代不断增长的 KV cache，但并发服务时状态本身成为显存瓶颈。直接低精度量化会因误差累积严重掉点，该工作定位 delta-rule 递归更新中误差最敏感的时刻与位置，据此做差异化状态量化，在压缩状态内存的同时保持精度。"
-    },
-    {
-      "sourceId": "huggingface-papers",
-      "title": "VepAgent: Bridging Causal-Transition via Tool-Augmented Reinforcement Learning for Video Event Prediction",
-      "url": "https://huggingface.co/papers/2610.06293",
-      "excerpt": "Multimodal Large Language Models (MLLMs) have demonstrated remarkable potential in video understanding, yet their reliance on retrospective summarization and text-centric priors often limits their ability to bridge unobserved causal transitions when applied to Video Event Prediction (VEP). To addres",
-      "publishedAt": "2026-10-05T00:00:00.000Z",
-      "meta": "👍 53",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers",
-      "summary": "针对视频事件预测中 MLLM 依赖回溯式总结与文本先验、难以跨越未观测因果转换的问题，提出 VepAgent：用工具增强的强化学习桥接因果转换，让模型主动调用工具获取缺失证据，从而补全事件间的因果链，提升视频事件预测的准确性与可解释性。"
-    },
-    {
-      "sourceId": "huggingface-papers",
       "title": "UniWAM: Unified World-Action Model",
       "url": "https://huggingface.co/papers/2610.02054",
       "excerpt": "Vision-language-action models benefit from the understanding and reasoning capabilities of pretrained vision-language models, but action-only supervision provides limited grounding in world dynamics. Conversely, world-action models inherit spatiotemporal priors from video generation models, yet rema",
@@ -800,7 +778,18 @@
       "meta": "👍 48",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "UniWAM 是统一的世界-动作模型：VLA 借预训练视觉语言模型获得理解推理能力，但仅用动作监督、缺乏世界动态接地；世界模型虽继承视频生成的时空先验却缺少语义。UniWAM 融合两者，兼顾语义理解与时空动态建模，提升动作预测的世界接地能力。"
+      "summary": "提出统一世界-动作模型 UniWAM，弥合两类范式：VLA 模型借预训练 VLM 获得理解与推理能力，但仅靠动作监督难以刻画世界动态；世界-动作模型虽继承视频生成模型的时空先验，却缺乏语义推理。UniWAM 将世界建模与动作生成统一，兼顾二者优势。"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "Self-Retrospection Distillation: Turning Post-hoc Experiences into Prior Foresight",
+      "url": "https://huggingface.co/papers/2610.08077",
+      "excerpt": "Reinforcement learning with verifiable rewards (RLVR) turns agent experience into learning signals primarily through scalar outcome rewards after interaction. For group-relative objectives, however, this signal vanishes when all rollouts receive the same reward, even though their trajectories may re",
+      "publishedAt": "2026-10-06T00:00:00.000Z",
+      "meta": "👍 45",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers",
+      "summary": "针对 RLVR 中组相对目标在全部 rollout 奖励相同时学习信号消失的问题，提出 Self-Retrospection Distillation，把交互后的事后经验蒸馏为先验预判：即便结果奖励无差异，也能利用轨迹本身提取可复用信号，提升智能体表现。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -811,18 +800,7 @@
       "meta": "👍 34",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "知识工作常需从工作区已有文件生成新交付物。RunningTab 提出让智能体直接与环境侧标签页交互，在终端中搜索并读取任意文件而无需建立索引，从而在多文件环境下自主组织信息并产出交付物，减少对向量索引与预处理流水线的依赖。"
-    },
-    {
-      "sourceId": "huggingface-papers",
-      "title": "Self-Retrospection Distillation: Turning Post-hoc Experiences into Prior Foresight",
-      "url": "https://huggingface.co/papers/2610.08077",
-      "excerpt": "Reinforcement learning with verifiable rewards (RLVR) turns agent experience into learning signals primarily through scalar outcome rewards after interaction. For group-relative objectives, however, this signal vanishes when all rollouts receive the same reward, even though their trajectories may re",
-      "publishedAt": "2026-10-06T00:00:00.000Z",
-      "meta": "👍 31",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers",
-      "summary": "RLVR 主要靠交互后的标量结果奖励把经验转为学习信号，但在组相对目标下，当一组 rollout 奖励完全相同时该信号会消失，尽管轨迹本身仍有差异。自回顾蒸馏把这些事后经验转化为事前预见，提供更细粒度监督，缓解奖励同质导致的学习停滞。"
+      "summary": "面向工作区知识工作，RunningTab 让 LLM 智能体通过终端直接与已有文件语料交互，无需索引即可搜索、读取，并借助环境侧标签（tabs）组织多文件产出，从而高效生成交付物，核心是把检索与产出都放在环境侧完成，减少索引与上下文开销。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -833,7 +811,7 @@
       "meta": "👍 29",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "RobotWorld 是评测多模态智能体「机器使用」能力的仿真测试平台，考察通用智能体在数字世界积累的写代码、用工具等能力向物理世界迁移的程度。它将指令与观测转化为机器人任务，覆盖多种任务类型与不同本体形态，给出系统性的能力边界评估。"
+      "summary": "提出仿真测试床 RobotWorld，用于评测多模态智能体把代码编写、工具调用等数字能力迁移到机器人操作的程度。基准覆盖多样任务与不同本体形态，通过指令与观测驱动的交互，考察通用智能体在物理世界中的可用性。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -841,10 +819,10 @@
       "url": "https://huggingface.co/papers/2610.08995",
       "excerpt": "Astra can act, yet reliable manipulation depends on the system through which it observes and controls the world. We introduce PhysEvo, a framework for physical recursive self-improvement (RSI) around a single frozen model. A task agent executes robot tasks; a meta-agent uses the resulting trajectori",
       "publishedAt": "2026-10-06T00:00:00.000Z",
-      "meta": "👍 26",
+      "meta": "👍 27",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "PhysEvo 围绕单个冻结模型构建物理递归自我改进框架：任务智能体执行机器人操作任务，元智能体利用产生的轨迹迭代改进，无需更新模型权重即可提升操作可靠性。核心在于通过观察与控制世界的系统设计，实现具身智能体的持续自我进化。"
+      "summary": "提出 PhysEvo，在单一冻结模型周围实现物理递归自我改进（RSI）：任务智能体执行机器人操作，元智能体利用其产生的轨迹改进系统对世界的观测与控制方式，从而在不更新基础模型权重的前提下持续提升操作可靠性。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -855,7 +833,7 @@
       "meta": "👍 25",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "SWE-Game 是面向编程智能体的基准，包含 41 个可执行 Godot 游戏（覆盖 2D/3D 共 13 类玩法）上的 247 个任务，分五类：依简报开发、按设计文档实现、骨架补全、83 个注入故障的修复及 Godot 相关任务，检验编码智能体能否真正造出想要的游戏。"
+      "summary": "提出 SWE-Game 基准，含 247 个任务，基于 41 个可执行的 Godot 参考游戏，覆盖 2D 与 3D 共 13 类玩法。任务分五类：按简述开发、依游戏设计文档实现、骨架补全、83 个注入缺陷的修复及 Godot 相关任务，检验编码智能体能否真正做出所需游戏。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -866,7 +844,7 @@
       "meta": "👍 20",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "NAMVIS 针对稀疏视角新视图合成中扩散模型迭代去噪导致多视图生成推理昂贵的问题，提出无扩散框架，将多视图图像合成重构为下一尺度自回归生成，在 2D 空间绑定与 1D 序列建模之间建立层次化生成过程，显著降低推理开销。"
+      "summary": "针对扩散式稀疏视图新视图合成推理昂贵的问题，NAMVIS 提出无扩散框架，将多视图图像合成重构为 next-scale 自回归生成，绕开迭代去噪过程，在降低推理成本的同时保持多视图之间的一致性。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -877,7 +855,7 @@
       "meta": "👍 17",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "流策略能刻画丰富多样的动作分布，但用离策略 RL 微调并不容易，因为动作由多步生成过程产生，难以直接对价值函数求梯度。该工作提出标量伴随匹配并结合 Q-Learning，使流策略可直接针对学习到的价值函数优化，在示教数据之外持续提升性能。"
+      "summary": "Flow 策略能表达多样动作分布，但用离策略 RL 结合价值函数微调时，动作经由多步生成过程使梯度回传困难。本文提出 Q-Learning with Scalar Adjoint Matching，通过标量伴随匹配在流生成过程中直接进行 Q 学习，实现稳定的价值引导微调。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -888,7 +866,7 @@
       "meta": "👍 16",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "训练与评测交互式语言智能体需要大量真实用户反馈，成本高且难扩展。MIMESIS 把用户模拟器本身当作可学习的训练环境：既要求模拟用户行为逼真，又要为智能体提供有学习价值的交互，从而在不依赖人工反馈的前提下规模化训练与评测交互智能体。"
+      "summary": "训练交互式语言智能体需要大量用户反馈，人工收集成本高且难扩展。MIMESIS 提出把用户模拟器本身作为训练环境来学习：模拟器既需贴近真实用户行为，又要为智能体提供有学习价值的交互，从而可扩展地训练与评估交互式智能体。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -899,7 +877,7 @@
       "meta": "👍 16",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "测试时扩展通过增加推理算力提升大模型推理能力，但现有方法通常只在单一资源维度（成本或延迟）上优化精度。该工作把问题从帕累托前沿转向用户偏好，通过摊销式智能体策略发现实现个性化测试时扩展，一次学习即可为新任务快速配置推理策略。"
+      "summary": "现有测试时扩展（TTS）多沿单一资源维度优化准确率-成本或准确率-延迟权衡。本文提出从 Pareto 前沿走向用户偏好，通过摊还式智能体策略发现实现个性化 TTS，为不同用户偏好自动选取合适策略，使同等算力更贴合个体需求。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -910,7 +888,7 @@
       "meta": "👍 12",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "粉末 X 射线衍射分析的核心难题是把分析经验沉淀为可复用的专业知识。作者构建了衍射分析生态（XMatcher、XQueryer、XDecomposer 等），并基于此提出自学习科学智能体 Gan Jiang，能从物理证据出发自主积累经验，实现可迭代的衍射物相分析。"
+      "summary": "提出粉末 X 射线衍射自学习智能体「干将」，构建于自研衍射分析生态 XMatcher、XQueryer、XDecomposer 等组件之上，能把解析经验转化为以物理证据为支撑的可复用专长，实现衍射数据的自动化分析。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -921,7 +899,18 @@
       "meta": "👍 12",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "QuadTok 提出层次化四叉树视觉 tokenizer，用于自回归图像生成。相比 2D 网格或 1D 序列的 token 化方式，四叉树结构在 2D 空间绑定与 1D 序列级灵活性之间取得折中，可按尺度逐层生成 token，兼顾空间结构与自回归建模效率。"
+      "summary": "提出视觉分词框架 QuadTok，用层次化四叉树结构组织视觉 token，替代传统 2D 网格或 1D 序列，兼顾 2D 空间绑定与序列级建模的灵活性，用于自回归图像生成。"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "AgentGarten: Code Worlds for Evolving Agents",
+      "url": "https://huggingface.co/papers/2610.12374",
+      "excerpt": "Interactive virtual worlds allow agents to learn through exploration and interaction. What agents can learn is bounded by the environments they practice in, which must be faithful, with consistent state, rules, and dynamics, and realistic, with observations that follow the real-world visual distribu",
+      "publishedAt": "2026-10-08T00:00:00.000Z",
+      "meta": "👍 11",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers",
+      "summary": "提出 AgentGarten，用代码构建可交互虚拟世界作为智能体训练环境，强调环境需忠实（状态、规则与动力学一致）且真实（观测符合真实世界视觉分布），使智能体能通过探索与交互学到可迁移的能力。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -932,7 +921,7 @@
       "meta": "👍 11",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "投机解码中草稿模型提议 token、目标模型验证。随着草稿模型能力增强，作者发现目标模型经常接受全部草稿 token，此时重新起草即是浪费。DLoop 引入循环式投机解码，在整批全接受时复用并循环推进草稿与验证过程，进一步降低生成延迟。"
+      "summary": "推测解码中，随着草稿模型能力增强，目标模型常直接接受全部候选 token，使逐轮验证收益递减。本文据此提出 DLoop 循环推测解码，调整草稿与验证的循环方式以减少无效验证，进一步提升大模型自回归生成的解码加速比。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -943,7 +932,7 @@
       "meta": "👍 10",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "从 3D 形状重建可编辑 CAD 模型是困难的工程任务，单一来源的 CAD 操作提议难以适配不同部件几何与不同重建阶段。CADFather 提出自主智能体框架，协调多种工具与提议来源，在重建流程中动态选择与组合操作，提升重建成功率与模型可编辑性。"
+      "summary": "从 3D 形状重建可编辑 CAD 模型仍是难题，单一提案来源难以适配不同部件几何与各重建阶段。CADFather 提出自主智能体框架，协调多种工具与提案协同完成 CAD 重建，提升跨部件、跨阶段的鲁棒性。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -954,7 +943,7 @@
       "meta": "👍 10",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "将图像生成模型置于智能体框架中，可借助记忆、技能、工作流编排与结果校验反复改写提示词，从而提升文生图效果，但推理开销大。该工作提出在策略上下文蒸馏，把智能体积累的经验直接内化进扩散模型权重，使模型无需外部框架也能获得同等增益。"
+      "summary": "将图像生成模型置于智能体 harness 中可提升文生图表现，但推理时需反复编排提示与验证。本文提出 on-policy 上下文蒸馏，把这类智能体经验内化进扩散模型权重，使模型无需 harness 即可获得同等生成能力。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -965,7 +954,7 @@
       "meta": "👍 8",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "把音乐转录为人可读的乐谱需要协调理解节奏、和声、旋律与曲式，但标注录音稀缺，且局部预测准确也可能产出前后不一致的乐谱。SheetSage2 提出统一的音乐转录模型，借助合成数据监督提升整体连贯性，实现端到端的主旋律乐谱转录。"
+      "summary": "音乐转谱需同时理解节奏、和声、旋律与曲式，面临标注录音稀缺、局部预测准确却整体不连贯两大障碍。SheetSage2 是统一的音乐转写模型，借助合成数据监督生成连贯的主旋律谱（lead sheet）。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -976,7 +965,7 @@
       "meta": "👍 8",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "多模态大模型可通过生成暴露与任务相关的证据，但证据如何进入检索嵌入尚无定论。该工作研究证据的语义组织能否同时决定表示的读取位置，提出证据对齐的读出方式学习多模态嵌入，使生成式证据更好地服务于检索任务。"
+      "summary": "多模态大模型可通过生成暴露任务相关证据，但生成证据并不决定它如何进入检索嵌入。本文研究证据的语义组织能否指定表征的读取位置，提出证据对齐的 readout 方式，用于学习更有效的多模态检索嵌入。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -987,7 +976,7 @@
       "meta": "👍 7",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "记忆增强的强化学习可提升 LLM 智能体解决长程任务的能力，技能（指令加适用条件）是其中一种记忆形式。但随策略演进无差别保留所有技能会引入过时内容。SkillForge 通过动态技能生命周期让技能与智能体共同演化，淘汰陈旧技能并生成新的适用技能。"
+      "summary": "记忆增强 RL 常以技能形式存储可复用经验，技能由指令与适用任务条件组成。但策略改进后仍无差别保留全部技能，会积累过时甚至有害技能。SkillForge 提出动态技能生命周期，让技能与智能体协同演化，按需淘汰与更新。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -997,7 +986,8 @@
       "publishedAt": "2026-10-07T00:00:00.000Z",
       "meta": "👍 6",
       "category": "tech",
-      "source": "HuggingFace Trending Papers"
+      "source": "HuggingFace Trending Papers",
+      "summary": "近期工作联合优化任务执行与技能提取，使策略与技能库共同演化，但随着 actor 持续学习，技能提案的奖励会与其实际能力脱节。UniSkill 提出面向 actor 的技能提案学习，使提案与不断演化的策略保持对齐。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1026,6 +1016,16 @@
       "excerpt": "Conditional memory architectures such as DeepSeek Engram use input n-grams to look up learned embeddings, expanding the capacity of large language models (LLMs) with limited additional computation. Beyond model scaling, this architecture has demonstrated the potential to decouple factual knowledge s",
       "publishedAt": "2026-10-07T00:00:00.000Z",
       "meta": "👍 5",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "SparseDecoding: Decoding-Aware Pruning for Accurate and Efficient LLM Inference",
+      "url": "https://huggingface.co/papers/2610.12327",
+      "excerpt": "The memory-bound nature of the decoding stage of large language model (LLM) inference incurs significant latency. Layer-wise training-free network pruning approaches guided by the Hessian have been a prominent solution to this problem, as pruning reduces the number of nonzero parameters read from me",
+      "publishedAt": "2026-10-08T00:00:00.000Z",
+      "meta": "👍 4",
       "category": "tech",
       "source": "HuggingFace Trending Papers"
     },
@@ -1061,16 +1061,6 @@
     },
     {
       "sourceId": "huggingface-papers",
-      "title": "RoboQuest: Generalist Physical Agents that Search, Inspect and Test",
-      "url": "https://huggingface.co/papers/2610.10388",
-      "excerpt": "Recent advances in multimodal foundation models have made them capable generalist physical agents for a range of manipulation tasks. However, successful operation in an unfamiliar environment may require an agent to seek task-relevant information through interaction when it is absent from the observ",
-      "publishedAt": "2026-10-07T00:00:00.000Z",
-      "meta": "👍 3",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers"
-    },
-    {
-      "sourceId": "huggingface-papers",
       "title": "Real Long-Term Memory for AI: A 50-Million-Token Window That Is Faster and Cheaper Than Recompute",
       "url": "https://huggingface.co/papers/2610.10845",
       "excerpt": "A large language model can only use the text that fits in its context window, and it recomputes its internal key-value (KV) state for a prompt every time the prompt is sent. We test a memory layer, the public package galahad-kv, that saves the KV state of each block of about 16,000 tokens to encrypt",
@@ -1085,6 +1075,16 @@
       "url": "https://huggingface.co/papers/2610.08902",
       "excerpt": "AI agents increasingly operate in environments where they can diagnose failures and improve through experience, yet existing evaluations largely measure what an agent can do at a fixed point in time rather than how effectively it learns. Evaluating self-improvement requires answering three questions",
       "publishedAt": "2026-10-06T00:00:00.000Z",
+      "meta": "👍 2",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "RoboJEPA: Scaling Robotic Latent World Models",
+      "url": "https://huggingface.co/papers/2610.10515",
+      "excerpt": "Latent world models have shown a remarkable ability to predict future states and to plan in the real world. In practice, however, we lack a principled way to estimate how their capabilities scale with model size, data, and compute, an open problem that slows progress in the field. In this work we pr",
+      "publishedAt": "2026-10-07T00:00:00.000Z",
       "meta": "👍 2",
       "category": "tech",
       "source": "HuggingFace Trending Papers"
@@ -1547,7 +1547,7 @@
       "publishedAt": "2026-10-08T23:29:43.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "Latent Space 的 AINews 栏目表示当日新闻清淡，未发生重大事件。"
+      "summary": "Latent Space 的 AINews 当日更新内容极简，仅称今日较为平静，未提供其他具体新闻、数据或事件细节。"
     },
     {
       "sourceId": "latent-space",
@@ -1557,7 +1557,7 @@
       "publishedAt": "2026-10-08T16:27:54.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "Latent Space 推出科学播客与工程播客联动特别节目，Periodic Labs 的 Liam Fedus 与 Ekin Dogus Cubuk 探讨从半导体到超导体的「合成超智能」，并包含 Forward Deployed Engineering 环节。"
+      "summary": "Latent Space 推出 Science 与 Engineering 播客联合特辑，嘉宾为 Periodic Labs 的 Liam Fedus 与 Ekin Dogus Cubuk，主题为「合成超级智能」，讨论范围从半导体延伸至超导体。"
     },
     {
       "sourceId": "latent-space",
@@ -1729,7 +1729,7 @@
       "publishedAt": "2026-10-09T00:08:24.000Z",
       "category": "tech",
       "source": "MIT Tech Review AI",
-      "summary": "MIT Tech Review 举办圆桌对话，嘉宾为AI设计病毒的创作者。2025年斯坦福大学博士生Samuel King用生成式AI模型提出微生物病毒的基因蓝图，尚未构成AI生成生命，被视为初步探索。"
+      "summary": "MIT Tech Review 将于2026年10月16日举办圆桌对话，嘉宾为斯坦福大学博士生 Samuel King。他于2025年借助生成式AI模型提出微观病毒的基因蓝图，该成果尚不构成AI生成生命的实例。"
     },
     {
       "sourceId": "mit-tech-review-ai",
@@ -1821,7 +1821,7 @@
       "category": "tech",
       "meta": "@jakecastilloooo · 18.7K 粉丝 · 141.1K 阅 · 507 赞 · 40 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "分享用 AI 批量生产 UGC 视频、并在自然流量与付费投放中跑出爆款的完整工作流，文中附带 13 条 prompt 模板和一项 AI UGC skill，把 AI 生成内容做成可复制放大的流水线，偏实操教程。"
+      "summary": "分享用「AI UGC 大军」为自然流量和付费投放批量测试、放大爆款视频的完整工作流，文末附赠 13 条 prompt 模板和一个 AI UGC 技能（skill）。适合做社媒增长和素材投放的团队参考。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -1832,7 +1832,7 @@
       "category": "tech",
       "meta": "@mustafasuleyman · 1.2M 粉丝 · 99.2K 阅 · 587 赞 · 104 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "Mustafa Suleyman 转述诺奖得主 Daron Acemoglu 在 MAI 新杂志《The Humanist Review》首期的判断：未来十年人类工作仅 5% 会被 AI 取代，呼吁停止过度恐慌。属于逆主流叙事的观点转发。"
+      "summary": "微软 AI 负责人 Mustafa Suleyman 推介 MAI 新杂志《The Humanist Review》创刊号，诺贝尔经济学奖得主 Daron Acemoglu 撰文预测：未来十年 AI 只会替代人类 5% 的工作，并主张停止对抗式叙事。属于观点类内容，不是教程。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -1843,7 +1843,7 @@
       "category": "tech",
       "meta": "@satyanadella · 9.6M 粉丝 · 82.6K 阅 · 587 赞 · 73 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "纳德拉谈「无限 SaaS 工厂」：当下大量工作仍耗在迁就软件上——在应用间来回切换、反复重建上下文、把人想做的事翻译成各系统要求的操作步骤，AI 要抹平的正是这一层。偏战略判断而非教程。"
+      "summary": "纳德拉谈「无限 SaaS 工厂」：今天大量工作仍耗在迁就软件上——在应用间切换、反复重建上下文、把意图翻译成各系统的操作步骤。他认为 AI 将改变这种围绕软件打转的工作方式，属于对 AI 时代软件形态的判断。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -1854,7 +1854,7 @@
       "category": "tech",
       "meta": "@rabi_guha · 3.1K 粉丝 · 52.8K 阅 · 622 赞 · 31 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "团队逆向拆解 ChatGPT 新上线的生成式 UI（OpenAI 将其改称 Intelligent UI），研究 OpenAI 究竟如何实现这套界面。属于技术向深度分析，适合想看具体实现细节的开发者。"
+      "summary": "ChatGPT 上线 Generative UI 后立刻被改称 Intelligent UI，作者团队对其做逆向工程，深入拆解 OpenAI 这套实现的具体机制。适合想看前端协议与实现细节的开发者，属于技术拆解而非泛泛评论。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -1865,7 +1865,7 @@
       "category": "tech",
       "meta": "@free_ai_guides · 60.4K 粉丝 · 28.6K 阅 · 501 赞 · 44 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "一条 prompt 加四次确认，做出 78 秒卡通讲解视频：Claude 写脚本、配音、绘制三个卡通角色并铺满 28 个镜头，最后自动剪辑配字幕。展示 Claude 端到端产出成片的能力。"
+      "summary": "用一条 prompt 加四次人工确认，就让 Claude 产出一支 78 秒卡通讲解视频：自己写脚本、配音、绘制三个卡通角色的 28 个镜头，并完成剪辑和字幕。展示 Claude 在端到端视频生产上的能力边界。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -1876,7 +1876,7 @@
       "category": "tech",
       "meta": "@aashatwt · 16.5K 粉丝 · 24.8K 阅 · 513 赞 · 43 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "分享用 AI agent 组建并运转整支营销团队的 playbook。作者坦承自己还没做出百万美元级产品，但过去半年与多家头部 AI 公司合作，观察到它们极快的推进节奏，据此提炼可复用方法。"
+      "summary": "作者自认还没做出百万美元级产品，但过去半年与多家头部 AI 公司合作，观察到它们迭代速度极快，于是整理出一套用 AI agent 运营营销团队的 playbook。偏方法论与流程复用，不是单纯工具清单。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -1887,7 +1887,7 @@
       "category": "tech",
       "meta": "@Hesamation · 90.6K 粉丝 · 21.4K 阅 · 618 赞 · 51 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "面向兴趣过多、容易分心的 ADHD 人群：一小时内搭一套 AI 系统来管理六七个并行目标，避免被压垮或连续几天停摆。作者本身做 agent、RL 与 LLM 架构，属工具化的自我管理方案。"
+      "summary": "针对兴趣过多、目标一堆却总断更的「ADHD 式」大脑，作者分享如何在一小时内搭一套 AI 系统来管理目标与执行。他本身做 agent、harness、RL 和 LLM 架构，方案偏工程化，而非普通待办清单。"
     },
     {
       "sourceId": "solidot",
@@ -2482,7 +2482,7 @@
       "publishedAt": "2026-10-09T00:05:48.000Z",
       "category": "politics",
       "source": "NPR World",
-      "summary": "美国「亚伯拉罕·林肯」号航空母舰结束创纪录的连续海上部署，返回圣迭戈湾母港。该舰此前支援对伊朗战事，延长部署引发关注，有报道称舰员承受压力、物资短缺。"
+      "summary": "美国航母「亚伯拉罕·林肯」号在支援伊朗战争后结束创纪录的连续海上部署，返回圣迭戈湾。此前有报道称船员压力过大、生活物资短缺。"
     },
     {
       "sourceId": "npr-world",
@@ -2492,7 +2492,7 @@
       "publishedAt": "2026-10-08T16:05:37.000Z",
       "category": "politics",
       "source": "NPR World",
-      "summary": "美国检方在针对前委内瑞拉总统尼古拉斯·马杜罗的案件中新增酷刑指控，进一步加大施压。马杜罗已被推翻下台，此前已面临贩毒指控。"
+      "summary": "美国当局对已被推翻的委内瑞拉前总统尼古拉斯·马杜罗追加酷刑指控，进一步加大施压。马杜罗此前已因贩毒指控面临美方追诉。"
     },
     {
       "sourceId": "npr-world",
@@ -2502,7 +2502,7 @@
       "publishedAt": "2026-10-08T12:13:54.000Z",
       "category": "politics",
       "source": "NPR World",
-      "summary": "韩国宣布将召回驻乌克兰大使，起因是围绕朝鲜战俘的争议。数日前，韩国总统李在明警告称，若乌克兰不就此道歉，韩方将采取未具体说明的惩罚措施。"
+      "summary": "韩国宣布将召回驻乌克兰大使，事涉朝鲜战俘争议。数日前韩国总统李在明警告，若乌克兰不就相关披露道歉，韩方将采取未指明的惩罚措施。"
     },
     {
       "sourceId": "npr-world",
@@ -2512,7 +2512,7 @@
       "publishedAt": "2026-10-08T12:01:34.000Z",
       "category": "politics",
       "source": "NPR World",
-      "summary": "韩国首次试飞自主研制的首款高超音速武器。此次试射紧随朝鲜近期的高超音速导弹试验；此前朝韩边境地雷爆炸致三名韩国士兵受伤，朝鲜否认负有责任，双方紧张加剧。"
+      "summary": "韩国首次试飞自主研发的高超音速武器。此前朝鲜刚进行高超音速导弹试射；朝韩边境地雷爆炸致三名韩国士兵受伤，朝方否认责任，紧张加剧。"
     },
     {
       "sourceId": "npr-world",
@@ -2522,7 +2522,7 @@
       "publishedAt": "2026-10-08T11:35:22.000Z",
       "category": "politics",
       "source": "NPR World",
-      "summary": "「伊萨亚斯」增强为飓风，墨西哥湾沿岸民众正为周末恶劣天气做准备。同时，一名法官下令保存克里斯塔·派克未成功执行死刑的相关证据。"
+      "summary": "伊萨亚斯增强为飓风，墨西哥湾沿岸居民准备迎接周末恶劣天气；一名法官下令保存克里斯塔·派克未成功死刑执行的相关证据。"
     },
     {
       "sourceId": "npr-world",
@@ -2532,7 +2532,7 @@
       "publishedAt": "2026-10-08T11:25:28.000Z",
       "category": "politics",
       "source": "NPR World",
-      "summary": "俄罗斯对乌克兰公共汽车发动袭击，造成30人死亡，基辅停电情况进一步恶化。俄乌双方陷入远程空袭战，前线基本僵持，距俄罗斯全面入侵已超过四年半。"
+      "summary": "俄罗斯对乌克兰公共汽车的袭击造成30人死亡，基辅停电状况恶化。俄乌陷于远程空袭战，前线基本僵持，距俄全面入侵已超过四年半。"
     },
     {
       "sourceId": "npr-world",
@@ -2542,7 +2542,7 @@
       "publishedAt": "2026-10-08T09:00:00.000Z",
       "category": "politics",
       "source": "NPR World",
-      "summary": "BBC与NPR的联合调查发现，一名因反人类罪被通缉的叙利亚前将军目前安静地生活在黎巴嫩，并获得美国和黎巴嫩当局的资金支持与保护。"
+      "summary": "BBC与NPR联合调查发现，一名因反人类罪被通缉的叙利亚前将军居于黎巴嫩，受美国与黎巴嫩当局资助和保护。"
     },
     {
       "sourceId": "npr-world",
@@ -2552,7 +2552,7 @@
       "publishedAt": "2026-10-08T08:44:37.000Z",
       "category": "politics",
       "source": "NPR World",
-      "summary": "北约全部32个成员国的军事代表在基辅举行会议。NPR记者史蒂夫·英斯基普与前美国驻北约大使库尔特·沃尔克讨论了此次会议以及仍在持续的战争。"
+      "summary": "北约全部32个成员国的军事代表在基辅举行会议。NPR记者采访前美国驻北约大使库尔特·沃尔克，讨论此次会议与仍在持续的战争。"
     },
     {
       "sourceId": "npr-world",
@@ -2562,7 +2562,7 @@
       "publishedAt": "2026-10-08T05:56:02.000Z",
       "category": "politics",
       "source": "NPR World",
-      "summary": "87岁的玛丽亚·德尔·卡门·阿巴斯卡尔去世。她此前被逐出马德里住所，事件在西班牙引发全国抗议并触发政治危机，她于周三在医院去世。"
+      "summary": "西班牙87岁的玛丽亚·德尔·卡门·阿巴斯卡尔去世。她因被逐出马德里住所引发全国抗议并触发政治危机，于周三在医院离世。"
     },
     {
       "sourceId": "npr-world",
@@ -2572,7 +2572,7 @@
       "publishedAt": "2026-10-07T21:06:31.000Z",
       "category": "politics",
       "source": "NPR World",
-      "summary": "本月一名俄罗斯实验室工作人员死亡后，古老的鼠疫重新登上新闻头条，肺鼠疫这一疾病类型随之受到关注。"
+      "summary": "俄罗斯西伯利亚一名实验室工作人员本月死亡后，古老的肺鼠疫重新成为新闻焦点，相关报道介绍这一疾病的背景。"
     },
     {
       "sourceId": "peoples-daily",
@@ -3356,6 +3356,15 @@
     },
     {
       "sourceId": "infoq-cn",
+      "title": "Kimi 现代高速开源治理的 AI Native 实践｜QCon上海",
+      "url": "https://www.infoq.cn/article/832RV3o8ireEdJpO9H4v?utm_source=rss&utm_medium=article",
+      "excerpt": "点击查看原文>",
+      "publishedAt": "2026-10-09T10:00:00.000Z",
+      "category": "tech",
+      "source": "InfoQ 中文"
+    },
+    {
+      "sourceId": "infoq-cn",
       "title": "在生产环境中保护MCP：超越网关的纵深防御",
       "url": "https://www.infoq.cn/article/HZIW4QjEfV66I9CGr52R?utm_source=rss&utm_medium=article",
       "excerpt": "点击查看原文>",
@@ -3526,13 +3535,13 @@
       "source": "InfoQ 中文"
     },
     {
-      "sourceId": "infoq-cn",
-      "title": "Cloudflare 将 1.1.1.1 DNS 缓存的内存占用削减了 100TB",
-      "url": "https://www.infoq.cn/article/XWJ8G6GaFmNL74xpSgjU?utm_source=rss&utm_medium=article",
-      "excerpt": "点击查看原文>",
-      "publishedAt": "2026-10-05T10:00:00.000Z",
-      "category": "tech",
-      "source": "InfoQ 中文"
+      "sourceId": "36kr",
+      "title": "美央构建物理AI路径闭环：把人体变成可计算的真实世界",
+      "url": "https://36kr.com/p/4018021038657411?f=rss",
+      "excerpt": "万美京AIMIRA构建\"感知—理解—决策—执行—反馈\"产品闭环，回答物理AI核心命题 当AI走出屏幕，游戏规则彻底改变：真实的人体有空间结构、组织状态与一刻不停的时间变化；软件说错一句话可以重新生成，机器做错一个动作，结果可能无法撤回。物理AI难的从来不是更大的模型，而是\"感知—建模—决策—执行—验证—再学习\"这条长链路。广州美央创新科技（Calilia国际集团/万美京AIMIRA）已把这条链路落成产品体系：FAITH是感知入口，\"女娲\"人体真实世界模型负责建模与理解，医疗级智能硬件与具身设备执行，效果与长期变化再回流系统。 美央创始人蒋宇振博士表示：\"女娲不是一个什么都能答的'人体大模型'，",
+      "publishedAt": "2026-10-09T02:22:54.000Z",
+      "category": "finance",
+      "source": "36氪"
     },
     {
       "sourceId": "36kr",
@@ -3547,7 +3556,7 @@
       "sourceId": "36kr",
       "title": "8点1氪丨国际金价回调，金饰克价已暴跌约150元；A股千元股仅剩3只；711印度门店全部关闭",
       "url": "https://36kr.com/p/4017873472884616?f=rss",
-      "excerpt": "今日热点导览 粤万年青：澄清董事长欧先涛未涉航班冲突传闻，已报案处理 711印度门店全部关闭 2026年诺贝尔文学奖揭晓 腾讯据悉考虑发行至多50亿美元离岸债券 消息称三星手机四季度最高减产30% Manus完成超5亿美元新一轮融资 TOP 3大新闻 国际金价显著回调，金饰克价已暴跌约150元 近期，国际金价经历显著回调，COMEX黄金期货跌破每盎司4200美元，国内沪金击穿每克900元关口，品牌金饰价格较高点累计下跌每克150元左右。受金价下行带动，深圳水贝首饰金挂��价回落至每克1061元。 金价回调叠加节日促��，让这个全国最大的黄金珠宝集散地迎来了外地游客的购金热潮。一名黄金导购表示，",
+      "excerpt": "今日热点导览 粤万年青：澄清董事长欧先涛未涉航班冲突传闻，已报案处理 711印度门店全部关闭 2026年诺贝尔文学奖揭晓 腾讯据悉考虑发行至多50亿美元离岸债券 消息称三星手机四季度最高减产30% Manus完成超5亿美元新一轮融资 TOP 3大新闻 国际金价显著回调，金饰克价已暴跌约150元 近期，国际金价经历显著回调，COMEX黄金期货跌破每盎司4200美元，国内沪金击穿每克900元关口，品牌金饰价格较高点累计下跌每克150元左右。受金价下行带动，深圳水贝首饰金挂牌价回落至每克1061元。 金价回调叠加节日促销，让这个全国最大的黄金珠宝集散地迎来了外地游客的购金热潮。一名黄金导购表示，国庆",
       "publishedAt": "2026-10-08T23:54:50.000Z",
       "category": "finance",
       "source": "36氪"
@@ -3565,7 +3574,7 @@
       "sourceId": "36kr",
       "title": "让AI走进真实产线，汇川技术2026工博会看点前瞻",
       "url": "https://36kr.com/p/4016926621470853?f=rss",
-      "excerpt": "一把鲁班锁，几块木件，靠相互咬合形成稳固整体。结构如何组织，决定着各个部分能否共同发挥作用。这个古老物件，也为理解工业智能提供了一个直观入口：让AI走进制造现场，需要把算法、数据和设备真正连接起来。 10月12日至16日，2026中国国际工业博览会将在国家会展中心（上海）举行。汇川技术将以“以智融实，共赴新型工业化”为主题，围绕“Make Intelligence REAL”，展示智能技术融入工业现场的路径。鲁班锁所蕴含的结构智慧，正是理解此次参展的一条线���。 工业现场对智能有着具体而严格的要求。一次控制能否及时响应，一道工序能否稳定运行，一套方案能否适应不同设备，都关系着生产的实际效果。",
+      "excerpt": "一把鲁班锁，几块木件，靠相互咬合形成稳固整体。结构如何组织，决定着各个部分能否共同发挥作用。这个古老物件，也为理解工业智能提供了一个直观入口：让AI走进制造现场，需要把算法、数据和设备真正连接起来。 10月12日至16日，2026中国国际工业博览会将在国家会展中心（上海）举行。汇川技术将以“以智融实，共赴新型工业化”为主题，围绕“Make Intelligence REAL”，展示智能技术融入工业现场的路径。鲁班锁所蕴含的结构智慧，正是理解此次参展的一条线索。 工业现场对智能有着具体而严格的要求。一次控制能否及时响应，一道工序能否稳定运行，一套方案能否适应不同设备，都关系着生产的实际效果。面对",
       "publishedAt": "2026-10-08T10:51:55.000Z",
       "category": "finance",
       "source": "36氪"
@@ -3617,10 +3626,100 @@
     },
     {
       "sourceId": "36kr",
-      "title": "深创投、元禾原点押注一家水下机器人，9个月内已完成5轮融资丨36氪首发",
-      "url": "https://36kr.com/p/4016617284014210?f=rss",
-      "excerpt": "图源/企业 本文约2900字，建议阅读6分钟 作者丨欧雪 编辑丨袁斯来 硬氪获悉，海洋具身智能公司卫澜深海在9个月内已完成5轮融资，轮次推进至天使++++轮，核心股东包括深创投、元禾原点、国策资本等机构，老股东英诺天使持续加注。资金主要用于训练水下具身智能模型，建设水下具身智能训练中心，以及深化机器人在海洋油气能源场景下的应用。卫澜深海想做的事情，可以用一句话概括：用机器人拓展人类的海洋能力边界，代替昂贵且危险的水下人工作业。 创始人张大禹98年出生，西安交通大学博士、助理教授，拥有12年水下无人系统研发经验，高中起申请发明专利30余项，发表顶刊论文10余篇，主持2项国家级项目。卫澜深海已经组",
-      "publishedAt": "2026-10-08T02:35:03.000Z",
+      "title": "创业板指跌超3%，算力硬件领跌",
+      "url": "https://36kr.com/newsflashes/4018027333455747?f=rss",
+      "excerpt": "36氪获悉，创业板指下挫跌超3%，沪指跌1.19%，深成指跌2.39%。算力硬件、半导体芯片、医药生物、机器人、军工等方向跌幅居前，沪深京三市下跌个股近4400只。",
+      "publishedAt": "2026-10-09T02:28:46.000Z",
+      "category": "finance",
+      "source": "36氪"
+    },
+    {
+      "sourceId": "36kr",
+      "title": "日立加入Anthropic关键基础设施防御计划",
+      "url": "https://36kr.com/newsflashes/4018016664916103?f=rss",
+      "excerpt": "据了解，日立已加入Anthropic的关键基础设施防御计划，该计划旨在加强网络防御。这家日本工业公司表示，它已作为创始合作伙伴加入该计划。除日立之外，Anthropic 项目的创始合作伙伴还包括埃森哲、CrowdStrike和普华永道。（新浪财经）",
+      "publishedAt": "2026-10-09T02:27:47.000Z",
+      "category": "finance",
+      "source": "36氪"
+    },
+    {
+      "sourceId": "36kr",
+      "title": "细化违规入股情形，中证协拟出台保代职业行为规范",
+      "url": "https://36kr.com/newsflashes/4018024159006857?f=rss",
+      "excerpt": "据了解，中证协组织起草了《保荐代表人执业行为规范（征求意见稿）》（下称《意见稿》），并正向行业征求意见。《意见稿》明确保荐代表人基本执业要求，严禁以人工智能辅助工具的输出结果替代专业判断，严禁“只签不保”。《意见稿》明确将廉洁要求贯穿项目承揽、承做、发行承销、持续督导等各个业务环节，完善禁止输送不正当利益、禁止谋取不正当利益的具体情形，细化违规入股的情形，明确保荐业务全流程禁止违规入股要求，覆盖立项前预投资、项目终止后追溯性利益安排等隐蔽违规情形，完善利益冲突回避和报告义务。（证券时报）",
+      "publishedAt": "2026-10-09T02:25:32.000Z",
+      "category": "finance",
+      "source": "36氪"
+    },
+    {
+      "sourceId": "36kr",
+      "title": "香港证监会：香港交易所将发布有关延长股票交易时间的讨论文件",
+      "url": "https://36kr.com/newsflashes/4018022452990084?f=rss",
+      "excerpt": "香港证监会行政总裁梁凤仪周五在亚洲证券业与金融市场协会(ASIFMA)会议上发表讲话称，香港交易所将在第四季度发布一份关于延长交易时间的讨论文件。随着时间的推移，使用代币化货币和数码港元结算方式，可以支持更长时间的交易。香港交易所将尽快发布关于T+1结算的咨询结论，并确定目标实施日期。（财联社）",
+      "publishedAt": "2026-10-09T02:23:48.000Z",
+      "category": "finance",
+      "source": "36氪"
+    },
+    {
+      "sourceId": "36kr",
+      "title": "“东升宇航”完成年内第3轮融资",
+      "url": "https://36kr.com/newsflashes/4018014106193801?f=rss",
+      "excerpt": "36氪获悉，“东升宇航”完成年内第3轮融资，成立以来累计完成5轮股权融资，注册资本增至692.05万元，新增股东为福创投、石溪资本、弘晖资本、嘉禾资产、晶凯资本。东升宇航成立于2025年5月，专注于互联网卫星、算力卫星等整星及星上关键部组件的研发与制造，团队人数已超300人。",
+      "publishedAt": "2026-10-09T02:22:06.000Z",
+      "category": "finance",
+      "source": "36氪"
+    },
+    {
+      "sourceId": "36kr",
+      "title": "“中国天眼”发现首例原生演化脉冲星三体系统",
+      "url": "https://36kr.com/newsflashes/4018010964889475?f=rss",
+      "excerpt": "从中国科学院国家天文台获悉，依托“中国天眼”FAST的优越探测性能，近期，国家天文台韩金林研究员等科研人员，结合FAST射电观测数据与国际上光学和伽马射线望远镜的多波段天文数据，揭示了FAST发现的脉冲星J0435+3233属于首例尚在演化阶段的原生三体系统，这也是第二例被确认的脉冲星三体系统。相关研究成果10月9日在国际学术期刊《天体物理学杂志快报》发表。（央视新闻）",
+      "publishedAt": "2026-10-09T02:18:56.000Z",
+      "category": "finance",
+      "source": "36氪"
+    },
+    {
+      "sourceId": "36kr",
+      "title": "国家邮政局：我国年人均快递使用量超140件",
+      "url": "https://36kr.com/newsflashes/4018017400508549?f=rss",
+      "excerpt": "今天（9日）是第57届世界邮政日。今年邮政日的主题是“完善邮政服务网络，开拓行业无限可能。”从国家邮政局了解到，我国已建成世界上规模最大、覆盖最广、受益人数最多的寄递网络，年人均快递使用量超140件。",
+      "publishedAt": "2026-10-09T02:18:39.000Z",
+      "category": "finance",
+      "source": "36氪"
+    },
+    {
+      "sourceId": "36kr",
+      "title": "OpenAI预计到2026年底年化营收将达到700亿美元",
+      "url": "https://36kr.com/newsflashes/4018006913486720?f=rss",
+      "excerpt": "据知情人士透露，OpenAI预计到今年年底年化营收将达到或超过700亿美元，增长主要来自企业业务扩张。知情人士表示，这家ChatGPT开发商截至9月底的年化营收约为500亿美元。年化营收是根据较短时期收入表现推算出的全年销售额。知情人士表示，OpenAI在最新一轮融资讨论过程中向投资者披露了上述数据。由于相关信息未公开，这些知情人士不愿具名。（新浪财经）",
+      "publishedAt": "2026-10-09T02:13:51.000Z",
+      "category": "finance",
+      "source": "36氪"
+    },
+    {
+      "sourceId": "36kr",
+      "title": "商务部公布2027年原油非国营贸易进口允许量总量、申请条件和申请程序",
+      "url": "https://36kr.com/newsflashes/4018011713687425?f=rss",
+      "excerpt": "36氪获悉，近日，商务部发布公告：根据《中华人民共和国货物进出口管理条例》和我国加入世贸组织的有关承诺，商务部制定了《2027年原油非国营贸易进口允许量总量、申请条件和申请程序》，现予公布。其中指出，2027年原油非国营贸易进口允许量为25700万吨。",
+      "publishedAt": "2026-10-09T02:12:52.000Z",
+      "category": "finance",
+      "source": "36氪"
+    },
+    {
+      "sourceId": "36kr",
+      "title": "广东汕头在全国率先推出“词元出海贷”",
+      "url": "https://36kr.com/newsflashes/4018001371795589?f=rss",
+      "excerpt": "针对词元出海企业普遍存在的轻资产抵押不足、跨境运营资金周转压力大的痛点，在中国人民银行广东省分行的指导下，中国人民银行汕头市分行联合汕头市财政局、汕头华侨试验区，推动中国银行汕头分行创新推出全国首个面向词元出海场景的专项金融服务方案——“词元出海贷”，并落地首笔100万元专项授信。（界面）",
+      "publishedAt": "2026-10-09T02:08:12.000Z",
+      "category": "finance",
+      "source": "36氪"
+    },
+    {
+      "sourceId": "36kr",
+      "title": "创业板指跌超2%",
+      "url": "https://36kr.com/newsflashes/4018005880950661?f=rss",
+      "excerpt": "36氪获悉，创业板指跌超2%，上证指数跌0.75%，深证成指跌1.55%，MLCC、PCB、CPO等AI硬件股领跌，沪深京三市下跌个股超4300只。",
+      "publishedAt": "2026-10-09T02:06:56.000Z",
       "category": "finance",
       "source": "36氪"
     },
@@ -3691,7 +3790,7 @@
       "sourceId": "36kr",
       "title": "中信建投：零碳园区有望成为绿色金融与产业投资共振的下一个主线",
       "url": "https://36kr.com/newsflashes/4017935898316677?f=rss",
-      "excerpt": "36氪获悉，中信建投证券研报称，在我国，园区兼具经济增长载体与碳排放管控场景的双重战略地位，在中央经济工作会议及多部门配套政策的指引下，零碳园区建设成为我国的系统性工程。根据中信建投测算，仅国家级零碳园区的零碳改造投入在千亿级。可持续金融工具层面，绿色信贷、ESG债券、绿色租赁等已具规模，与园区资本开支大、回收期长、部分资产现金流稳定的项目特征高度适配。鄂尔多斯蒙苏、盐城大丰港等案例已验证“低成本可溯源绿电+产业集聚”的商业闭环，零碳园区有望成为绿色金融与产业投资共振的下一个主线。",
+      "excerpt": "36氪获悉，中信建投证券研报称，在我国，园区兼具经济增长载体与碳排放管控场景的双重战略地位，在中央经济工作会议及多部门配套政策的指引下，零碳园区建设成为我国的系统性工程。根据中信建投测算，仅国家级零碳园区的零碳改造投入在千亿级。可持续金融工具层面，绿色信贷、ESG债券、绿色租赁等已具规模，与园区资本开��大、回收期长、部分资产现金流稳定的项目特征高度适配。鄂尔多斯蒙苏、盐城大丰港等案例已验证“低成本可溯源绿电+产业集聚”的商业闭环，零碳园区有望成为绿色金融与产业投资共振的下一个主线。",
       "publishedAt": "2026-10-09T01:37:31.000Z",
       "category": "finance",
       "source": "36氪"
@@ -3702,105 +3801,6 @@
       "url": "https://36kr.com/newsflashes/4017975001370755?f=rss",
       "excerpt": "36氪获悉，创业板指跌破3000点，2026年6月25日至今的70个交易日跌超31%，为2025年11月27日以来新低。",
       "publishedAt": "2026-10-09T01:35:32.000Z",
-      "category": "finance",
-      "source": "36氪"
-    },
-    {
-      "sourceId": "36kr",
-      "title": "Guggenheim旗下四大基金9月份遭投资者合计赎回24亿美元",
-      "url": "https://36kr.com/newsflashes/4017933244108929?f=rss",
-      "excerpt": "投资者9月份从Guggenheim Partners旗下四大共同基金撤出24亿美元，此前有报道称美国监管机构正在调查该公司首席执行官Mark Walter的商业往来。晨星估算显示，其中18亿美元流出Guggenheim Total Return Bond Fund，这是该公司规模最大的上市交易共同基金。流出规模相当于该基金管理资产的6.1%，其资产规模降至不到290亿美元。Guggenheim旗下共同基金9月份赎回规模较8月份的6.47亿美元以及7月份的1.03亿美元明显上升。（新浪财经）",
-      "publishedAt": "2026-10-09T01:32:06.000Z",
-      "category": "finance",
-      "source": "36氪"
-    },
-    {
-      "sourceId": "36kr",
-      "title": "央行今日开展20亿元7天期逆回购操作",
-      "url": "https://36kr.com/newsflashes/4017969300918149?f=rss",
-      "excerpt": "36氪获悉，央行今日开展20亿元7天期逆回购操作，操作利率为1.40%，与此前持平。",
-      "publishedAt": "2026-10-09T01:29:44.000Z",
-      "category": "finance",
-      "source": "36氪"
-    },
-    {
-      "sourceId": "36kr",
-      "title": "A股三大指数集体低开，波长光电跌超5%",
-      "url": "https://36kr.com/newsflashes/4017966713163905?f=rss",
-      "excerpt": "36氪获悉，A股三大指数集体低开，沪指跌0.21%，深成指跌0.51%，创业板指跌0.5%；海运、贵金属板块领涨，招商轮船涨2%，西部黄金涨超1%；通信设备、电子元器件板块跌幅居前，波长光电跌超5%，天孚通信跌超3%。",
-      "publishedAt": "2026-10-09T01:27:06.000Z",
-      "category": "finance",
-      "source": "36氪"
-    },
-    {
-      "sourceId": "36kr",
-      "title": "恒指开盘涨0.65%，恒生科技指数涨0.29%",
-      "url": "https://36kr.com/newsflashes/4017964630970503?f=rss",
-      "excerpt": "36氪获悉，恒指开盘涨0.65%，恒生科技指数涨0.29%；工业贸易与综合、银行板块涨幅居前，农业银行涨超2%，中信股份涨超1%；半导体、硬件设备板块领跌，长飞光纤光缆跌超3%，兆易创新跌超2%。",
-      "publishedAt": "2026-10-09T01:24:59.000Z",
-      "category": "finance",
-      "source": "36氪"
-    },
-    {
-      "sourceId": "36kr",
-      "title": "人民币兑美元中间价报6.7330元",
-      "url": "https://36kr.com/newsflashes/4017956418719876?f=rss",
-      "excerpt": "36氪获悉，人民币兑美元中间价报6.7330，上调37点；上一交易日中间价6.7367，上一交易日官方收盘价6.7014，上日夜盘报收6.7036。",
-      "publishedAt": "2026-10-09T01:16:37.000Z",
-      "category": "finance",
-      "source": "36氪"
-    },
-    {
-      "sourceId": "36kr",
-      "title": "速腾聚创：第三季度激光雷达总销量同比增长220.9%",
-      "url": "https://36kr.com/newsflashes/4017930870165376?f=rss",
-      "excerpt": "36氪获悉，速腾聚创宣布，2026年第三季度激光雷达总销量595,600台，同比增长220.9%，创单季历史新高。其中，ADAS领域激光雷达销量450,400台，同比增长200.1%；机器人领域激光雷达销量145,200台，同比增长309.0%。",
-      "publishedAt": "2026-10-09T01:09:21.000Z",
-      "category": "finance",
-      "source": "36氪"
-    },
-    {
-      "sourceId": "36kr",
-      "title": "北交所三月持有期基金密集发行，低估值下迎来布局窗口",
-      "url": "https://36kr.com/newsflashes/4017927653937025?f=rss",
-      "excerpt": "国庆假期后，首批北交所三个月持有期主题基金进入密集发行期。根据发行安排，富国基金旗下北交所三个月持有期基金募集时间为10月8日至10月21日；华夏基金、汇添富基金相关产品发售时间为10月12日至10月23日；南方、嘉实北交所三个月持有期基金则定于10月12日至10月30日发售。上述基金单只募集上限均为5亿元。在此之前，易方达北交所三个月持有期基金已于9月30日完成募集，并实现超募。华夏基金股票投资部总监顾鑫峰表示，在资金结构改善、估值优势、回购升温等因素推动下，当前正是布局北交所的较好窗口。（21财经）",
-      "publishedAt": "2026-10-09T01:04:11.000Z",
-      "category": "finance",
-      "source": "36氪"
-    },
-    {
-      "sourceId": "36kr",
-      "title": "Anthropic据悉组建专门团队对接2028年总统候选人",
-      "url": "https://36kr.com/newsflashes/4017925846814596?f=rss",
-      "excerpt": "据报道，美国人工智能初创公司Anthropic 正着手设立一个针对2028年大选的“总统级对接”计划，组建一支内部团队，直接就人工智能相关议题与美国两党总统候选人展开对接，协助公司高层制定政治策略，并负责运营公司的政治资助项目。（新浪财经）",
-      "publishedAt": "2026-10-09T01:00:19.000Z",
-      "category": "finance",
-      "source": "36氪"
-    },
-    {
-      "sourceId": "36kr",
-      "title": "中信证券：二手房成交超预期，前瞻更积极",
-      "url": "https://36kr.com/newsflashes/4017923607498883?f=rss",
-      "excerpt": "36氪获悉，中信证券研报称，2026年国庆假期期间，二手房成交量同比大幅增长57%，和2024年同期基本持平。按照包括中秋和国庆在内的更长时间段来看，2026年二手房成交明显较2024年和2025年更加活跃。中信证券认为2026年市场具备持续活跃基础，诸多重要指标水平更加合理，预计四季度表现将优于2024年同期。",
-      "publishedAt": "2026-10-09T00:56:00.000Z",
-      "category": "finance",
-      "source": "36氪"
-    },
-    {
-      "sourceId": "36kr",
-      "title": "橡胶价格大涨，超60家轮胎企业集体涨价",
-      "url": "https://36kr.com/newsflashes/4017935017054339?f=rss",
-      "excerpt": "今年以来，橡胶价格持续走高，截至10月8日收盘，上海期货交易所橡胶主力合约价格为每吨20145元，年内累计涨幅超28%，处于9年以来的高位。轮胎是天然橡胶最大的下游产品，橡胶原料价格的上涨，直接影响轮胎行业的成本和收益。据统计，9月以来，已有60余家轮胎企业集中发布了70多份涨价函，覆盖全钢胎、半钢胎、工程胎等全品类，调价幅度普遍在2%到5%。得益于国产新能源车海外市场的持续拓展，轮胎行业正聚焦高端配套市场，通过提升产品价值、构筑技术壁垒，对冲原料成���变化的不确定性。（央视财经）",
-      "publishedAt": "2026-10-09T00:54:51.000Z",
-      "category": "finance",
-      "source": "36氪"
-    },
-    {
-      "sourceId": "36kr",
-      "title": "苹果任命新任并购负责人",
-      "url": "https://36kr.com/newsflashes/4017922823638921?f=rss",
-      "excerpt": "苹果新一任并购主管，由史蒂夫·史密斯接替阿德里安·佩里卡；佩里卡将继续负责iCloud、Fitness+以及新闻业务。史密斯将向首席财务官基万·帕雷克汇报，并购团队重回财务部门管理，这是2019年以来首次。同时，卡森·奥利弗晋升为App Store副总裁。本次人事变动是苹果服务部门一系列领导层调整的一部分。埃迪·库将接管App Store及其他团队；佩里卡与奥利弗·舒瑟被视作库的潜在继任人选。（新浪财经）",
-      "publishedAt": "2026-10-09T00:53:17.000Z",
       "category": "finance",
       "source": "36氪"
     },
@@ -3893,6 +3893,114 @@
       "publishedAt": "2026-10-04T07:58:39.000Z",
       "category": "tech",
       "source": "少数派"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "“中国天眼”发现首个“还没长大”的三体系统，极具科研价值",
+      "url": "https://www.ithome.com/1/010/830.htm",
+      "excerpt": "IT之家 10 月 9 日消息，中国科学院国家天文台今日官宣，近期，国家天文台韩金林研究员带领国内多家单位的研究人员，结合 FAST 射电观测数据与国际上光学和伽马射线望远镜的多波段天文数据，揭示 FAST 发现的脉冲星 J0435+3233 属于首例尚在演化阶段的原生三体，这也是第二例被确认的脉冲星三体系统。 相关研究成果于北京时间 2026 年 10 月 9 日发表于《天体物理学杂志快报》（ApJL）。 据悉，脉冲星 J0435+3233 最早于 2020 年 6 月 8 日由国家天文台漂移扫描巡天团队通过 FAST 观测发现，其自转周期仅 3.2 毫秒。 新疆天文台后随观测团队利用 FA",
+      "publishedAt": "2026-10-09T02:30:02.000Z",
+      "category": "tech",
+      "source": "IT之家"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "ASML & 蔡司：未来 Hyper NA EUV 光刻机主要挑战为更低的可用景深",
+      "url": "https://www.ithome.com/1/010/829.htm",
+      "excerpt": "IT之家 10 月 9 日消息，ASML（阿斯麦）与其光学系统合作伙伴 ZEISS（蔡司）在一份 10 月 1 日发布的文章中表示，数值孔径≥0.75 的 Hyper NA EUV 光刻机有望支持 5nm“半间距”的光学分辨率，并在 10 年左右面世。 ▲ 现有 High NA EUV 光刻机 文章分析称，延续 13.5nm 波长并提升数值孔径至 0.75 是 High NA EUV 的合理演进。Hyper NA EUV 的技术挑战主要集中在更低的可用景深上，这需要更薄的光刻胶，同时改进扫描设备的聚焦控制、晶圆平整、工艺控制。 0.75 NA 的光学系统仅会略大于现有的 High NA EUV",
+      "publishedAt": "2026-10-09T02:29:49.000Z",
+      "category": "tech",
+      "source": "IT之家"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "国家邮政局：我国建成世界受益人数最多寄递网络，年人均快递使用量超 140 件",
+      "url": "https://www.ithome.com/1/010/827.htm",
+      "excerpt": "IT之家 10 月 9 日消息，据央视新闻报道，今天（9 日）是第 57 届世界邮政日。今年邮政日的主题是“完善邮政服务网络，开拓行业无限可能”。国家邮政局数据显示，我国已建成世界上规模最大、覆盖最广、受益人数最多的寄递网络，年人均快递使用量超 140 件。 我国持续拓展网络覆盖，京津冀、长三角、粤港澳大湾区、成渝地区、中部城市群等枢纽集群基本成型。依托“枢纽 + 通道 + 网络”，每秒超 6300 件、日均 5.4 亿件包裹进入寄递渠道，年人均快递使用量超过 140 件，快递服务全程平均时限和公众满意度持续提升。 除此之外，我国中西部 17 个试点县 2939 个建制村通过邮政兜底实现“快递",
+      "publishedAt": "2026-10-09T02:23:39.000Z",
+      "category": "tech",
+      "source": "IT之家"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "飞利浦弈威推出 27M4N8500V 显示器：2K 360Hz QD-OLED，3899 元",
+      "url": "https://www.ithome.com/1/010/826.htm",
+      "excerpt": "IT之家 10 月 9 日消息，飞利浦弈威推出 27M4N8500V 显示器，将于 10 月 13 日开始预约，10 月 16 日开售，电商页面显示到手价 3899 元，补贴到手价 3499 元。 IT之家获悉，这款显示器搭载全新一代 AI Sensor 智能感应器，支持人体位移和环境光变化双重自适应；两枚快捷键可一键切换专属配置文件；采用石墨烯 + 铝制散热模组。 这款显示器搭载了一块 26.5 英寸 2K（2560×1440）360Hz QD-OLED 屏幕，HDR 峰值亮度 1000nits；色域覆盖 99% DCI-P3、98% AdobeRGB，色准 ΔE <2。",
+      "publishedAt": "2026-10-09T02:22:14.000Z",
+      "category": "tech",
+      "source": "IT之家"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "微软升级 Win11 的 AI 框架，实验性支持 GGUF 与 ONNX 原生本地推理",
+      "url": "https://www.ithome.com/1/010/825.htm",
+      "excerpt": "IT之家 10 月 9 日消息，科技媒体 NeoWin 昨日（10 月 8 日）发布博文，报道称微软正与 llama.cpp 和 GGUF 开源社区合作，在 Windows 11 系统上升级 Windows ML，实验性原生支持 GGUF 与 ONNX 格式模型推理，并推出 Windows ML Runtime API。 在 Windows 与 Surface 十月活动中，微软介绍了 Windows ML 的最新进展。Windows ML 是微软面向 Windows 11 的本地 AI 推理框架，开发者可在设备端运行 AI 模型，构建文本生成、语音识别等应用，并减少对特定硬件优化的依赖。 微软",
+      "publishedAt": "2026-10-09T02:21:34.000Z",
+      "category": "tech",
+      "source": "IT之家"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "韩国自研高超音速滑翔飞行器试射成功，拥有低空不规则飞行能力",
+      "url": "https://www.ithome.com/1/010/824.htm",
+      "excerpt": "IT之家 10 月 9 日消息，据央视新闻报道，韩国总统府青瓦台 10 月 8 日通报称，韩国自主研发的高超音速滑翔飞行器（HGV）当天首次试射成功，总统李在明现场观看了此次试射。 通报称，此次试射旨在验证高超音速飞行环境下超高温耐热材料的性能、制导与控制能力，以及低空不规则飞行能力。 报道称，高超音速滑翔飞行器利用推进装置加速升至大气层上层后，与推进装置分离，并以较低高度进行滑翔飞行。在当天的试射中，飞行器升至预定高度后成功分离，并在高超音速飞行环境下按计划完成了飞行任务。",
+      "publishedAt": "2026-10-09T02:20:33.000Z",
+      "category": "tech",
+      "source": "IT之家"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "尊界刹车踏板事件第二天，江淮汽车股价再度跌停",
+      "url": "https://www.ithome.com/1/010/823.htm",
+      "excerpt": "IT之家 10 月 9 日消息，懂车帝昨日（10 月 8 日）发布视频，实测 3 台尊界 V800，称在 100km/h-0 紧急制动时刹车踏板支架被踩断，引发网络热议。事件发酵后，江淮汽车 10 月 8 日上午股价跌停，收盘 24.72 元 / 股。 10 月 9 日开盘后，江淮汽车再度跌停，目前股价 22.25 元 / 股。 IT之家 10 月 8 日晚报道，尊界汽车官方发布了关于尊界汽车制动踏板支架底座相关问题的情况说明，表示尊界汽车的制动系统，按照高于国家标准（GB 21670‑2025 / GB 7258‑2026）、高于行业标准（QC/T 788‑2018）的要求完成全流程开发与验",
+      "publishedAt": "2026-10-09T02:17:37.000Z",
+      "category": "tech",
+      "source": "IT之家"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "红魔 12 Pro+ 预热：号称行业首款 RGB 水冷手机",
+      "url": "https://www.ithome.com/1/010/822.htm",
+      "excerpt": "IT之家 10 月 9 日消息，今天（9 日）上午，红魔游戏手机官微持续预热新品红魔 12 Pro+。根据介绍，该机将是行业首款 RGB 水冷手机。 稍晚些时候，红魔游戏手机产品总经理 @红魔姜超 详细介绍了该机的水冷系统升级。相比 11 Pro+，新机的水冷系统面积更大、流道更厚，流道升级为上下双圈环流设计，全面覆盖整机热源。冷却液从微泵出发分成上下两路，上路覆盖 SOC，下路覆盖电池，最后汇合回流。流道延伸至风道区域，由风扇快速带走热量，实现风冷、水冷协同散热。 根据介绍，流道越大，对动力的要求就越高。因此新机换上了全新的双晶驱动微泵，就像给水冷系统换上了一颗更强的心脏，输出的压力从 10",
+      "publishedAt": "2026-10-09T02:15:47.000Z",
+      "category": "tech",
+      "source": "IT之家"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "微软调整 M365：“定向发布”渠道明年退役，更新细分成抢先体验 / 标准 / 延迟上线",
+      "url": "https://www.ithome.com/1/010/821.htm",
+      "excerpt": "IT之家 10 月 9 日消息，科技媒体 NeoWin 昨日（10 月 8 日）发布博文，报道称微软宣布将于 2027 年 1 月停用 Microsoft 365 的定向发布（Targeted Release）渠道，并以 Frontier、Standard 和 Deferred 三个统一发布偏好渠道替代。 IT之家注：定向发布是 Microsoft 365 原有的一种更新接收方式，让企业比公众更早获取 Office 应用新功能。企业可借此测试功能、安排支持团队，并通过反馈验证功能表现。 在停用后，微软将以 Frontier、Standard 和 Deferred 三个渠道替代定向发布： Fro",
+      "publishedAt": "2026-10-09T02:09:47.000Z",
+      "category": "tech",
+      "source": "IT之家"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "vivo OriginOS 7 正式开启首批升级，按尝鲜申请顺序分批推送",
+      "url": "https://www.ithome.com/1/010/819.htm",
+      "excerpt": "IT之家 10 月 9 日消息，vivo OriginOS 原系统官方宣布，OriginOS 7 今日正式开启首批升级。 IT之家附支持机型如下： vivo X Fold6 X Fold5 X300 Ultra 卫星通信版 X300 Ultra X300 Pro 卫星通信版 X300 Pro X300s X300 X300E vivo Pad6 Pro iQOO iQOO 15 Ultra iQOO 15 iQOO 15T iQOO Neo11 至尊版 iQOO Neo11 iQOO Pad6 Pro 推送时间： 每个机型按尝鲜申请顺序采取分批推送的形式，10 月 9 日 10:30 推送 5",
+      "publishedAt": "2026-10-09T02:09:34.000Z",
+      "category": "tech",
+      "source": "IT之家"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "亚马逊零售部门裁员数百人，发言人回应称做出了艰难决定",
+      "url": "https://www.ithome.com/1/010/811.htm",
+      "excerpt": "IT之家 10 月 9 日消息，亚马逊当地时间周三确认新一批裁员，主要是在其负责电子商务网站的 Stores 部门。 据 Business Insider 和路透社看到的内部 Slack 帖子，亚马逊客户服务、销售合作伙伴支持和零售工程团队也受到影响。两家媒体均援引知情人士的话，受影响员工不到 1,000 人。 此次裁员发生在周二和周三举行的“黄金大交易日”期间。秋季购物活动是亚马逊零售团队每年的重要里程碑之一。 “我们一直在关注团队结构，确保在为客户创新时能够快速前进，”亚马逊发言人当地时间周三晚间在电子邮件声明中表示。“我们调整了部分 Stores 业务，因为我们相信这种结构能更好地实现优",
+      "publishedAt": "2026-10-09T02:07:32.000Z",
+      "category": "tech",
+      "source": "IT之家"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "小米智能门锁 5C 猫眼版预售：支持关门自动上锁，国补后到手价 999.6 元起",
+      "url": "https://www.ithome.com/1/010/808.htm",
+      "excerpt": "IT之家 10 月 9 日消息，小米智能门锁 5C 猫眼版正式上架预售，国补后到手价 999.6 元起，京东日常售价 1176 元。 京东小米智能门锁 5C 猫眼 999.6 元直达链接 该产品升级自弹锁体，支持关门自动上锁；升级猫眼遮挡检测与逗留抓拍，新增远程开锁方式；提供多达 11 种便捷开锁方式，覆盖 AI 指纹、固定密码、访客密码、微信小程序、米家 APP 蓝牙 / 远程开锁、机械钥匙，还可选配小米手机、小米手表、小米手环、NFC 门卡开锁，适合全家不同年龄段人群使用。 门锁搭载全新自弹锁体，支持关门自动上锁，无需上提把手即可完成上锁。锁体采用离合结构内置设计，搭配直插式 C 级锁芯贯",
+      "publishedAt": "2026-10-09T02:01:48.000Z",
+      "category": "tech",
+      "source": "IT之家"
     },
     {
       "sourceId": "ithome",
@@ -4053,114 +4161,6 @@
       "url": "https://www.ithome.com/1/010/781.htm",
       "excerpt": "IT之家 10 月 9 日消息，RoboSense 速腾聚创今日宣布，2026 年第三季度激光雷达总销量 595,600 台，同比增长 220.9%，创单季历史新高。 ADAS 领域激光雷达销量 450,400 台，同比增长 200.1% 机器人领域激光雷达销量 145,200 台，同比增长 309.0% IT之家获悉，2026 年前三季度，RoboSense 激光雷达总销量达 1,314,800 台，其中 ADAS 领域激光雷达销量为 887,000 台，机器人领域激光雷达销量为 427,800 台。 延伸阅读 速腾聚创科技有限公司英文名为 RoboSense，成立于 2014 年，总部位于",
       "publishedAt": "2026-10-09T00:50:53.000Z",
-      "category": "tech",
-      "source": "IT之家"
-    },
-    {
-      "sourceId": "ithome",
-      "title": "字节 Seed 团队发现 DeepSeek“抽风”原因，长上下文可能性能漂移",
-      "url": "https://www.ithome.com/1/010/780.htm",
-      "excerpt": "IT之家 10 月 9 日消息，字节 Seed 团队今年 9 月底在预印本平台 arXiv 提交了一篇论文，谈到分块 KV 缓存压缩带来的相位敏感性，直指 DeepSeek“抽风”原因。 该研究评估了基础版和后训练版的 DeepSeek-V4-Flash 和 DeepSeek-V4-Pro，以及后训练后的 DeepSeek-V4.1-Flash。 模型通过分块 KV 缓存压缩以固定步幅将连续标记的窗口压缩为更少的缓存条目，能够减少长上下文推理的内存和注意力成本。 然而，这种压缩还引入了一个新的位置坐标：Token 的相位，或其相对于压缩窗口边界的位置。 该团队发现使用这种压缩的模型中存在系统性",
-      "publishedAt": "2026-10-09T00:49:58.000Z",
-      "category": "tech",
-      "source": "IT之家"
-    },
-    {
-      "sourceId": "ithome",
-      "title": "IDC 报告 2026Q3 全球 PC 出货量：联想同比降 22.6%、惠普降 30.9%、戴尔降 25.0%、苹果降 11.3%",
-      "url": "https://www.ithome.com/1/010/779.htm",
-      "excerpt": "IT之家 10 月 9 日消息，市场调查机构 IDC 昨日（10 月 8 日）发布博文，报告称 2026 年第三季度全球 PC 出货量为 6270 万台，同比下降 20.1%，较 2025 年同期的 7850 万台减少 1580 万台。 该季度出货量环比下降 9.1%。IDC 指出，第三季度通常高于第二季度，但本季度打破了这一季节性规律；这也是全球 PC 出货量连续第二个季度同比下滑。 原因方面，IDC 认为下滑的核心原因包括行业性提前备货。厂商与渠道商为应对内存驱动的价格上涨，在年初集中采购并囤积库存，提前消耗了本应出现在下半年的需求。 第三季度，渠道商主要消化上一季度已发往渠道的大量 PC",
-      "publishedAt": "2026-10-09T00:47:59.000Z",
-      "category": "tech",
-      "source": "IT之家"
-    },
-    {
-      "sourceId": "ithome",
-      "title": "实体游戏需求依旧旺盛，索尼 PS5 独占大作《漫威金刚狼》光盘版占首发销量 35%",
-      "url": "https://www.ithome.com/1/010/778.htm",
-      "excerpt": "IT之家 10 月 9 日消息，当地时间 8 日，据外媒 VGC 报道，索尼与失眠组开发的 PS5 独占大作《漫威金刚狼》，首发销量有 35% 来自实体光盘版。 The Game Business 公布的 Ampere 销量数据显示，尽管索尼近期确认将停止生产游戏光盘，《漫威金刚狼》的实体版依然卖得不错。 GSD 数据显示，《漫威金刚狼》在欧洲首发时，实体版销量占比达到 51%，高于 Ampere 统计的 35%。不过，各国玩家的购买习惯差异明显：英国有三分之二的销量来自数字版，法国则有超过三分之二来自实体版。 按照 Ampere 的统计，《漫威金刚狼》9 月售出约 216 万份，在 PS5 ",
-      "publishedAt": "2026-10-09T00:44:58.000Z",
-      "category": "tech",
-      "source": "IT之家"
-    },
-    {
-      "sourceId": "ithome",
-      "title": "新思科技拟寻求与中国 AI 实验室合作，在华加速芯片设计",
-      "url": "https://www.ithome.com/1/010/777.htm",
-      "excerpt": "IT之家 10 月 9 日消息，据日经亚洲报道，芯片设计软件龙头企业新思科技（Synopsys）表示，尽管美国政府收紧了对人工智能与半导体的出口管制，但公司计划通过与中国的大语言模型（LLM）构建者合作，利用其工具的 AI 版本，协助中国本土企业加速芯片研发进程。 当地时间 9 月 30 日，新思科技宣布与 OpenAI 签署多年期合作协议，双方将联手打造专用 AI 模型 GPT-Synopsys，旨在实现芯片设计流程的自动化并大幅缩短开发周期。 新思科技首席产品管理官拉维 · 苏布拉马尼亚姆（Ravi Subramanian）在接受采访时透露，公司正着手探索与中国 AI 实验室建立合作关系，",
-      "publishedAt": "2026-10-09T00:43:53.000Z",
-      "category": "tech",
-      "source": "IT之家"
-    },
-    {
-      "sourceId": "ithome",
-      "title": "苹果调整 iPhone 更新排序，推动 iOS 26 用户升级 iOS 27",
-      "url": "https://www.ithome.com/1/010/775.htm",
-      "excerpt": "IT之家 10 月 9 日消息，科技媒体 MacRumors 今天（10 月 9 日）发布博文，报道称苹果已调整 iPhone 系统更新显示顺序，将 iOS 27.0.1 置于主要位置，更主动地引导 iOS 26 用户升级至 iOS 27。 IT之家援引博文介绍，仍在运行 iOS 26 的 iPhone 用户打开在“设置”应用的“通用” → “软件更新”路径，此前位于页面首位的是 iOS 26.7.1，不过近期苹果已调整为 iOS 27.0.1。 苹果于 9 月 14 日发布 iOS 27。本次调整后，iOS 26.7.1 被移至“其他可用”区域，iOS 27.0.1 则成为用户首先看到的系统",
-      "publishedAt": "2026-10-09T00:28:04.000Z",
-      "category": "tech",
-      "source": "IT之家"
-    },
-    {
-      "sourceId": "ithome",
-      "title": "派拉蒙联手 CDPR 打造，曝《赛博朋克 2077》将被改编为真人电影",
-      "url": "https://www.ithome.com/1/010/774.htm",
-      "excerpt": "IT之家 10 月 9 日消息，当地时间 8 日，据外媒 Deadline 爆料，派拉蒙影业计划将畅销游戏《赛博朋克 2077》改编为真人电影，故事将以游戏中的赛博朋克世界为背景。 原作是波兰游戏开发商 CD Projekt Red 推出的动作冒险角色扮演游戏，影片将由制片人洛伦佐 · 迪 · 博纳文图拉与 CD Projekt Red 共同制作。 《赛博朋克 2077》的故事设定在一个反乌托邦式的未来世界，主要发生在虚构的加利福尼亚大都市夜之城。主角 V 是一名雇佣兵，因故不得不植入一枚储存着传奇摇滚歌手兼恐怖分子强尼 · 银手人格数据的生物芯片。 随着银手的意识逐渐侵占 V 的意识，两人必",
-      "publishedAt": "2026-10-09T00:27:36.000Z",
-      "category": "tech",
-      "source": "IT之家"
-    },
-    {
-      "sourceId": "ithome",
-      "title": "《极限竞速：地平线 6》PS5 版官宣北京时间 2027 年 1 月 27 日发售，498 港币起",
-      "url": "https://www.ithome.com/1/010/773.htm",
-      "excerpt": "IT之家 10 月 9 日消息，索尼 PlayStation 官方宣布，《Forza Horizon 6（极限竞速：地平线 6）》PS5 版将于北京时间明年 1 月 27 日发售。 目前这款游戏已在 PS5 港服商店开启预购，标准版售价 498 港币（IT之家注：现汇率约合 426.2 元人民币）、豪华版 714 港币（现汇率约合 611 元人民币）、尊享版 854 港币（现汇率约合 730.8 元人民币）。 游戏将支持与 Xbox、PC 平台跨平台联机及存档互通，同时提供 4K 30 帧画质模式和 60 帧性能模式。 延伸阅读 《极限竞速：地平线 6》此前已率先于 2026 年 5 月 19",
-      "publishedAt": "2026-10-09T00:27:10.000Z",
-      "category": "tech",
-      "source": "IT之家"
-    },
-    {
-      "sourceId": "ithome",
-      "title": "加州试图禁止“人机格斗赛”，指控已举办的对决赛事非法",
-      "url": "https://www.ithome.com/1/010/772.htm",
-      "excerpt": "IT之家 10 月 9 日消息，当地时间 8 日，据《纽约时报》报道，加州体育委员会向上个月举办人机格斗赛的科技初创公司 REK 发函，要求停止未经批准的比赛活动。 9 月 18 日，弗兰基 · 拉佩纳与 REK 的一台人形机器人展开对决。据称，机器人由真人通过远程虚拟现实系统操控。 据IT之家了解，REK 在官网自称“人形机器人格斗联盟”，参赛机器人或为众擎机器人的产品，换上了一个酷似《终结者》中机器人的头部。 9 月 30 日，REK CEO 西克斯 · 利夫在 X 平台晒出了这封通知函。加州体育委员会认定此前的比赛未经批准，要求利夫和 REK 不得在未获该委员会批准的情况下，在加州举办、",
-      "publishedAt": "2026-10-09T00:19:17.000Z",
-      "category": "tech",
-      "source": "IT之家"
-    },
-    {
-      "sourceId": "ithome",
-      "title": "消息称苹果并购业务换帅：Steve Smith 接任，团队时隔 7 年重回财务体系",
-      "url": "https://www.ithome.com/1/010/771.htm",
-      "excerpt": "IT之家 10 月 9 日消息，彭博社今天（10 月 9 日）发布博文，报道称新任首席执行官约翰 · 特努斯（John Ternus）再次推动苹果公司人事变动，任命 Steve Smith 接替 Adrian Perica 出任并购主管，并将并购团队时隔 7 年重新纳入财务部门。 Steve Smith，图源：LinkedIn IT之家援引博文介绍，本次人事变动来自内部知情人士，苹果公司尚未对外正式宣布： 人员新职务 / 职责汇报对象原职务或背景 Steve Smith并购（M&A）主管首席财务官 Kevan ParekhAdrian Perica 的长期副手，接手并购及企业发展业务。 Adr",
-      "publishedAt": "2026-10-09T00:18:14.000Z",
-      "category": "tech",
-      "source": "IT之家"
-    },
-    {
-      "sourceId": "ithome",
-      "title": "聊天机器人怂恿用户自残、挨饿，Character.AI 遭肯塔基州指控“产品存在缺陷”",
-      "url": "https://www.ithome.com/1/010/769.htm",
-      "excerpt": "IT之家 10 月 9 日消息，据路透社今天（9 日）上午报道，美国肯塔基州总检察长提交的一份新诉讼文件指控，AI 陪伴服务公司 Character.AI 旗下的聊天机器人曾怂恿用户割伤自己、挨饿，甚至自杀。肯塔基州此前以儿童安全问题为由起诉 Character.AI。 诉状称，Character.AI 的产品专门设计用来吸引儿童，把用户参与度放在儿童福祉之上，并诱导自杀、自残和孤立行为，还会实施心理操控。 当地时间 7 日，肯塔基州总检察长拉塞尔 · 科尔曼提交了未作删节的诉状。文件披露了多起据称发生在 2025 年的事件。其中一名用户因为自己的外貌而情绪低落，聊天机器人却辱骂对方“丑得要命",
-      "publishedAt": "2026-10-09T00:05:12.000Z",
-      "category": "tech",
-      "source": "IT之家"
-    },
-    {
-      "sourceId": "ithome",
-      "title": "OpenAI 推出 GPT-6.1 Sol Ultrafast 版：6 倍价格、最高 8 倍速度",
-      "url": "https://www.ithome.com/1/010/768.htm",
-      "excerpt": "IT之家 10 月 9 日消息，OpenAI Developers 官方宣布，OpenAI 正式在 API、Codex 和 ChatGPT Work 中推出 GPT-6.1 Sol 的 Ultrafast 版本。 该版本运行速度最高可达 Sol 标准版（Sol Standard）的 8 倍，定价为标准版的 6 倍（每百万 tokens 输入 12 美元（IT之家注：现汇率约合 80.5 元人民币），每百万 tokens 输出 60 美元（现汇率约合 402.7 元人民币））。 在 Codex 和 ChatGPT Work 中，该功能现已面向 Pro 500、符合条件的按量付费企业版 (usag",
-      "publishedAt": "2026-10-09T00:04:37.000Z",
-      "category": "tech",
-      "source": "IT之家"
-    },
-    {
-      "sourceId": "ithome",
-      "title": "苹果库克解释为何赶在 iPhone Duo 发布前交接：为特努斯创造有利开局",
-      "url": "https://www.ithome.com/1/010/767.htm",
-      "excerpt": "IT之家 10 月 9 日消息，本周三在接受《独立报》记者大卫 · 费兰（David Phelan）采访时，苹果前首席执行官蒂姆 · 库克（Tim Cook）表示，他于 9 月 1 日卸任 CEO，部分原因是在 iPhone Duo 发布前 8 天，为继任者约翰 · 特努斯（John Ternus）创造有利开局。 库克表示，这次交接“数年前就已启动”。他说，苹果希望打造一次可供后人借鉴的“教科书式”交接，并称整个过程基本符合其预期。 IT之家翻译库克采访内容如下： 这是一次有趣的转型。我们一开始就立志要打造史上最佳转型，一个可供后人借鉴学习的教科书式范例。实际上，这项工作早在几年前就开始了。 ",
-      "publishedAt": "2026-10-09T00:00:25.000Z",
       "category": "tech",
       "source": "IT之家"
     },
@@ -4526,6 +4526,51 @@
     },
     {
       "sourceId": "tmtpost",
+      "title": "《生化危机》重启，从大女主到大自嬷时代",
+      "url": "https://www.tmtpost.com/8161613.html",
+      "excerpt": "超级英雌才是上行期特供。",
+      "publishedAt": "2026-10-09T02:21:49.000Z",
+      "category": "tech",
+      "source": "钛媒体"
+    },
+    {
+      "sourceId": "tmtpost",
+      "title": "70 亿只花了 14%，壁仞为什么急着再募 40 亿",
+      "url": "https://www.tmtpost.com/8161238.html",
+      "excerpt": "壁仞 70 亿只用 14% 又募 40 亿：不是缺钱，是产能保证金的付款节奏在逼融资。",
+      "publishedAt": "2026-10-09T02:21:34.000Z",
+      "category": "tech",
+      "source": "钛媒体"
+    },
+    {
+      "sourceId": "tmtpost",
+      "title": "影视公司站在AI牌桌前：谁在梭哈，谁在观望，谁在裸泳",
+      "url": "https://www.tmtpost.com/8161608.html",
+      "excerpt": "我们盘点了A股和港股上市的27家上市公司，梳理了他们在AI领域的布局。",
+      "publishedAt": "2026-10-09T02:16:00.000Z",
+      "category": "tech",
+      "source": "钛媒体"
+    },
+    {
+      "sourceId": "tmtpost",
+      "title": "超级厄尔尼诺来了，我们的日常所需真会因它涨价吗？",
+      "url": "https://www.tmtpost.com/8161533.html",
+      "excerpt": "厄尔尼诺是不是“涨价按钮”？",
+      "publishedAt": "2026-10-09T02:05:52.000Z",
+      "category": "tech",
+      "source": "钛媒体"
+    },
+    {
+      "sourceId": "tmtpost",
+      "title": "“东方香”撕开440亿的增长口，国货香水的机会点在哪？",
+      "url": "https://www.tmtpost.com/8161530.html",
+      "excerpt": "440亿的增量窗口已经打开，但符号化的叙事只是入场券，气味、原料研发、调香人才，才是决定国货香水能走多远的底牌。",
+      "publishedAt": "2026-10-09T02:05:47.000Z",
+      "category": "tech",
+      "source": "钛媒体"
+    },
+    {
+      "sourceId": "tmtpost",
       "title": "人形机器人抢入口，工业机器人抢利润",
       "url": "https://www.tmtpost.com/8161596.html",
       "excerpt": "两种机器人，两种商业模式。",
@@ -4624,65 +4669,20 @@
       "source": "钛媒体"
     },
     {
-      "sourceId": "tmtpost",
-      "title": "特朗普为什么非要给AI改名字",
-      "url": "https://www.tmtpost.com/8161128.html",
-      "excerpt": "从AI到SI，AI巨头的反应并不整齐。",
-      "publishedAt": "2026-10-09T00:41:29.000Z",
-      "category": "tech",
-      "source": "钛媒体"
-    },
-    {
-      "sourceId": "tmtpost",
-      "title": "卖机器人“皮肤”之外，触觉厂商还想卖数据和模型",
-      "url": "https://www.tmtpost.com/8161374.html",
-      "excerpt": "2026年更像是机器人“皮肤”从技术样品走向产品化的一年；数据和模型的价值已经显现，但尚未形成可以独立验证的收入模式。",
-      "publishedAt": "2026-10-09T00:39:16.000Z",
-      "category": "tech",
-      "source": "钛媒体"
-    },
-    {
-      "sourceId": "tmtpost",
-      "title": "中金“三合一”落地，东兴、信达证券的员工终于笑了",
-      "url": "https://www.tmtpost.com/8161278.html",
-      "excerpt": "进入“大鱼吃大鱼”时代。",
-      "publishedAt": "2026-10-09T00:36:29.000Z",
-      "category": "tech",
-      "source": "钛媒体"
-    },
-    {
-      "sourceId": "tmtpost",
-      "title": "【钛晨报】中国人民银行发布人民币汇率的政策立场；尊界回应制动踏板支架底座断裂问题；苹果给开发者下硬规定：明年4月所有App必须适配折叠屏",
-      "url": "https://www.tmtpost.com/8161611.html",
-      "excerpt": "Manus完成超5亿美元新一轮融资；一汽、广汽声明：一汽丰田仍将作为独立运营主体存续；谷歌云推出Gemini智能代理，可自主执行企业多步骤任务；贝索斯首次明确表态：蓝色起源或将数年内IPO；新就业形态劳动者权益保障办法公开征求意见；特朗普据悉买入了最高2500万美元的Meta股票；世贸组织上调2026年全球货物贸易增长预期；安妮·卡森获得2026年诺贝尔文学奖",
-      "publishedAt": "2026-10-08T23:20:00.000Z",
-      "category": "tech",
-      "source": "钛媒体"
-    },
-    {
-      "sourceId": "tmtpost",
-      "title": "一块刹车踏板支架，让江淮一天蒸发62亿元？",
-      "url": "https://www.tmtpost.com/8161639.html",
-      "excerpt": "尊界V800陷入制动踏板争议，官方宣布优化设计并免费升级，江淮股价跌停，一天蒸发62亿元。",
-      "publishedAt": "2026-10-08T14:40:07.000Z",
-      "category": "tech",
-      "source": "钛媒体"
-    },
-    {
-      "sourceId": "tmtpost",
-      "title": "业绩失色，股价腰斩，西部材料仍要在高处定增“补血”",
-      "url": "https://www.tmtpost.com/8161567.html",
-      "excerpt": "近三成补流，现金流压力凸显",
-      "publishedAt": "2026-10-08T13:18:06.000Z",
-      "category": "tech",
-      "source": "钛媒体"
-    },
-    {
       "sourceId": "oschina",
       "title": "跳出 AI 试点陷阱：SUSE 企业级私有 AI 战略，用开源基础设施打通生产级落地",
       "url": "https://www.oschina.net/news/502904",
       "excerpt": "AI 发展正在经历一个非常明显的分水岭：大量企业已经跑完概念验证，做过 Demo 试点，但卡在 “从实验环境迈向生产部署” 这道鸿沟上。很多团队会遇到相似的困境：POC 阶段效果惊艳，一旦迁移到本地数据中心、离线隔离环境、多云混合架构，就会暴露出数据安全、厂商锁定、运维复杂度飙升、算力资源浪费等一系列现实难题。...",
       "publishedAt": "2026-10-09T01:55:35.000Z",
+      "category": "tech",
+      "source": "开源中国"
+    },
+    {
+      "sourceId": "oschina",
+      "title": "Meerkat服务器集群实时监控平台-基于go/telegram/influxdb的服务器监控系统",
+      "url": "https://www.oschina.net/news/502900",
+      "excerpt": "“meerkat”在中文中通常翻译为猫鼬或狐獴，属于獴科的一种小型食肉哺乳动物，原产于非洲南部,它们喜欢群居生活，跟小伙伴在一起的时候，总有一个专职“站岗放哨”的哨兵，发现危险后，通过不同频率组合的叫声传递超过20种信息，精准指示天敌类型(如鹰隼、狐狸)和方位，让其它小伙伴及时警觉危险。Meerkat服务器集群实时...",
+      "publishedAt": "2026-10-09T01:01:08.000Z",
       "category": "tech",
       "source": "开源中国"
     },
@@ -4935,15 +4935,6 @@
       "url": "https://www.oschina.net/news/502839",
       "excerpt": "这次更新两块内容。 1. 窗口渲染优化 开启时的确认弹窗增加「不再提示」 勾选后，下次直接开启，不再弹窗 取消勾选不会记住，下次还会弹 恢复出厂设置会清掉这个记录 2. 应用安装器支持可选 2.txt 没有 2.txt 不影响安装 有的话，每行写一个压缩包内已有文件名 安装时会把这些文件带进应用 列出的资源文件找不到，会报「...",
       "publishedAt": "2026-10-02T09:30:15.000Z",
-      "category": "tech",
-      "source": "开源中国"
-    },
-    {
-      "sourceId": "oschina",
-      "title": "团队使用 Codex 和 Claude Code，API Key 和模型权限怎么管？我开源了 Zentrola",
-      "url": "https://www.oschina.net/news/502836",
-      "excerpt": "一个人使用 AI Coding 工具时，事情很简单：申请一个 API Key，填进 Codex 或 Claude Code，然后开始工作。 但当使用者从一个人变成一个团队，原本简单的配置问题很快就会变成管理问题：真实 API Key 要不要发给每个人？新成员应该能用哪些模型？成员离职后如何撤销权限？上游服务商发生故障时，是否要通知所有人临时修改...",
-      "publishedAt": "2026-10-01T14:28:31.000Z",
       "category": "tech",
       "source": "开源中国"
     }
