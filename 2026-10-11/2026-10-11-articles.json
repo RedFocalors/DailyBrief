@@ -6,130 +6,130 @@
       "title": "morluto/rea",
       "url": "https://github.com/morluto/rea",
       "excerpt": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "meta": "TypeScript · ★ 73,708 · 🍴 15,577 · 📈 25,793 stars today",
+      "meta": "TypeScript · ★ 74,050 · 🍴 15,669 · 📈 25,793 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "借助 AI agent 对任意目标做逆向工程，覆盖范围从应用层行为一直下沉到原生二进制文件。项目把 agent 驱动的分析流程用于反编译、行为追踪与二进制解析等场景，适合安全研究员、逆向工程师和漏洞分析人员排查闭源软件的内部逻辑。"
+      "summary": "rea 用 AI Agent 做逆向工程，覆盖从应用层行为分析一路下探到原生二进制文件的场景。它把逆向流程交给可编排的智能体处理，减少手工调试与静态分析的工作量，适合安全研究员、漏洞分析人员以及需要理解闭源程序内部逻辑的开发者。"
     },
     {
       "sourceId": "github-trending",
       "title": "boykopovar/AnyPS5",
       "url": "https://github.com/boykopovar/AnyPS5",
       "excerpt": "Tool for automatic PS5 executables porting to Linux and Windows",
-      "meta": "C++ · ★ 26,981 · 🍴 2,264 · 📈 5,805 stars today",
+      "meta": "C++ · ★ 27,021 · 🍴 2,267 · 📈 5,805 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "把 PS5 可执行文件自动移植到 Linux 和 Windows 的工具。它通过自动解析并转换 PlayStation 5 平台的二进制，降低跨平台运行的适配成本，适合想让 PS5 程序在其他系统上跑起来的开发者与玩家尝试。"
+      "summary": "AnyPS5 是一款自动化移植工具，目标是把 PS5 平台的可执行文件迁移到 Linux 和 Windows 上运行。项目自动处理平台相关的二进制差异与系统调用，降低手动移植成本，适合想做跨平台游戏移植或研究 PlayStation 运行机制的技术玩家与开发者。"
     },
     {
       "sourceId": "github-trending",
       "title": "storytold/artcraft",
       "url": "https://github.com/storytold/artcraft",
       "excerpt": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
-      "meta": "Rust · ★ 14,590 · 🍴 2,304 · 📈 3,222 stars today",
+      "meta": "Rust · ★ 14,629 · 🍴 2,310 · 📈 3,222 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "面向艺术家、设计师和电影人的创作引擎，强调有意图的创作流程。它把生成能力嵌入可编排的工作流中，让创作者能控制风格与结果，而非随机出图，适合需要可复现、可调优视觉素材的影视与设计项目。"
+      "summary": "ArtCraft 是面向艺术家、设计师和电影人的创作引擎，强调有意图的创作流程，而非单纯的生成工具。它把素材、决策与迭代过程结构化，帮助创作者在项目中保持连贯的视觉语言，适合需要可控创作管线的专业创作者和团队。"
     },
     {
       "sourceId": "github-trending",
       "title": "cathrynlavery/diagram-design",
       "url": "https://github.com/cathrynlavery/diagram-design",
       "excerpt": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "meta": "HTML · ★ 48,999 · 🍴 3,095 · 📈 1,190 stars today",
+      "meta": "HTML · ★ 49,009 · 🍴 3,096 · 📈 1,190 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "给 Claude Code、Codex、Copilot、Cursor 等 AI 编程助手使用的编辑级图表设计规范，涵盖 44 种图表类型，输出自包含 HTML + SVG，不用阴影特效，也不用 Mermaid。适合需要在文档和技术写作中产出杂志级图表的开发者。"
+      "summary": "面向 Claude Code、Codex、GitHub Copilot、Cursor 等 AI 编码工具的编辑级图表设计规范，提供 44 种图表类型，输出自包含的 HTML 与 SVG，刻意避开阴影等花哨样式。用来替代 Mermaid 生成的粗糙图表，适合在文档和演示中追求专业视觉呈现的用户。"
     },
     {
       "sourceId": "github-trending",
       "title": "mksglu/context-mode",
       "url": "https://github.com/mksglu/context-mode",
       "excerpt": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-      "meta": "TypeScript · ★ 26,336 · 🍴 1,894 · 📈 178 stars today",
+      "meta": "TypeScript · ★ 26,342 · 🍴 1,897 · 📈 178 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "为 AI 编码 agent 优化上下文窗口：把工具输出放进沙箱，最高减少约 98% 的 token 占用，同时持久化会话记忆，并通过 MCP 与 hooks 在 17 个平台上统一路由。适合长时间运行 agent 任务、常被上下文塞满的开发者。"
+      "summary": "针对 AI 编码 agent 的上下文窗口优化方案：将工具输出沙箱化，宣称可减少约 98% 的 token 占用，同时持久化会话记忆，并通过 MCP 与 hooks 在 17 个平台上统一路由。适合长期使用编码 agent、受上下文长度和记忆丢失困扰的开发者。"
     },
     {
       "sourceId": "github-trending",
       "title": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
       "excerpt": "Skills for Real Engineers. Straight from my .agents directory.",
-      "meta": "Shell · ★ 284,548 · 🍴 23,815 · 📈 1,736 stars today",
+      "meta": "Shell · ★ 284,577 · 🍴 23,815 · 📈 1,736 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "来自作者 .agents 目录的实战技能集，定位是给真正的工程师使用。内容以可直接复用的 agent 技能配置为主，帮助开发者把日常编码、重构与调试交给 AI 助手执行，适合想让 AI 编程工具贴合实际工程习惯的人。"
+      "summary": "mattpocock/skills 收录了面向真实工程师的 AI coding skills，直接来自作者的 .agents 目录。内容偏向工程实践中的具体工作流与技巧，可作为 Claude Code 等 agent 工具的配置参考，适合想让 AI 辅助编码更贴合真实项目需求的开发者。"
     },
     {
       "sourceId": "github-trending",
       "title": "flutter/flutter",
       "url": "https://github.com/flutter/flutter",
       "excerpt": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
-      "meta": "Dart · ★ 179,536 · 🍴 33,601 · 📈 88 stars today",
+      "meta": "Dart · ★ 179,540 · 🍴 33,602 · 📈 88 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Google 开源的跨平台 UI 框架，用一套 Dart 代码构建移动、桌面与 Web 应用。自带渲染引擎和丰富的组件库，支持热重载，能快速做出接近原生体验的界面，适合需要多端统一交付的应用开发团队。"
+      "summary": "Flutter 是 Google 开源的跨平台 UI 框架，用一套 Dart 代码即可构建移动端、桌面端和 Web 应用，并保持接近原生的性能与一致外观。自带丰富的 Material 与 Cupertino 组件以及热重载能力，适合需要快速交付多端产品的移动与前端开发者。"
     },
     {
       "sourceId": "github-trending",
       "title": "tensorflow/tensorflow",
       "url": "https://github.com/tensorflow/tensorflow",
       "excerpt": "An Open Source Machine Learning Framework for Everyone",
-      "meta": "C++ · ★ 200,732 · 🍴 78,965 · 📈 26 stars today",
+      "meta": "C++ · ★ 200,737 · 🍴 78,967 · 📈 26 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Google 开源的端到端机器学习框架，覆盖数据预处理、模型构建、训练到部署的完整流程。支持多语言与多种硬件加速，并提供 TF Lite、TF Serving 等部署工具，适合从研究到生产的各类机器学习团队。"
+      "summary": "TensorFlow 是 Google 推出的开源机器学习框架，覆盖从数据预处理、模型训练到部署上线的完整流程，支持 CPU、GPU、TPU 以及移动端和浏览器端推理。生态包含 Keras、TensorBoard 等工具，适合研究者与工程团队构建生产级 AI 应用。"
     },
     {
       "sourceId": "github-trending",
       "title": "hugohe3/ppt-master",
       "url": "https://github.com/hugohe3/ppt-master",
       "excerpt": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
-      "meta": "Python · ★ 59,503 · 🍴 4,689 · 📈 461 stars today",
+      "meta": "Python · ★ 59,518 · 🍴 4,691 · 📈 461 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "用 AI 把文档或选题直接生成原生 PowerPoint 演示文稿，保留原生形状、切换与动画，可按需生成带数据支撑的图表和表格，并能用演讲者备注合成语音旁白。适合需要快速产出可编辑正式 PPT 的职场用户。"
+      "summary": "ppt-master 用 AI 把文档或主题直接转换成原生 PowerPoint 文件，保留真正的形状、切换与动画效果，可按需生成带数据来源的图表和表格，并能依据演讲者备注合成音频旁白。适合需要批量产出可编辑汇报材料的职场用户。"
     },
     {
       "sourceId": "github-trending",
       "title": "pytorch/pytorch",
       "url": "https://github.com/pytorch/pytorch",
       "excerpt": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-      "meta": "Python · ★ 104,148 · 🍴 31,956 · 📈 84 stars today",
+      "meta": "Python · ★ 104,150 · 🍴 31,957 · 📈 84 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "以张量和动态神经网络为核心的 Python 深度学习框架，提供强大的 GPU 加速能力。凭借动态计算图和直观的调试体验，它成为学术研究与工业界训练模型的主流选择，适合研究者与工程师构建并训练各类神经网络。"
+      "summary": "PyTorch 是 Meta 主导的开源深度学习框架，以张量计算和动态神经网络为核心，提供 Python 优先的接口和强大的 GPU 加速能力。调试直观、生态完善，广泛用于学术研究与工业界的模型训练和部署，是当前主流的 AI 开发框架之一。"
     },
     {
       "sourceId": "github-trending",
       "title": "huggingface/transformers",
       "url": "https://github.com/huggingface/transformers",
       "excerpt": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
-      "meta": "Python · ★ 167,277 · 🍴 34,797 · 📈 96 stars today",
+      "meta": "Python · ★ 167,283 · 🍴 34,798 · 📈 96 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Hugging Face 维护的模型定义框架，为文本、视觉、音频和多模态的前沿机器学习模型提供统一接口，同时覆盖推理与训练。配套庞大的预训练模型库，是研究者与工程师加载、微调和部署大模型的基础设施。"
+      "summary": "Hugging Face Transformers 是主流的模型定义与加载框架，汇集了文本、视觉、音频及多模态方向的前沿预训练模型，同时支持推理与训练。统一 API 让研究者与开发者用几行代码即可调用或微调模型，是 NLP 与多模态工程的事实标准库。"
     },
     {
       "sourceId": "github-trending",
       "title": "anthropics/knowledge-work-plugins",
       "url": "https://github.com/anthropics/knowledge-work-plugins",
       "excerpt": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-      "meta": "Python · ★ 28,832 · 🍴 3,278 · 📈 625 stars today",
+      "meta": "Python · ★ 28,838 · 🍴 3,278 · 📈 625 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Anthropic 开源的插件仓库，主要面向知识工作者，供其在 Claude Cowork 中使用。插件扩展 Claude 在文档处理、信息整理等日常办公场景里的能力，适合希望把 AI 助手接入实际知识工作流的团队与个人。"
+      "summary": "Anthropic 开源的插件仓库，主要面向知识工作者，用于在 Claude Cowork 中扩展能力。插件把日常知识工作中的重复流程封装为可复用模块，适合文档处理、信息整理、会议与资料汇总等场景的用户按需安装使用。"
     },
     {
       "sourceId": "github-trending",
       "title": "multica-ai/andrej-karpathy-skills",
       "url": "https://github.com/multica-ai/andrej-karpathy-skills",
       "excerpt": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "meta": "★ 218,306 · 🍴 21,983 · 📈 278 stars today",
+      "meta": "★ 218,317 · 🍴 21,984 · 📈 278 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "一个单独的 CLAUDE.md 文件，用来改善 Claude Code 的行为，内容源自 Andrej Karpathy 对 LLM 写代码常见坑点的观察。把它放进项目即可让 AI 助手少犯典型错误，适合重度使用 Claude Code 的开发者参考。"
+      "summary": "一份单个 CLAUDE.md 配置文件，用来改善 Claude Code 的行为表现，内容源自 Andrej Karpathy 对 LLM 写代码常见坑点的观察。开发者可直接放进项目，让 agent 少犯低级错误，适合日常使用 Claude Code 的工程师参考借鉴。"
     },
     {
       "sourceId": "v2ex-hot",
@@ -162,7 +162,7 @@
       "sourceId": "v2ex-hot",
       "title": "那些托管在国外的真正家庭中的机器（mac mini/主机）用 claude 真的会封吗？",
       "url": "https://www.v2ex.com/t/1247639",
-      "excerpt": "40 回复 · 程序员 节点",
+      "excerpt": "41 回复 · 程序员 节点",
       "publishedAt": "2026-10-10T07:25:39.000Z",
       "category": "tech",
       "source": "V2EX"
@@ -635,7 +635,7 @@
       "meta": "👍 68",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "MiMo-V2.6 系列全模态模型，通过在 RL 前进行 mid-training 并规模化强化学习算力，推动基础模型智能与自我改进能力提升，报告详述其面向自我改进的 RL 训练范式与扩展策略。"
+      "summary": "MiMo-V2.6 是面向自我改进的全模态模型系列，核心思路是在 RL 之前先做 mid-training，再大幅扩展强化学习算力以推进模型智能前沿，报告了该范式下的训练方法与能力表现。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -646,7 +646,7 @@
       "meta": "👍 51",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "现有自我中心世界模型多只面向单智能体，多智能体模型又依赖移动等粗粒度动作。本文提出支持细粒度具身交互的多智能体自我中心世界模型，在共享环境中预测各智能体的第一人称观测与交互结果。"
+      "summary": "现有第一人称世界模型多针对单智能体、依赖粗粒度动作，难以刻画共享环境中的交互。本文提出多智能体自我中心世界模型，支持细粒度具身交互下的首视角观测预测。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -657,7 +657,7 @@
       "meta": "👍 41",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "一本系统介绍大语言模型基础概念的著作，共六章，分别覆盖预训练、生成模型、提示、对齐等关键主题，侧重基础原理而非罗列全部前沿技术，适合作为入门与教学参考。"
+      "summary": "一本面向大语言模型基础概念的教材，分六章系统讲解预训练、生成模型、提示与对齐等主题，侧重基础原理梳理，而非全面覆盖所有前沿技术。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -668,7 +668,7 @@
       "meta": "👍 37",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "大模型正参与高风险决策，判断单条回答是否可信、何时应当弃权仍很困难，因为模型会自信地给出错误答案。本文提出 U-Space，系统刻画语言模型中不确定性出现的时间与成因，为可靠性判断提供依据。"
+      "summary": "针对 LLM 高风险决策中「何时该拒答」的难题，提出 U-Space 框架，揭示不确定性在语言模型内部何时、因何产生，为判断单个回答可信度提供依据。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -679,7 +679,7 @@
       "meta": "👍 34",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "以单一参考解评估 LLM 编码智能体生成的测试会忽略其他合法实现，并高估测试质量。本文提出 TestPrism 评估框架，从多实现视角重新审视测试有效性，避免单一参考带来的系统性偏差。"
+      "summary": "LLM 编码 agent 生成的测试通常只对照单一参考解评估，忽略其他有效实现并高估测试质量。本文提出 TestPrism，在多样有效实现下重新评估测试质量。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -690,7 +690,7 @@
       "meta": "👍 32",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "在陌生环境中行动需推断世界运行规律并随新证据修正，而有限观测往往支持多种世界模型。本文提出 Memento 3，通过反思式「规则手册」实现基于模型的递归自我改进，使智能体在不确定下持续更新认知。"
+      "summary": "陌生环境中有限观测往往支持多个世界模型，它们在未见状态上预测不同。Memento 3 提出「反思式规则手册」，实现基于模型的递归自我改进，随新证据修正世界理解。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -701,7 +701,7 @@
       "meta": "👍 29",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "单一奖励信号难以覆盖人类偏好全貌，本文提出一种简单有效的开放域文生图后训练方案，将偏好奖励与评分标准（rubric）奖励组合使用，以提升前沿文生图模型的生成质量与偏好对齐。"
+      "summary": "单一奖励信号难以覆盖人类偏好全貌，导致文生图模型后训练困难。本文提出组合偏好奖励与评分标准奖励的后训练方案，用于提升开放域文本到图像生成模型。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -712,7 +712,7 @@
       "meta": "👍 24",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "单图、多图与视频深度研究需要不同视觉操作，但共享视觉定位、外部检索与事实整合流程。本文提出统一多模态深度研究智能体 OneSearch-VL，在流程中保持视觉锚点、实体关系与来源事实间的依赖。"
+      "summary": "单图、多图与视频深度研究需要不同视觉操作，却共享视觉定位、外部检索与事实整合流程。OneSearch-VL 统一多模态深度研究 agent，保持视觉锚点与实体关系依赖。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -723,7 +723,7 @@
       "meta": "👍 18",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "多数机器人策略仍在控制回路中保留模型，例如 VLA 将观测映射为动作、运行时调用 VLM 决策。本文将具身世界视为「具身图灵机」，以有状态代码作为带子，支持机器人的递归自我改进。"
+      "summary": "多数机器人策略把模型留在控制回路中，用 VLA 映射观测到动作。本文提出「具身图灵机」视角，以状态化代码替代运行时查询 VLM 的 agent 框架，支撑机器人递归自我改进。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -734,7 +734,7 @@
       "meta": "👍 17",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "长上下文智能体不断累积交互历史，使 KV-cache 内存与注意力计算承压；稀疏注意力可降低成本，但异构缓存表示与工作流难以接入现有推理引擎。本文提出稀疏优先的推理引擎 SparseEngine。"
+      "summary": "长上下文 agent 的交互历史使 KV-cache 显存与注意力计算吃紧。SparseEngine 提出稀疏优先推理引擎，解决异构缓存表示难以集成进现有推理框架的问题，降低服务开销。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -745,7 +745,7 @@
       "meta": "👍 15",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "多模态大模型正走向连续音视频推理，亟需能暴露能力上限的评测。音视频描述是理想诊断任务，但现有基准在整句相似度与细粒度之间权衡。本文提出深度结构化评测框架 OmniCapBench。"
+      "summary": "多模态大模型正走向音视频连续推理，本文提出 OmniCapBench 深度结构化评测框架，面向细粒度音视频描述任务，兼顾整体打分与细粒度指标以暴露模型能力边界。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -756,7 +756,7 @@
       "meta": "👍 14",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "长程编码智能体需要及时纠错，但反馈若误判当前进展或未触及根本问题反而有害。现有 critic 只评估轨迹并生成反馈，很少跟踪反馈之后的后果。本文提出 Opera 语言化 critic 框架以提升反馈有效性。"
+      "summary": "长程编码 agent 需要及时纠错，但反馈可能误判进行中的工作或未触及根本问题。Opera 提出语言化批评者框架，追踪反馈之后的执行结果，从而提升纠错的有效性。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -767,7 +767,7 @@
       "meta": "👍 14",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "大模型日益被用作交互智能体与行为模拟器，但其能否恢复表层动作频率之外的潜在序列结构仍不清楚，这对行为模拟尤为关键。本文通过受控实验系统考察 LLM 的序列结构推理与生成能力。"
+      "summary": "通过受控实验考察 LLM 能否恢复潜在序列结构，而非仅拟合表层动作频率；这一能力对行为模拟至关重要，因为动作常受先前情境而非即时频率影响。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -778,7 +778,7 @@
       "meta": "👍 12",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "RLVR 常重复使用同一批 rollout 做多次策略更新，加大当前策略与数据生成策略的偏差。本文发现裁剪式策略优化中存在依赖符号的梯度饥饿问题，并提出 ReSPO（重塑序列策略优化）加以缓解。"
+      "summary": "RLVR 常跨多次策略更新复用 rollout，加剧当前策略与数据生成策略的失配。本文发现裁剪式策略优化存在符号相关的梯度饥饿问题，提出 ReSPO 重塑序列策略优化加以缓解。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -789,7 +789,7 @@
       "meta": "👍 9",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "长程智能体需压缩历史以在有限上下文内继续，但纯文本摘要未必能支撑后续所有决策。本文提出 REMORY，用神经记忆网络在摘要之外补充一段有界的软记忆 token 序列，提升压缩后的决策质量。"
+      "summary": "长程 agent 需压缩历史以适配有限上下文窗口，但纯文本摘要难以支撑后续所有决策。REMORY 提出残差记忆网络，用有界的软记忆 token 序列为摘要补充神经记忆。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -800,7 +800,7 @@
       "meta": "👍 8",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "在指标明确的科学发现任务上 AI 进展迅速，但能否自主开展开放式科学发现仍不清楚。本文在开放世界环境 Station 中考察多智能体系统应对开放式科学任务的能力，给出其可行性与局限的经验证据。"
+      "summary": "现有 AI 科学发现进展多在有明确指标时取得，能否自主开展开放式研究仍不清晰。本文在开放世界环境 Station 中考察多智能体系统完成开放式科学发现任务的能力。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -811,7 +811,7 @@
       "meta": "👍 8",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "黑箱优化广泛存在于目标评估昂贵受限的科学与工程问题中。LLM 智能体可结合任务语义、计算、优化工具与反馈进行决策。本文对面向黑箱优化的 LLM 智能体进行系统基准评测，厘清其适用范围。"
+      "summary": "黑箱优化中目标评估昂贵且受限，LLM agent 可结合任务语义、计算与优化工具及反馈进行决策。本文对 agentic BBO 展开系统基准评测，分析各类 agent 的能力与局限。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -822,7 +822,7 @@
       "meta": "👍 8",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "当检索证据与先验信念冲突时，智能体是修正答案、承认不确定性，还是坚持错误结论？现有评测只看任务成功率。本文提出方法评测 LLM 智能体在知识冲突下的认知谦逊，揭示「准确但并不谦逊」的现象。"
+      "summary": "当检索证据与 agent 既有信念冲突时，它会修正答案、承认不确定性，还是坚持错误结论？本文提出评估基准，超越任务成功率来考察 LLM agent 的认知谦逊性。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -833,7 +833,7 @@
       "meta": "👍 8",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "空间推理是 VLM 的长期短板，因为 RGB 输入不直接提供几何证据。现有方案或在推理时注入 3D 带来架构与延迟开销，或仅用结果奖励监督。本文提出路由式 3D 特权蒸馏以提升 VLM 空间推理能力。"
+      "summary": "RGB 输入缺乏几何证据，使空间推理成为 VLM 的持续短板。本文提出路由式 3D 特权蒸馏，训练时引入 3D 信息而以结果奖励监督，推理时无需增加架构与延迟开销。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -844,7 +844,7 @@
       "meta": "👍 7",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "工具调用智能体已成为企业 AI 核心，但商业与法律限制使企业系统、数据与数据库 schema 难以获取，制约其训练与评测。本文提出通过可扩展的智能体-系统交互进行模拟，合成连贯的企业数据。"
+      "summary": "企业工具调用 agent 的训练与评测受业务、法律及数据库 schema 限制。本文通过可扩展的 agent 与系统交互模拟，合成连贯的企业表格数据，缓解真实数据难以获取的问题。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -1404,7 +1404,7 @@
       "publishedAt": "2026-10-10T22:07:17.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "Latent Space 发布订阅者专属通知：纽约订阅者线下聚会将于明日及周二举行，仅限已订阅用户参加。"
+      "summary": "Latent Space 发布订阅者专属通知，将在纽约举办订阅者聚会活动，时间为明天和周二，仅限收到该消息的订阅者参与。"
     },
     {
       "sourceId": "latent-space",
@@ -1413,8 +1413,7 @@
       "excerpt": "Inside Standard Bots’ AI stack, pretrained models learn factory tasks from demonstrations and improve through corrections from real deployments.",
       "publishedAt": "2026-10-10T14:04:11.000Z",
       "category": "tech",
-      "source": "Latent Space",
-      "summary": "Latent Space 介绍工业机器人公司 Standard Bots 的 AI 技术栈：预训练模型通过演示学习工厂任务，并依据真实部署中的纠正反馈持续改进，以实现可靠执行。"
+      "source": "Latent Space"
     },
     {
       "sourceId": "latent-space",
@@ -1677,7 +1676,7 @@
       "category": "tech",
       "meta": "@satyanadella · 9.6M 粉丝 · 448.2K 阅 · 1.3K 赞 · 183 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "纳德拉谈超级智能时代的「内部风险」：过去几十年传统软件可把行为追溯到具体代码路径，而 AI 模型的行为难以用同样方式溯源，由此引出治理与可观测性层面的新挑战。"
+      "summary": "纳德拉提出「模型即内部风险」：过去几十年传统软件可以把行为追溯到具体代码路径，而超级智能时代的模型缺少同等溯源与可解释能力，需要新的治理和观测手段。属于概念性长文，不是操作教程。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -1688,7 +1687,7 @@
       "category": "tech",
       "meta": "@NicholasDulait · 3.7K 粉丝 · 226.7K 阅 · 503 赞 · 38 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "博主把一份原本不打算发布的 AI SEO 深度教程公开，用 Claude Opus 5.5 做 SEO，自称是目前最系统的课程且免费，内容涵盖如何挑选真正能赚钱的关键词、内容搭建等环节。"
+      "summary": "博主发布一篇原本不打算公开的免费长文，系统讲用 Claude Opus 5.5 做 SEO：从挑选真正有付费价值的关键词，到内容搭建的完整流程。自称是 AI 做 SEO 最深入的课程，属于实操型干货，非泛泛技巧。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -1699,7 +1698,7 @@
       "category": "tech",
       "meta": "@michaeljburry · 2.1M 粉丝 · 133.3K 阅 · 504 赞 · 56 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "Michael Burry 撰文讨论 AI 云计算的寡头格局，从「别人的钱」、市场宽度与市场结构切入，比较这次与以往泡沫的不同，并指出一个正在闪烁的熊市指标。"
+      "summary": "Michael Burry 谈 AI 云厂商的寡头格局：从「别人的钱」、市场广度与市场结构切入，认为这次和以往不同，并提到一个正在闪烁的熊市指标。偏投资观点与风险提示，不是技术教程。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -1710,7 +1709,7 @@
       "category": "tech",
       "meta": "@satyanadella · 9.6M 粉丝 · 82.6K 阅 · 587 赞 · 73 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "纳德拉提出「无限 SaaS 工厂」的设想：如今工作中大量时间仍花在与软件周旋上——反复切换应用、重建上下文、把意图翻译成各系统要求的操作步骤，AI 有望改写这套模式。"
+      "summary": "纳德拉谈「无限 SaaS 工厂」：如今大量工作仍耗在绕软件打转——在应用间来回切换、反复重建上下文、把意图翻译成各系统要求的操作步骤。AI 将改变这种交互方式，软件形态会被重写。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -1721,7 +1720,7 @@
       "category": "tech",
       "meta": "@igus_ai · 157.8K 粉丝 · 76.2K 阅 · 526 赞 · 7 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "针对 Claude Code 最高档订阅每年 2400 美元的成本，博主给出约 10 分钟即可完成的替代方案：用一个免费终端 agent 承接日常编码，并附上完整配置步骤。"
+      "summary": "作者算了笔账：Claude Code 顶级方案一年约 2400 美元，于是给出用免费终端 agent 替代的完整配置流程，号称 10 分钟搞定，能避开中午就撞上使用上限的窘境。属于省钱向的工具替代教程。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -1732,7 +1731,7 @@
       "category": "tech",
       "meta": "@0xMorlex · 3.3K 粉丝 · 62.3K 阅 · 500 赞 · 44 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "指出目前 agent 的「外壳」（机器、登录、记忆、例程）与驱动它的大脑通常由同一家公司打包出售，博主用 10 个步骤拆解如何以 Grok Bot 搭配 Opus 5.5 自建 agent harness。"
+      "summary": "核心观点：现有 agent 都是「躯壳」与「大脑」打包出售，harness（机器、登录、记忆、例程）和驱动它的模型来自同一家公司。作者给出 10 步方案，用 Grok Bot 搭配 Opus 5.5 自行拼装解耦的 agent harness。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -1743,7 +1742,7 @@
       "category": "tech",
       "meta": "@rabi_guha · 3.1K 粉丝 · 52.8K 阅 · 622 赞 · 31 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "ChatGPT 上线生成式 UI 并把这一方向更名为 Intelligent UI 后，博主团队对其实现方式做了逆向分析，发布一份研究 OpenAI 如何落地这套界面机制的深度文章。"
+      "summary": "ChatGPT 上线生成式 UI 并把该领域改名为 Intelligent UI 后，作者团队做了一次逆向工程，深度拆解 OpenAI 的实现路径与运作机制。属于技术分析类内容，关注架构细节而非使用教程。"
     },
     {
       "sourceId": "solidot",
@@ -2383,7 +2382,7 @@
       "publishedAt": "2026-10-10T23:44:15.000Z",
       "category": "politics",
       "source": "NPR World",
-      "summary": "沙特当局称，首都利雅得国际机场遭袭，造成12人死亡、300多人受伤。死者包括4名沙特公民、2名孟加拉国公民，以及1名巴勒斯坦人、1名美国公民等。"
+      "summary": "沙特当局表示，首都利雅得国际机场遭袭击，造成12人死亡、300余人受伤。死者中包括4名沙特公民、2名孟加拉国公民，以及巴勒斯坦和美国公民各一名。"
     },
     {
       "sourceId": "npr-world",
@@ -2393,7 +2392,7 @@
       "publishedAt": "2026-10-10T21:40:58.000Z",
       "category": "politics",
       "source": "NPR World",
-      "summary": "贝叶挂毯赴伦敦巡展，带动爱好者在英国重演近千年前的黑斯廷斯战役，吸引大批民众到场观看。"
+      "summary": "英国举行黑斯廷斯战役重演活动，吸引大批爱好者参加。这场战役发生在近一千年前，此次重演正值贝叶挂毯赴伦敦巡展，带动了公众的关注热情。"
     },
     {
       "sourceId": "npr-world",
@@ -2403,7 +2402,7 @@
       "publishedAt": "2026-10-10T21:32:53.000Z",
       "category": "politics",
       "source": "NPR World",
-      "summary": "利雅得机场遇袭后，特朗普正权衡是否加入打击胡塞武装。此前一周，沙特领导的联军对胡塞武装发起大规模军事攻势，针对沙特多座机场、军事设施和石油基础设施的袭击随之激增。"
+      "summary": "利雅得机场袭击发生后，特朗普正权衡是否加入打击胡塞武装的行动。近一周内，沙特多座机场、军事设施和石油基础设施接连遇袭，此前沙特领导的联军对胡塞武装发动了大规模军事攻势。"
     },
     {
       "sourceId": "npr-world",
@@ -2413,7 +2412,7 @@
       "publishedAt": "2026-10-10T21:19:57.000Z",
       "category": "politics",
       "source": "NPR World",
-      "summary": "印度首都部分地区实施封锁。针对选民名册大幅修订的抗议活动遭到警方大规模镇压。印度为世界人口最多的民主国家。"
+      "summary": "印度首都部分地区实施封锁，针对选民名册大规模修订的抗议活动遭到警方强力镇压。印度为全球人口最多的民主国家。"
     },
     {
       "sourceId": "npr-world",
@@ -2423,7 +2422,7 @@
       "publishedAt": "2026-10-10T11:40:53.000Z",
       "category": "politics",
       "source": "NPR World",
-      "summary": "美俄共同宣传一项柴油协议，以放松制裁并恢复燃料流通，但细节甚少，价格影响与美方政策走向仍不明朗，引发乌克兰及其盟友不满。"
+      "summary": "美国与俄罗斯宣布达成柴油协议，以放松制裁并恢复燃油流通，但细节有限，价格影响及美方政策走向仍不明朗，引发乌克兰及其盟友不满。"
     },
     {
       "sourceId": "npr-world",
@@ -2433,7 +2432,7 @@
       "publishedAt": "2026-10-10T09:00:00.000Z",
       "category": "politics",
       "source": "NPR World",
-      "summary": "加沙停火一周年：哈马斯释放剩余以色列人质、特朗普承诺结束战争已过去一年，但巴勒斯坦人表示，过去12个月只是名义上的停火。"
+      "summary": "哈马斯释放剩余以色列人质、特朗普承诺结束加沙战争已满一年，巴勒斯坦人表示，过去12个月只是「有名无实的停火」。"
     },
     {
       "sourceId": "npr-world",
@@ -2443,7 +2442,7 @@
       "publishedAt": "2026-10-10T08:31:28.000Z",
       "category": "politics",
       "source": "NPR World",
-      "summary": "印度镇压青年抗议，针对莫迪与选举首席专员的愤怒升温。抗议聚焦选举委员会修订选民名单，反对派称数百万选民被剥夺权利，政府否认，称修订旨在清除重复登记。"
+      "summary": "印度青年抗议活动遭当局镇压，针对莫迪及选举首席专员的愤怒升温。抗议聚焦选举委员会修订选民名单，反对派称数百万选民因此被剥夺选举权，政府否认，称修订旨在清除重复登记。"
     },
     {
       "sourceId": "npr-world",
@@ -2453,7 +2452,7 @@
       "publishedAt": "2026-10-09T21:25:59.000Z",
       "category": "politics",
       "source": "NPR World",
-      "summary": "南非人权律师纳维·皮莱获得2026年诺贝尔和平奖，表彰其毕生捍卫人权与国际法。"
+      "summary": "南非人权律师纳维·皮莱获得2026年诺贝尔和平奖，获奖理由是她毕生对人权与国际法的捍卫。"
     },
     {
       "sourceId": "npr-world",
@@ -2463,7 +2462,7 @@
       "publishedAt": "2026-10-09T21:24:13.000Z",
       "category": "politics",
       "source": "NPR World",
-      "summary": "特朗普称美国将从俄罗斯获取柴油，放松多年来对莫斯科的施压，以在中期选举前平抑油价。他表示已与俄罗斯总统普京通电话达成该协议。"
+      "summary": "特朗普表示，美国将从俄罗斯获取柴油，以在中期选举前平抑油价，此举放松了美国多年来对莫斯科的施压。他称已在与俄罗斯总统普京的通话中达成该协议。"
     },
     {
       "sourceId": "npr-world",
@@ -2473,7 +2472,7 @@
       "publishedAt": "2026-10-09T16:43:45.000Z",
       "category": "politics",
       "source": "NPR World",
-      "summary": "包括俄罗斯在内的197个国家签署的全球条约要求，任何可能预示疫情暴发的死亡事件均须上报。围绕俄实验室一名工作人员死于肺炎，其是否依规通报受到质疑。"
+      "summary": "一名俄罗斯实验室工作人员死亡，其病因可能预示疫情暴发。包括俄罗斯在内、由197个国家签署的全球条约要求通报此类死亡事件，外界质疑俄方是否依规上报。"
     },
     {
       "sourceId": "peoples-daily",
@@ -3257,6 +3256,15 @@
     },
     {
       "sourceId": "infoq-cn",
+      "title": "AI 时代的移动端稳定性保障 —— 柯南 AI Agent 实践｜QCon上海",
+      "url": "https://www.infoq.cn/article/FTtTLqvzJeMiE03IowFP?utm_source=rss&utm_medium=article",
+      "excerpt": "点击查看原文>",
+      "publishedAt": "2026-10-11T10:00:00.000Z",
+      "category": "tech",
+      "source": "InfoQ 中文"
+    },
+    {
+      "sourceId": "infoq-cn",
       "title": "亚马逊云科技在 Aurora DSQL 中引入外键约束",
       "url": "https://www.infoq.cn/article/BjjSS0zaS5OpvRB2OcfF?utm_source=rss&utm_medium=article",
       "excerpt": "点击查看原文>",
@@ -3427,13 +3435,13 @@
       "source": "InfoQ 中文"
     },
     {
-      "sourceId": "infoq-cn",
-      "title": "@ 一下就能派活？谷歌推出办公 Agent，拥有独立账号、能够创建子 Agent，还能调用 Claude",
-      "url": "https://www.infoq.cn/article/490gIS9Bk0NmylN7GIt1?utm_source=rss&utm_medium=article",
-      "excerpt": "点击查看原文>",
-      "publishedAt": "2026-10-09T17:15:07.000Z",
-      "category": "tech",
-      "source": "InfoQ 中文"
+      "sourceId": "36kr",
+      "title": "AI运动硬件公司获数亿B轮融资，用体育大模型重构网球自主训练体验｜硬氪首发",
+      "url": "https://36kr.com/p/3990015565708035?f=rss",
+      "excerpt": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，AI体育硬件公司「庞伯特」近日完成数亿元B轮融资，由上海国投先导基金领投，元禾璞华、浦东创投等跟投，老股东蓝驰创投持续加注。高鹄资本担任独家财务顾问。 此前公司已连续完成三轮A轮系列融资，神骐资本、明势创投、蓝驰创投、锦秋基金、华创资本及成为资本等头部机构集体参与。 融资资金将重点投向AI体育大模型、运动视觉与训练决策技术研发，拓展全球市场，完善海外渠道与本地化品牌运营；落地更多运动品类新品，扩大技术平台复用边界。公司长期目标是普及专业运动训练服务，让普通用户也能获得专业级训练体验。 庞伯特最早从乒乓球场景切入，逐步建立起覆盖发球执行、视觉感知、运动分析和训",
+      "publishedAt": "2026-10-11T02:00:00.000Z",
+      "category": "finance",
+      "source": "36氪"
     },
     {
       "sourceId": "36kr",
@@ -3466,7 +3474,7 @@
       "sourceId": "36kr",
       "title": "8点1氪丨特朗普买入Meta股票；山姆宣布拟限制亲友卡绑定；豆包开通水、电、燃气等生活缴费功能",
       "url": "https://36kr.com/p/4019297973735560?f=rss",
-      "excerpt": "今日热点导览 Anthropic据悉组建专门团队对接2028年总统候选人 中国手机迎来新一轮涨价潮，部分机型涨幅达1000元 B站申请JILIJILI等商标 广东汕头在全国率先推出“词元出海贷” 英国大学生申领贷款将需达到最低标准 TOP 3大新闻 特朗普买入Meta股票，最高达2500万美元 最新财务披露文件显示，特朗普8月21日买入最高达2500万美元Meta股票，此后Meta股价累计涨32%。据CNBC分析，特朗普8月共517笔证券交易，总额约7430万至2.733亿美元，买入至少4420万美元，卖出至少3010万美元。文件还显示，他8月18日买入SpaceX优先无担保债券，金额100万",
+      "excerpt": "今日热点导览 Anthropic据悉组建专门团队对接2028年总统候选人 中国手机迎来新一轮涨价潮，部分机型涨幅达1000元 B站申请JILIJILI等商标 广东汕头在全国率先推出“词元出海贷” 英国大学生申领贷款将需达到最低标准 TOP 3大新闻 特朗普买入Meta股票，最高达2500万美��� 最新财务披露文件显示，特朗普8月21日买入最高达2500万美元Meta股票，此后Meta股价累计涨32%。据CNBC分析，特朗普8月共517笔证券交易，总额约7430万至2.733亿美元，买入至少4420万美元，卖出至少3010万美元。文件还显示，他8月18日买入SpaceX优先无担保债券，金额10",
       "publishedAt": "2026-10-10T00:04:26.000Z",
       "category": "finance",
       "source": "36氪"
@@ -3518,10 +3526,10 @@
     },
     {
       "sourceId": "36kr",
-      "title": "36氪首发｜「闹翻天PLAYFULLY」获青山资本投资，为世界造一张“中国球星卡”",
-      "url": "https://36kr.com/p/3987542281862149?f=rss",
-      "excerpt": "作者｜任彩茹 36氪获悉，新兴收藏级卡牌公司「闹翻天PLAYFULLY」（以下简称“闹翻天”）近期完成新一轮融资，青山资本领投，天使轮老股东Adam Zhu持续追投，领甪资本担任长期财务顾问。本轮资金将主要用于全球顶级体育IP的获取与拓展、产品研发与工艺创新以及全球化全渠道建设。 「闹翻天」创立于2024年下半年，核心团队深耕文体IP运营、潮流衍生品开发与卡牌行业多年。公司创始人曹磊拥有20年体育产业运营及投资经验，曾在全球最大体育管理公司IMG任职多年，也曾在苏宁投资、曜为资本、复星集团、IDG等机构负责文体投资与产业运营。 2024年8月，闹翻天以电竞头部IP王者荣耀职业联赛（KPL）衍生",
-      "publishedAt": "2026-10-09T02:00:46.000Z",
+      "title": "9月我国共新开15条国际航空货运航线",
+      "url": "https://36kr.com/newsflashes/4020783367753607?f=rss",
+      "excerpt": "据中国物流与采购联合会航空物流分会，9月份全国共新开15条国际航空货运航线，每周往返航班量达到42个，我国国际航空货运网络加快织密。 从航线布局看，这15条新航线包含亚洲航线9条、欧洲航线4条、北美洲航线2条。共有9家航空公司参与运营，其中8家为国内航司。承运货物以跨境电商、生鲜冷链及农产品、机电电子产品、高端制造产品、日用消费品为主。 据中物联航空物流分会统计，截至9月30日，2026年全国累计新开国际航空货运航线130条，每周往返航班量达334个。 我国国际航空货运网络加快织密。亚洲市场航线持续加密，欧洲、北美洲际空中货运通道同步提速拓点，全球物流布局持续优化。本土航司成为本轮航线开辟的主",
+      "publishedAt": "2026-10-11T01:57:13.000Z",
       "category": "finance",
       "source": "36氪"
     },
@@ -3697,15 +3705,6 @@
       "source": "36氪"
     },
     {
-      "sourceId": "36kr",
-      "title": "巴西起诉壳牌子公司���索赔上亿美元洪灾损失",
-      "url": "https://36kr.com/newsflashes/4019793730359173?f=rss",
-      "excerpt": "巴西检察部门10月9日对国际能源巨头壳牌集团在巴西的子公司提起诉讼，要求该公司就2024年巴西南部洪灾相关损失赔偿1.08亿美元，理由是壳牌应对排放温室气体、加剧气候变化所致损失承担责任。（界面）",
-      "publishedAt": "2026-10-10T08:49:26.000Z",
-      "category": "finance",
-      "source": "36氪"
-    },
-    {
       "sourceId": "sspai",
       "title": "App+1｜专注星空：让「少刷手机」这件事更愉悦一点",
       "url": "https://sspai.com/post/115237",
@@ -3794,6 +3793,24 @@
       "publishedAt": "2026-10-08T00:16:57.000Z",
       "category": "tech",
       "source": "少数派"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "机械革命将推 RTX Spark 迷你主机大师之路 X10，搭载 AI SSD",
+      "url": "https://www.ithome.com/1/011/563.htm",
+      "excerpt": "IT之家 10 月 11 日消息，据消息人士 @巨炮快评 透露，机械革命 (Mechrevo) 将推出基于 NVIDIA RTX Spark 超级芯片的迷你主机产品大师之路 X10。 IT之家注意到，这款产品似乎出现在了机械革命创始人潘春节今年 9 月的 2026 网易未来大会演讲幻灯上。 据悉，大师之路 X10 将搭载机械革命自主研发的 AI SSD，可将超大规模本地模型从 DRAM 卸载到 NAND 上，同时通过保存并复用已处理上下文、优化模型加载方式，减少重复计算与加载开销。",
+      "publishedAt": "2026-10-11T02:05:28.000Z",
+      "category": "tech",
+      "source": "IT之家"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "中汽协会：支持强化汽车产品创新设计与研发测试验证管理，推动产业可持续健康发展",
+      "url": "https://www.ithome.com/1/011/562.htm",
+      "excerpt": "IT之家 10 月 11 日消息，工业和信息化部等四部门 10 日公开发布关于进一步加强汽车产品创新设计和研发测试验证有关管理工作的通知（征求意见稿）。汽车产品创新设计技术指南围绕虚拟操纵件、门把手、新型人机交互系统、大角度座椅等方面提出具体测试验证要求。 征求意见稿聚焦整治不合理创新设计、健全研发测试验证管理体系，通过提高汽车产品准入管理要求，压实企业产品安全主体责任。中国汽车工业协会今日发文，表态对此举措坚决支持，并面向全行业发出倡议，全面提升我国汽车产品安全水平。 中国汽车工业协会认为，当前我国汽车产业电动化、智能化转型提速，产品创新迭代速度持续加快，各类新技术、新功能广泛应用。与此同时",
+      "publishedAt": "2026-10-11T01:57:14.000Z",
+      "category": "tech",
+      "source": "IT之家"
     },
     {
       "sourceId": "ithome",
@@ -4048,22 +4065,13 @@
       "source": "IT之家"
     },
     {
-      "sourceId": "ithome",
-      "title": "华为游戏助手弹幕通知功能适配机型公布，首批含 Pura X View、Mate XT 2 等",
-      "url": "https://www.ithome.com/1/011/531.htm",
-      "excerpt": "IT之家 10 月 10 日消息，华为在 10 月 1 日发布的 Mate 90 系列手机上，首发实装了弹幕通知功能。而随着系统版本更新，目前，Pura X View 也已获得该功能下放。 IT之家从华为官网了解到，目前支持弹幕通知机型包括 Pura X View、Mate XT 2（官网未标明 Mate 90 系列手机，但实际已支持），官方表示其他机型正在紧急适配中。 另外，使用该功能前，系统需升级至 HarmonyOS 7.0.0.109 及以上版本、应用助手需要升级到 16.4.1.300 及以上版本（应用助手版本升级操作路径：打开游戏，手机横屏顶部中间下拉，进入游戏工具 > 设置 > ",
-      "publishedAt": "2026-10-10T14:52:26.000Z",
+      "sourceId": "ifanr",
+      "title": "AMD YES！老哥给老车插上显卡，手搓「真智驾」",
+      "url": "https://www.ifanr.com/1683790?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "excerpt": "苏妈看了都得愣半天。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "publishedAt": "2026-10-11T02:03:27.000Z",
       "category": "tech",
-      "source": "IT之家"
-    },
-    {
-      "sourceId": "ithome",
-      "title": "腾讯元器将于 11 月 9 日停止服务，所创建智能体将不再可用",
-      "url": "https://www.ithome.com/1/011/530.htm",
-      "excerpt": "IT之家 10 月 10 日消息，腾讯元器 10 月 8 日发布《关于元器平台停止服务通知》，因业务调整，元器平台将于 2026 年 11 月 9 日停止服务。在正式停止服务前，用户仍可正常登录并使用现有智能体；停服生效后，所创建智能体将不再可用，建议用户尽快完成数据导出与业务迁移。 从 2026 年 10 月 29 日起，停止创建新的智能体、API key 分发功能。现有存量智能体在正式停止服务前，仍可继续正常使用。 正式停止服务时间： 2026 年 11 月 9 日。届时，元器平台将关闭应用访问、数据读写、API 调用、控制台使用等所有面向公众的服务，元器平台将不支持用户访问，元器智能体页",
-      "publishedAt": "2026-10-10T14:42:35.000Z",
-      "category": "tech",
-      "source": "IT之家"
+      "source": "爱范儿"
     },
     {
       "sourceId": "ifanr",
@@ -4233,15 +4241,6 @@
       "url": "https://www.ifanr.com/1683177?utm_source=rss&utm_medium=rss&utm_campaign=",
       "excerpt": "能让你回到 Windows 阵营吗 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "publishedAt": "2026-10-08T08:15:32.000Z",
-      "category": "tech",
-      "source": "爱范儿"
-    },
-    {
-      "sourceId": "ifanr",
-      "title": "黄仁勋发布史上最强 Surface！专为「无限智能」设计",
-      "url": "https://www.ifanr.com/1683127?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "excerpt": "这 Windows 啊，你微软怕是把持不住 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-      "publishedAt": "2026-10-08T03:22:06.000Z",
       "category": "tech",
       "source": "爱范儿"
     },
@@ -4427,6 +4426,42 @@
     },
     {
       "sourceId": "tmtpost",
+      "title": "订单破万、上市直降5万元，北汽泰钽没有越野“新手保护期”",
+      "url": "https://www.tmtpost.com/8164047.html",
+      "excerpt": "新能源越野市占率飙升。",
+      "publishedAt": "2026-10-11T01:55:00.000Z",
+      "category": "tech",
+      "source": "钛媒体"
+    },
+    {
+      "sourceId": "tmtpost",
+      "title": "远海国际，走不出“欧洲游”？",
+      "url": "https://www.tmtpost.com/8164048.html",
+      "excerpt": "旅游大热，但欧洲市场既是支柱，也是隐患。",
+      "publishedAt": "2026-10-11T01:46:00.000Z",
+      "category": "tech",
+      "source": "钛媒体"
+    },
+    {
+      "sourceId": "tmtpost",
+      "title": "连续举牌，新华保险沉寂一年半后又出手了",
+      "url": "https://www.tmtpost.com/8164031.html",
+      "excerpt": "再度举牌为哪般？",
+      "publishedAt": "2026-10-11T01:41:00.000Z",
+      "category": "tech",
+      "source": "钛媒体"
+    },
+    {
+      "sourceId": "tmtpost",
+      "title": "十一黄金周OTA分野：同程、飞猪们卖库存，豆包、千问们卖答案",
+      "url": "https://www.tmtpost.com/8163976.html",
+      "excerpt": "旧的OTA卖的是库存，新的AI旅游卖的是确定性。",
+      "publishedAt": "2026-10-11T01:36:00.000Z",
+      "category": "tech",
+      "source": "钛媒体"
+    },
+    {
+      "sourceId": "tmtpost",
       "title": "停车费告别“不足1小时按1小时”，一场关于几毛钱的治理考试",
       "url": "https://www.tmtpost.com/8163971.html",
       "excerpt": "这笔钱小到不值得专门绕路，但它定义了一件事：占多久，付多少。",
@@ -4557,42 +4592,6 @@
       "url": "https://www.tmtpost.com/8163914.html",
       "excerpt": "银行搞科技金融，到底多敢玩？",
       "publishedAt": "2026-10-11T00:17:00.000Z",
-      "category": "tech",
-      "source": "钛媒体"
-    },
-    {
-      "sourceId": "tmtpost",
-      "title": "智元是时候看回启元了",
-      "url": "https://www.tmtpost.com/8163912.html",
-      "excerpt": "具身智能玩家该拼数采中心回本了。",
-      "publishedAt": "2026-10-11T00:13:00.000Z",
-      "category": "tech",
-      "source": "钛媒体"
-    },
-    {
-      "sourceId": "tmtpost",
-      "title": "把够用的智能做成一门生意",
-      "url": "https://www.tmtpost.com/8163904.html",
-      "excerpt": "这门生意的胜负不会写在参数榜上，而会写在下一年的合同里。",
-      "publishedAt": "2026-10-11T00:08:00.000Z",
-      "category": "tech",
-      "source": "钛媒体"
-    },
-    {
-      "sourceId": "tmtpost",
-      "title": "超强厄尔尼诺来了，有人怕天灾有人等发财",
-      "url": "https://www.tmtpost.com/8163902.html",
-      "excerpt": "太平洋连着大A农业股，一起烧开了。",
-      "publishedAt": "2026-10-11T00:02:35.000Z",
-      "category": "tech",
-      "source": "钛媒体"
-    },
-    {
-      "sourceId": "tmtpost",
-      "title": "收废品，怎么就成了大生意？",
-      "url": "https://www.tmtpost.com/8163795.html",
-      "excerpt": "废品站那杆秤，连着伦敦、纽约和布鲁塞尔的全球大宗市场。",
-      "publishedAt": "2026-10-10T15:32:54.000Z",
       "category": "tech",
       "source": "钛媒体"
     },
