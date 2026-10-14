@@ -2,96 +2,6 @@
   "date": "2026-10-14",
   "articles": [
     {
-      "sourceId": "github-trending",
-      "title": "morluto/rea",
-      "url": "https://github.com/morluto/rea",
-      "excerpt": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "meta": "TypeScript · ★ 207,864 · 🍴 50,771 · 📈 54,679 stars today",
-      "category": "tech",
-      "source": "GitHub Trending",
-      "summary": "面向 AI Agent 的逆向工程工具，覆盖从应用层行为分析到原生二进制反汇编的完整链路。借助可自主操作的 agent 自动探索目标程序，降低手工调试与逆向的门槛。适合安全研究员、漏洞分析人员以及需要理解闭源软件内部机制的开发者。"
-    },
-    {
-      "sourceId": "github-trending",
-      "title": "bilawalsidhu/gods-eye-view",
-      "url": "https://github.com/bilawalsidhu/gods-eye-view",
-      "excerpt": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
-      "meta": "JavaScript · ★ 55,413 · 🍴 10,832 · 📈 1,961 stars today",
-      "category": "tech",
-      "source": "GitHub Trending",
-      "summary": "在浏览器里运行的间谍卫星模拟器，但接入的是真实开源数据。把公开的空间情报叠加在照片级写实 3D 地球上，实时呈现地理动态。适合关注 OSINT、地理情报与遥感数据的分析者和爱好者。"
-    },
-    {
-      "sourceId": "github-trending",
-      "title": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "excerpt": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-      "meta": "Python · ★ 63,317 · 🍴 7,044 · 📈 1,748 stars today",
-      "category": "tech",
-      "source": "GitHub Trending",
-      "summary": "开源且完全本地运行的 ElevenLabs 替代方案，支持语音克隆、音色设计、视频配音、听写、转录与有声书制作，覆盖 646 种语言。数据不出本机，适合对隐私敏感、又想低成本生成多语言语音内容的创作者与开发者。"
-    },
-    {
-      "sourceId": "github-trending",
-      "title": "mksglu/context-mode",
-      "url": "https://github.com/mksglu/context-mode",
-      "excerpt": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-      "meta": "TypeScript · ★ 28,251 · 🍴 1,995 · 📈 969 stars today",
-      "category": "tech",
-      "source": "GitHub Trending",
-      "summary": "为 AI 编码 agent 优化上下文窗口：把工具输出放进沙箱处理，最高减少 98% 的 token 占用，同时持久化会话记忆。通过 MCP 与 hooks 在 17 个平台上统一路由，适合重度使用编码 agent、常被上下文限制卡住的开发者。"
-    },
-    {
-      "sourceId": "github-trending",
-      "title": "cathrynlavery/diagram-design",
-      "url": "https://github.com/cathrynlavery/diagram-design",
-      "excerpt": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "meta": "HTML · ★ 54,141 · 🍴 3,436 · 📈 1,815 stars today",
-      "category": "tech",
-      "source": "GitHub Trending",
-      "summary": "面向 Claude Code、Codex、GitHub Copilot、Cursor 等 AI 编码工具的图表设计规范，内置 44 种图表类型，输出自包含的 HTML + SVG。强调编辑级排版质感，避免 Mermaid 生成的粗糙图形，适合需要高质量图示的文档与技术写作。"
-    },
-    {
-      "sourceId": "github-trending",
-      "title": "vercel-labs/skills",
-      "url": "https://github.com/vercel-labs/skills",
-      "excerpt": "The open agent skills tool - npx skills",
-      "meta": "TypeScript · ★ 34,514 · 🍴 2,952 · 📈 190 stars today",
-      "category": "tech",
-      "source": "GitHub Trending",
-      "summary": "Vercel Labs 推出的开放 agent skills 工具，通过 npx skills 即可安装和调用。为 AI Agent 提供可复用的技能包管理与分发方式，适合想让 agent 快速获得标准化能力的开发者。"
-    },
-    {
-      "sourceId": "github-trending",
-      "title": "lyogavin/airllm",
-      "url": "https://github.com/lyogavin/airllm",
-      "excerpt": "AirLLM 2.8T LLM inference with single 4GB GPU",
-      "meta": "Jupyter Notebook · ★ 38,340 · 🍴 3,920 · 📈 1,001 stars today",
-      "category": "tech",
-      "source": "GitHub Trending",
-      "summary": "让大模型推理突破显存限制：AirLLM 支持在单张 4GB 显存的 GPU 上运行 2.8T 参数级别的 LLM，通过分层加载与调度把权重按需换入。适合硬件条件有限、又想本地跑超大模型的开发者与研究者。"
-    },
-    {
-      "sourceId": "github-trending",
-      "title": "storytold/artcraft",
-      "url": "https://github.com/storytold/artcraft",
-      "excerpt": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
-      "meta": "Rust · ★ 25,695 · 🍴 4,030 · 📈 4,081 stars today",
-      "category": "tech",
-      "source": "GitHub Trending",
-      "summary": "面向艺术家、设计师和电影创作者的创作引擎，主打有意图、可控的生成式创作流程。帮助把创意构思直接落地为视觉素材，适合需要精细掌控风格与叙事的内容生产者。"
-    },
-    {
-      "sourceId": "github-trending",
-      "title": "xtool-org/xtool",
-      "url": "https://github.com/xtool-org/xtool",
-      "excerpt": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
-      "meta": "Swift · ★ 9,383 · 🍴 398 · 📈 1,198 stars today",
-      "category": "tech",
-      "source": "GitHub Trending",
-      "summary": "跨平台的 Xcode 替代方案，用 SwiftPM 在 Linux、Windows 和 macOS 上构建并部署 iOS 应用。打破 iOS 开发对 macOS 的依赖，适合想在非苹果环境下做 iOS 开发的工程师与 CI 流水线。"
-    },
-    {
       "sourceId": "v2ex-hot",
       "title": "脱离了 Windows 的保护，发现外边根本没有雨",
       "url": "https://www.v2ex.com/t/1244853",
@@ -120,15 +30,6 @@
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "Apple 上线了 Switch to Safari 网页，宣称在 Mac 上相比 Chrome 有巨大优势",
-      "url": "https://www.v2ex.com/t/1248264",
-      "excerpt": "39 回复 · Apple 节点",
-      "publishedAt": "2026-10-13T01:08:22.000Z",
-      "category": "tech",
-      "source": "V2EX"
-    },
-    {
-      "sourceId": "v2ex-hot",
       "title": "Fedora 上最好用的截图工具 - 微信",
       "url": "https://www.v2ex.com/t/1243829",
       "excerpt": "29 回复 · Linux 节点",
@@ -138,19 +39,19 @@
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "没人觉得 cursor 的模型思考很慢嘛，经常思考卡死要手动停止再继续",
-      "url": "https://www.v2ex.com/t/1236767",
-      "excerpt": "18 回复 · Python 节点",
-      "publishedAt": "2026-08-24T04:35:21.000Z",
+      "title": "8 月 1 号到现在，我完成了接近 2000 个开发任务，放到以前简直不敢想象",
+      "url": "https://www.v2ex.com/t/1248529",
+      "excerpt": "20 回复 · 程序员 节点",
+      "publishedAt": "2026-10-13T14:09:14.000Z",
       "category": "tech",
       "source": "V2EX"
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "8 月 1 号到现在，我完成了接近 2000 个开发任务，放到以前简直不敢想象",
-      "url": "https://www.v2ex.com/t/1248529",
-      "excerpt": "15 回复 · 程序员 节点",
-      "publishedAt": "2026-10-13T14:09:14.000Z",
+      "title": "没人觉得 cursor 的模型思考很慢嘛，经常思考卡死要手动停止再继续",
+      "url": "https://www.v2ex.com/t/1236767",
+      "excerpt": "18 回复 · Python 节点",
+      "publishedAt": "2026-08-24T04:35:21.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -183,6 +84,15 @@
     },
     {
       "sourceId": "v2ex-hot",
+      "title": "apple TV 终于更新了",
+      "url": "https://www.v2ex.com/t/1248521",
+      "excerpt": "11 回复 · Apple 节点",
+      "publishedAt": "2026-10-13T13:10:24.000Z",
+      "category": "tech",
+      "source": "V2EX"
+    },
+    {
+      "sourceId": "v2ex-hot",
       "title": "请问你们是怎么找到 vibe coding 的需求的",
       "url": "https://www.v2ex.com/t/1248508",
       "excerpt": "10 回复 · 程序员 节点",
@@ -205,24 +115,6 @@
       "url": "https://www.v2ex.com/t/1243295",
       "excerpt": "10 回复 · Linux 节点",
       "publishedAt": "2026-09-20T02:35:06.000Z",
-      "category": "tech",
-      "source": "V2EX"
-    },
-    {
-      "sourceId": "v2ex-hot",
-      "title": "apple TV 终于更新了",
-      "url": "https://www.v2ex.com/t/1248521",
-      "excerpt": "9 回复 · Apple 节点",
-      "publishedAt": "2026-10-13T13:10:24.000Z",
-      "category": "tech",
-      "source": "V2EX"
-    },
-    {
-      "sourceId": "v2ex-hot",
-      "title": "请教下利用 codex 进行 UX 设计的技巧",
-      "url": "https://www.v2ex.com/t/1248470",
-      "excerpt": "8 回复 · 程序员 节点",
-      "publishedAt": "2026-10-13T09:42:52.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -273,6 +165,15 @@
     },
     {
       "sourceId": "v2ex-hot",
+      "title": "HomeView 国内能用么？比如：使用国内 Apple ID、播放国内 apple music",
+      "url": "https://www.v2ex.com/t/1248557",
+      "excerpt": "5 回复 · Apple 节点",
+      "publishedAt": "2026-10-13T22:31:14.000Z",
+      "category": "tech",
+      "source": "V2EX"
+    },
+    {
+      "sourceId": "v2ex-hot",
       "title": "苹果官网买礼品卡超过 6 个小时没反应",
       "url": "https://www.v2ex.com/t/1248431",
       "excerpt": "5 回复 · Apple 节点",
@@ -300,19 +201,28 @@
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "Codex 使用的临时目录/private/tmp 已从 约 36.3 GiB 增长到约 404.9 GiB！",
-      "url": "https://www.v2ex.com/t/1248465",
-      "excerpt": "4 回复 · 程序员 节点",
-      "publishedAt": "2026-10-13T09:37:29.000Z",
+      "title": "请大佬们推荐一下 Claude 的客户端或者网页端",
+      "url": "https://www.v2ex.com/t/1248581",
+      "excerpt": "3 回复 · 程序员 节点",
+      "publishedAt": "2026-10-14T01:18:15.000Z",
       "category": "tech",
       "source": "V2EX"
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "发现一个宝藏免费算力网站社区",
-      "url": "https://www.v2ex.com/t/1248477",
-      "excerpt": "3 回复 · 程序员 节点",
-      "publishedAt": "2026-10-13T10:00:54.000Z",
+      "title": "程序员真的无路可走了吗?当然不是",
+      "url": "https://www.v2ex.com/t/1248595",
+      "excerpt": "2 回复 · 程序员 节点",
+      "publishedAt": "2026-10-14T01:53:05.000Z",
+      "category": "tech",
+      "source": "V2EX"
+    },
+    {
+      "sourceId": "v2ex-hot",
+      "title": "战战兢兢，非程序员的第一个开源项目，以国标为基础的公文生成与机检工具",
+      "url": "https://www.v2ex.com/t/1248549",
+      "excerpt": "2 回复 · 程序员 节点",
+      "publishedAt": "2026-10-13T18:29:32.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -324,7 +234,7 @@
       "publishedAt": "2026-10-13T12:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "Higgsfield 借助 GPT-6 Astra 将 AI 视频时长从 1 分钟提升至 10 分钟以上，用 GPT-Image-2.5 提升画面精度，并经由 GPT-Live 探索语音驱动的电影制作。"
+      "summary": "Higgsfield 借助 GPT-6 Astra 将 AI 视频时长从 1 分钟延长至 10 分钟以上，并以 GPT-Image-2.5 提升画面精度，同时通过 GPT-Live 探索语音驱动的影片制作路径。"
     },
     {
       "sourceId": "openai-news",
@@ -589,25 +499,14 @@
     },
     {
       "sourceId": "huggingface-papers",
-      "title": "S-Space: Exploring Spatial Workspace in Multimodal Language Models",
-      "url": "https://huggingface.co/papers/2610.13527",
-      "excerpt": "Multimodal language models (MLLMs) exhibit promising spatial reasoning capabilities, yet the internal mechanisms supporting them remain poorly understood. We uncover S-Space, a linear representation subspace in which object-token representations encode continuous coordinates along horizontal, vertic",
-      "publishedAt": "2026-10-09T12:48:41.000Z",
-      "meta": "👍 272",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers",
-      "summary": "论文探究多模态语言模型空间推理的内部机制，发现名为 S-Space 的线性表示子空间：对象 token 的表示在其中沿水平、垂直等轴编码连续坐标。该发现为理解和改进 MLLM 的空间能力提供了可解释的结构性依据。"
-    },
-    {
-      "sourceId": "huggingface-papers",
       "title": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives",
       "url": "https://huggingface.co/papers/2609.39601",
       "excerpt": "Precise grounding matters. It specifies which object is the target and where that object is, even in clutter and for tiny objects, and it has to be fast enough for closed-loop control. Yet vision-language-action (VLA) and world-action models (WAMs) take perception from general-purpose vision-languag",
       "publishedAt": "2026-09-30T00:00:00.000Z",
-      "meta": "👍 247",
+      "meta": "👍 248",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "针对 VLA 与世界动作模型依赖通用 VLM 感知、难以兼顾定位精度与闭环控制速度的问题，提出 grounding 基础模型 GroundingPI，基于视觉基元（visual primitives）实现杂乱场景与微小目标上的快速精确定位，服务物理智能。"
+      "summary": "提出 GroundingPI，一个面向物理智能的 grounding 基础模型，用视觉基元（visual primitives）显式指定目标物体及其位置，在杂乱场景与微小物体上保持精确，且速度足以支撑闭环控制。针对 VLA 与世界动作模型直接借用通用 VLM 感知、定位不够精准的问题。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -618,7 +517,7 @@
       "meta": "👍 215",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "研究 LLM 的「不思考」行为，指出以往仅用代理指标定义 no-thinking 的不足，并从两个维度重新度量。结果显示即使被明确要求停止思考，模型仍会继续推理，呈现「思维惯性」，说明思考模式难以被简单指令关闭。"
+      "summary": "研究 LLM 被要求停止思考后仍继续推理的「思维惯性」现象。作者指出现有工作多以代理指标定义 no-thinking，并从两个维度考察该怎么度量与理解 no-thinking 行为，揭示 thinking 模式与 no-thinking 之间的实际落差。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -626,10 +525,10 @@
       "url": "https://huggingface.co/papers/2610.13361",
       "excerpt": "As the production of software passes into the hands of software itself, coding agents are increasingly commissioned to build agents fitted to their users' own workflows. This delegation carries a quiet assumption, that the delivered agent will faithfully serve the requirement it was built for, rathe",
       "publishedAt": "2026-10-09T00:00:00.000Z",
-      "meta": "👍 200",
+      "meta": "👍 201",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "当编码 agent 被委托构建贴合用户工作流的 agent 时，隐含假设是交付物会忠实服务原始需求。论文提出 AgentSWE，检验编码 agent 能否真正构建出用户想要的 agent，并揭示这一委托链条中的偏差风险。"
+      "summary": "当软件生产逐渐由软件自身承担，coding agent 被越来越多地委托去构建贴合用户工作流的 agent。论文质疑这一委托背后的隐含假设——交付物会忠实满足最初需求，并以 AgentSWE 评估 coding agent 构建 agent 时的需求忠实度与偏差来源。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -637,10 +536,10 @@
       "url": "https://huggingface.co/papers/2610.13166",
       "excerpt": "Terminal agents are moving beyond local operations toward completing real-world professional tasks. Short trajectories can demonstrate commands and tool calls, but they do not fully show how agents accumulate evidence through exploration, use it to inform judgments, continually adjust strategies bas",
       "publishedAt": "2026-10-09T00:00:00.000Z",
-      "meta": "👍 133",
+      "meta": "👍 134",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "终端 agent 正从本地操作走向真实专业任务，而短轨迹无法体现 agent 如何通过探索积累证据、调整策略并形成判断。论文围绕长时程终端智能规模化构建 agentic 数据，以训练具备长期探索与策略修正能力的终端 agent。"
+      "summary": "面向终端（terminal）长时程智能体，指出短轨迹只能演示命令与工具调用，无法体现 agent 如何通过探索逐步积累证据、据此形成判断并持续调整策略。论文提出规模化 agentic 数据的构建方法，用于训练长时程终端任务的智能体能力。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -651,7 +550,7 @@
       "meta": "👍 79",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "视频交互式叙事允许观众干预生成过程，但观众请求对 grounding 来源与当前渲染状态存在潜在依赖。论文提出 VIS-Ground，在生成中引入上下文 grounding，使系统能依据这些隐含依赖正确响应观众请求。"
+      "summary": "视频交互式叙事让观众能实时左右视频走向，但观众请求可能同时潜依赖于 grounding 来源与当前已渲染的视频状态。论文提出 VIS-Ground，用上下文 grounding 建模这些潜在依赖，实现可干预的视频故事生成。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -662,7 +561,7 @@
       "meta": "👍 73",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "自回归 grounding 模型串行输出空间预测，带来顺序延迟并强加因果顺序。论文把 grounding 视为视觉证据提取：物体、位置与空间关系由图像和查询联合约束，从而在 flash 级速度下同时实现并行解码与精确视觉定位。"
+      "summary": "将视觉定位视为视觉证据抽取，指出自回归 grounding 模型串行输出空间预测会带来顺序延迟并强加因果顺序。论文提出 GroundAnything，用并行解码同时满足图像与查询对物体、位置和空间关系的联合约束，以 flash 级速度实现精确视觉定位。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -673,7 +572,7 @@
       "meta": "👍 34",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "AttnRes 可视为沿深度轴的单流 softmax 注意力，受多头注意力在序列轴成功的启发，论文提出 Multi-Stream Attention Residuals（MSAR），在深度轴上引入多流注意力残差，扩展网络深层的内容相关检索能力。"
+      "summary": "Attention Residuals 可视作沿网络深度轴的内容相关检索，即深度轴上的单流 softmax attention。论文借鉴多头注意力在序列轴上的成功，提出 Multi-Stream Attention Residuals（MSAR），在深度轴上并行多条信息流，增强跨层检索能力。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -684,18 +583,7 @@
       "meta": "👍 30",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "个人 GUI agent 依赖交互历史理解模糊指令，但既有方法默认「相关即适用」，把检索到的历史直接拼入策略上下文。论文指出相关不等于适用，提出经验激活机制，选择性调用真正可用的历史经验以提升决策质量。"
-    },
-    {
-      "sourceId": "huggingface-papers",
-      "title": "Contextual Correction of Parallel Drafts for Speculative Decoding",
-      "url": "https://huggingface.co/papers/2610.12570",
-      "excerpt": "Speculative decoding accelerates large language model inference by using a lightweight drafter to propose multiple tokens that are subsequently verified in parallel by the target model. Recent diffusion-based drafters make this paradigm particularly attractive: deep attention-based neural backbones ",
-      "publishedAt": "2026-10-08T00:00:00.000Z",
-      "meta": "👍 26",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers",
-      "summary": "针对扩散式 drafter 的推测解码，论文提出对并行草稿进行上下文校正。并行生成的 token 之间缺乏依赖、易与目标模型校验冲突，该方法通过上下文修正提升草稿质量与接受率，从而改善推理加速效果。"
+      "summary": "个人 GUI agent 依赖交互历史从模糊指令推断用户意图。论文指出「相关不等于适用」：现有做法检索任务相关历史并拼入策略上下文，默认经验可直接复用。作者提出经验激活机制，先判断历史经验当前是否适用，以提升个性化 GUI 任务表现。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -706,7 +594,7 @@
       "meta": "👍 25",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "agentic RL 通常每回合仅有一个奖励，特权自蒸馏让同一策略在给定技能时指导无技能版本。论文指出该通道存在两种失效现象，并提出 PR-OPD——特权表示在线策略自蒸馏，以改进语言模型 agent 的训练信号。"
+      "summary": "语言模型 agent 通常每回合仅收到一个奖励信号，特权自蒸馏让同一策略在有技能提示时向无技能自身蒸馏 token 概率以补充监督。论文指出该通道存在两种失效现象，并提出 PR-OPD 特权表示 on-policy 自蒸馏方法加以修正。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -717,7 +605,7 @@
       "meta": "👍 21",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "人类一瞥即可感知场景中未明示的因果、未来轨迹与微妙社会线索。论文构建「第六感」直觉视觉推理基准，系统评测多模态模型在这类隐含推理上的表现，揭示其与人类直觉感知之间的显著差距。"
+      "summary": "人类看场景时会自动补全未显现的信息：一眼推断过去成因与未来轨迹，判断车辆能否停进两个车位之间，从几秒视频看出谁掌握权威。论文构建直觉视觉推理基准，系统评测多模态模型这类「第六感」式推理能力及其与人类的差距。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -728,7 +616,7 @@
       "meta": "👍 20",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "历史街景影像覆盖不均，生成可信的过去外观需恢复已变化结构并保留未变场景内容。论文构建十年跨度的跨视角数据集 VIGOR-his，并提出奖励引导的编辑方法，用于生成历史街景并填补记录空白。"
+      "summary": "历史街景影像记录城市变迁，但覆盖不均留下大量空白。论文构建跨十年、跨视角数据集 VIGOR-his，并提出奖励引导的编辑方法：在保留未变场景内容的同时恢复已改变的建筑结构，生成可信的历史街景外观。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -739,7 +627,7 @@
       "meta": "👍 17",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "现有 GPU kernel 优化 agent 把经验存为知识库或蒸馏技能，但基准只评单次实现的对错与速度，未衡量经验复用价值。MetaKernelBench 专门测量保留的经验能否跨任务迁移，量化 kernel 知识的迁移能力。"
+      "summary": "GPU kernel 优化 agent 会把所学存入知识库或蒸馏为技能，但现有基准只评估单次实现是否正确、有多快，未衡量保留经验的复用价值。MetaKernelBench 专门度量这些经验能否迁移到新的 kernel 任务，补上这一评价维度。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -750,7 +638,18 @@
       "meta": "👍 16",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "人类解复杂空间题时会主动从任务相关视角回看场景并重建布局。论文将这一能力定义为 Active Spatial Mentalization，提出 SpatialASM，让 LVLM 主动选择视角并内化重建空间结构，从而提升空间推理表现。"
+      "summary": "人类解复杂空间题时会主动从任务相关视角重新观察场景，并在脑中重建该视角下的空间布局。论文将这种能力称为 Active Spatial Mentalization，提出 SpatialASM 让 LVLM 内化主动心理化过程，从而提升空间推理表现。"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "T3lescope: Arbitrary-Resolution High-Fidelity Generative Surface Reconstruction from Images",
+      "url": "https://huggingface.co/papers/2610.03308",
+      "excerpt": "We reconstruct high-fidelity 3D scene meshes from posed multi-view images without per-scene optimization, across scales ranging from single objects to large outdoor scenes. Per-scene optimization methods lack the learned 3D prior needed when observations are sparse or surfaces are glossy or transpar",
+      "publishedAt": "2026-10-02T00:00:00.000Z",
+      "meta": "👍 11",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers",
+      "summary": "从带位姿的多视角图像重建高保真 3D 网格，覆盖单物体到大型户外场景，且无需逐场景优化。方法依靠可泛化的学习式 3D 先验，在观测稀疏或表面为镜面、透明材质时仍能生成任意分辨率的高保真表面。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -761,7 +660,7 @@
       "meta": "👍 11",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "研究采集 JetBrains IDE 中 4782 个真实工程师的 agent 会话，称为 Production Sessions，分析交互式编码 agent 的实际任务流特征，主张编码 agent 基准应对齐用户真实工作流，而非只追求表面仿真。"
+      "summary": "论文采集 JetBrains IDE 中真实软件工程师的 4,782 条 agent 会话（Production Sessions），并聚焦至少三轮用户消息的交互会话。分析表明现有 coding agent 基准与用户真实任务流存在偏差，主张基准设计应对齐实际工作流程。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -772,18 +671,7 @@
       "meta": "👍 11",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "多数知识蒸馏需训练学生参数，使知识绑定特定架构与 checkpoint、难以解释和复用。论文提出 Universal Textual Teaching，将教师知识转化为文本形式直接「教」LLM，无需更新学生权重，便于跨模型迁移与人工审查。"
-    },
-    {
-      "sourceId": "huggingface-papers",
-      "title": "T3lescope: Arbitrary-Resolution High-Fidelity Generative Surface Reconstruction from Images",
-      "url": "https://huggingface.co/papers/2610.03308",
-      "excerpt": "We reconstruct high-fidelity 3D scene meshes from posed multi-view images without per-scene optimization, across scales ranging from single objects to large outdoor scenes. Per-scene optimization methods lack the learned 3D prior needed when observations are sparse or surfaces are glossy or transpar",
-      "publishedAt": "2026-10-02T00:00:00.000Z",
-      "meta": "👍 10",
-      "category": "tech",
-      "source": "HuggingFace Trending Papers",
-      "summary": "T3lescope 从已知位姿的多视角图像重建高保真 3D 网格，无需逐场景优化，覆盖从单个物体到大型户外场景的任意分辨率。它借助学习到的 3D 先验，应对稀疏观测以及镜面、透明表面等困难情形。"
+      "summary": "知识蒸馏通常需要训练学生参数，使知识绑定到特定架构与 checkpoint，且难以解释。论文提出 Universal Textual Teaching，把教师知识转化为文本形式直接「教」给学生 LLM，无需改动学生参数，实现可解释、跨模型复用的知识迁移。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -794,7 +682,7 @@
       "meta": "👍 10",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "现有视觉语言导航多为单 agent 执行单条指令，难以应对需团队协作的任务。论文提出 Systematic Multi-Agent VLN，给出问题形式化、配套基准与求解方法，使多机器人编队能完成单体 agent 无法胜任的导航任务。"
+      "summary": "现有 VLN 研究多聚焦单个智能体执行单条指令，而许多真实应用需要多机器人团队协作完成个体无法胜任的任务。论文形式化系统化多智能体 VLN 任务，构建配套基准并提出相应方法，推动协作式视觉语言导航研究。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -805,7 +693,7 @@
       "meta": "👍 7",
       "category": "tech",
       "source": "HuggingFace Trending Papers",
-      "summary": "推理后训练语料持续扩大会显著推高成本，却未必带来成比例的性能提升。论文提出不确定性引导的渐进收缩策略，动态裁剪训练样本，在减少训练量的同时保持甚至提升推理能力，实现「以更少训练学到更多」。"
+      "summary": "针对推理后训练中语料越大成本越高、收益却不成比例的问题，论文提出不确定性引导的渐进收缩策略，逐步压缩推理监督数据。在显著降低训练开销的同时保持甚至提升模型推理性能，回答推理监督能被压缩到何种程度。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -815,7 +703,8 @@
       "publishedAt": "2026-10-08T00:00:00.000Z",
       "meta": "👍 7",
       "category": "tech",
-      "source": "HuggingFace Trending Papers"
+      "source": "HuggingFace Trending Papers",
+      "summary": "潜在循环语言模型复用同一组层，可通过调整循环次数在算力与精度间权衡，但单次循环时性能明显落后于同规模非循环模型。论文提出弹性潜在循环机制以缓解这种「单循环税」，让一个 checkpoint 适配不同推理预算。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -825,7 +714,8 @@
       "publishedAt": "2026-09-30T00:00:00.000Z",
       "meta": "👍 7",
       "category": "tech",
-      "source": "HuggingFace Trending Papers"
+      "source": "HuggingFace Trending Papers",
+      "summary": "MLA 的 cache 内存仍随上下文长度与批量线性增长。论文系统建模 MLA 双路径（内容路径与解耦 RoPE 路径）的量化误差，提出函数对齐的双路径量化方法 QuantMLA，在低比特下压缩 KV cache 并保持注意力功能精度。"
     },
     {
       "sourceId": "huggingface-papers",
@@ -834,6 +724,16 @@
       "excerpt": "Mixture-of-Experts (MoE) transformers scale capacity by activating only a few experts per token, but this sparsity creates a hidden reliability problem: when routing is imperfect, load-balanced models may send tokens to experts that are insufficiently trained for the assigned inputs. We propose Dist",
       "publishedAt": "2026-10-05T00:00:00.000Z",
       "meta": "👍 6",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "PANINI-DR: Controlled Deep Research through Generative Semantic Workspaces",
+      "url": "https://huggingface.co/papers/2610.15208",
+      "excerpt": "Deep research requires connecting multiple steps of search, reasoning, and computation, with intermediate findings guiding what to investigate next. As investigations grow, agents must maintain research state across model calls and check findings before errors propagate into subsequent work. We intr",
+      "publishedAt": "2026-10-10T00:00:00.000Z",
+      "meta": "👍 5",
       "category": "tech",
       "source": "HuggingFace Trending Papers"
     },
@@ -903,6 +803,16 @@
       "url": "https://huggingface.co/papers/2610.12998",
       "excerpt": "Creativity benchmarks for large language models (LLMs) vary widely in task and metric design. This raises the question of whether they capture a common notion of creativity. We propose that this shared target can be formalized as task-specific performance in the long tail of a reference input-output",
       "publishedAt": "2026-10-09T00:00:00.000Z",
+      "meta": "👍 3",
+      "category": "tech",
+      "source": "HuggingFace Trending Papers"
+    },
+    {
+      "sourceId": "huggingface-papers",
+      "title": "Clinician use of language models diverges from how the models are evaluated",
+      "url": "https://huggingface.co/papers/2610.11069",
+      "excerpt": "Large language model (LLM) assistants are being deployed to clinicians across health systems, and judgments about their readiness rest largely on benchmark scores, most of them derived from examination questions or curated cases. A benchmark predicts performance in deployment only to the extent that",
+      "publishedAt": "2026-10-08T00:00:00.000Z",
       "meta": "👍 3",
       "category": "tech",
       "source": "HuggingFace Trending Papers"
@@ -1365,7 +1275,7 @@
       "publishedAt": "2026-10-13T22:25:55.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "Latent Space 首期机器人播客对话 Dyna Robotics 首席科学家 Jason Ma，介绍通用物理智能体 Dyna-2，可自主运行长达一小时，并涉及世界动作模型与物理 AI 前沿布局。"
+      "summary": "播客「Latent Space」对话 Dyna Robotics 首席科学家 Jason Ma，介绍通用物理智能体 Dyna-2，可在长达一小时内保持自主运行；公司押注「世界动作模型」与物理 AI 的前沿方向。"
     },
     {
       "sourceId": "latent-space",
@@ -1637,7 +1547,7 @@
       "category": "tech",
       "meta": "@melvindvivas · 6.3K 粉丝 · 209.9K 阅 · 541 赞 · 83 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "作者长期使用 Claude Code、Codex、Cursor 等 AI 编码助手，认为它们改变的是「造软件」的方式，而 Grok Bot 改变的是更上层的工作方式本身。属于一线使用者的工具对比与心得分享。"
+      "summary": "博主长期使用 Claude Code、Codex、Cursor 等 AI 编程助手，认为它们改变的是写软件的方式，而 Grok Bot 改变的是工作方式本身。属于个人工具体验对比，未给出具体数据或工作流细节。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -1648,7 +1558,7 @@
       "category": "tech",
       "meta": "@eglyman · 393.9K 粉丝 · 88.6K 阅 · 724 赞 · 58 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "作者发布新产品 Glass，口号是「一次学会，终身受用」。起因是被 David Senra 问到 Ramp 为何跑得这么快，答案就是给每位员工配上最好的 AI 模型。属于企业 AI 落地案例与产品发布。"
+      "summary": "Ramp 发布内部 AI 产品 Glass，用以回答「Ramp 为何能跑得这么快」——核心是给每位员工配上最强模型。由 David Senra 的提问引出，属于企业级 AI 落地的产品发布分享，强调学习一次即可复用。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -1659,7 +1569,7 @@
       "category": "tech",
       "meta": "@rexsooo · 8.5K 粉丝 · 83.4K 阅 · 703 赞 · 46 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "汇总 35 个以上不做内容审查的 AI 平台，覆盖成人向图片与视频生成、NSFW 角色聊天、动漫工具和 AI 伴侣，按图片、视频、动漫、陪伴等类别整理成清单。属工具索引类内容，敏感场景需自行甄别。"
+      "summary": "整理 35+ 个可生成 18+ 内容的 AI 平台清单，覆盖成人向图片与视频生成、NSFW 角色聊天、动漫工具和 AI 伴侣等类别。属于无审查工具汇总型资源帖，偏罗列而非测评。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -1670,7 +1580,7 @@
       "category": "tech",
       "meta": "@dair_ai · 134.1K 粉丝 · 54.0K 阅 · 538 赞 · 56 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "DAIR.AI 的每周论文精选，本期首推 CMU 的 Harness Learning：认为 agent 由模型和「harness」共同定义，后者是组织模型调用、工具使用与信息流的程序，并训练 proposer 模型来改写它。偏研究前沿汇总。"
+      "summary": "DAIR.AI 本周 AI 论文精选，首推 CMU 的 Harness Learning：认为 agent 由模型与 harness（组织模型调用、工具使用与信息流的程序）共同定义，并训练 proposer 模型来改写 harness。属研究向周报。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -1681,7 +1591,7 @@
       "category": "tech",
       "meta": "@kirat_tw · 124.9K 粉丝 · 22.0K 阅 · 503 赞 · 26 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "作者提出「技能游戏」的观察：过去二十年编程能力是人才筛选标准，名校、大厂和创业公司都靠它判断谁聪明；如今 AI 正在改写这套机制，值得重新思考什么才是新的能力信号。"
+      "summary": "作者提出：过去二十年编程能力是市场筛选「聪明人」的标准，名校、大厂和创业公司都用它做门槛；如今这一筛选器正在失效，能力竞争转向新的维度。属行业观察类论点长文。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -1692,7 +1602,7 @@
       "category": "tech",
       "meta": "@GoogleAIStudio · 208.3K 粉丝 · 19.6K 阅 · 635 赞 · 45 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "Google AI Studio 宣布 Gemini 4 Argon 面向全球开放：开发者和企业可通过 AI Studio 与 Gemini 平台的 API 调用，Google AI Ultra 订阅者可在 Antigravity 中使用。定位是解决最难的问题。"
+      "summary": "Google 发布 Gemini 4 Argon，即日起面向开发者与企业开放 API，可在 AI Studio 和 Gemini 平台调用；Google AI Ultra 订阅者可在 Antigravity 中使用。官方产品发布，主打解决最难的问题。"
     },
     {
       "sourceId": "solidot",
@@ -2332,7 +2242,7 @@
       "publishedAt": "2026-10-13T20:03:37.000Z",
       "category": "politics",
       "source": "NPR World",
-      "summary": "美国9月柴油价格创历史新高。特朗普与俄罗斯达成协议，由俄方向市场释放更多柴油，此举能否压低美国柴油价格受到关注。"
+      "summary": "美国9月柴油价格创下历史新高。特朗普与俄罗斯达成协议，推动俄方向市场释放更多柴油，此举能否压低美国柴油价格成为关注焦点。"
     },
     {
       "sourceId": "npr-world",
@@ -2342,7 +2252,7 @@
       "publishedAt": "2026-10-13T18:51:55.000Z",
       "category": "politics",
       "source": "NPR World",
-      "summary": "乌克兰总统泽连斯基接受美国国家公共电台采访时表示，特朗普政府警告乌方可能切断情报共享，此时乌克兰与白宫关系再度紧张。"
+      "summary": "乌克兰总统泽连斯基在接受美国国家公共电台采访时透露，特朗普政府警告乌方可能被切断情报支持。此时乌克兰与美国白宫关系再度紧张。"
     },
     {
       "sourceId": "npr-world",
@@ -2352,7 +2262,7 @@
       "publishedAt": "2026-10-13T11:08:14.000Z",
       "category": "politics",
       "source": "NPR World",
-      "summary": "美国政府动用数百万纳税人资金投放支持特朗普的广告，尽管总统此前称不会发生。同时联邦探员搜查了众议员伊尔汗·奥马尔在华盛顿的住所。"
+      "summary": "美国政府动用数百万纳税人资金投放支持特朗普的广告，而总统此前曾称不会出现这种情况。同时，联邦探员搜查了众议员伊尔汗·奥马尔在华盛顿的住所。"
     },
     {
       "sourceId": "npr-world",
@@ -2361,8 +2271,7 @@
       "excerpt": "Pakistan has imposed emergency rule in the province governed by the political party of imprisoned former prime minister Imran Khan.",
       "publishedAt": "2026-10-13T10:51:33.000Z",
       "category": "politics",
-      "source": "NPR World",
-      "summary": "巴基斯坦在由被监禁前总理伊姆兰·汗所属政党执政的省份实施紧急状态，该省为其政治大本营。"
+      "source": "NPR World"
     },
     {
       "sourceId": "npr-world",
@@ -2372,7 +2281,7 @@
       "publishedAt": "2026-10-13T08:44:19.000Z",
       "category": "politics",
       "source": "NPR World",
-      "summary": "特朗普与普京达成的柴油协议引发欧洲愤怒，乌克兰总统泽连斯基质疑华盛顿的动机，欧洲盟友则誓言继续对莫斯科施压。"
+      "summary": "特朗普与普京达成的柴油协议引发欧洲强烈不满。乌克兰总统泽连斯基质疑华盛顿的动机，欧洲盟友则誓言继续对莫斯科施压。"
     },
     {
       "sourceId": "npr-world",
@@ -2382,7 +2291,7 @@
       "publishedAt": "2026-10-13T08:44:14.000Z",
       "category": "politics",
       "source": "NPR World",
-      "summary": "美国国家公共电台记者史蒂夫·英斯基普采访前美国欧洲事务助理国务卿丹·汉密尔顿，讨论北约应对俄罗斯可能袭击该联盟的详细计划。"
+      "summary": "北约制定详细计划，以应对俄罗斯可能对该联盟发动的袭击。前美国负责欧洲事务的助理国务卿丹·汉密尔顿就相关计划接受采访。"
     },
     {
       "sourceId": "npr-world",
@@ -2392,7 +2301,7 @@
       "publishedAt": "2026-10-13T05:42:28.000Z",
       "category": "politics",
       "source": "NPR World",
-      "summary": "法国检察官称，画作保护罩上留下的DNA帮助调查人员追回两幅被盗的雷诺阿画作，并发现疑似为另一起艺术品盗窃所做的准备。"
+      "summary": "法国检方周一表示，调查人员借助画作保护罩上遗留的DNA和车辆追踪技术，追回两幅被盗的雷诺阿画作，并发现疑似为另一起艺术品盗窃所做的准备。"
     },
     {
       "sourceId": "npr-world",
@@ -2402,7 +2311,7 @@
       "publishedAt": "2026-10-12T21:43:48.000Z",
       "category": "politics",
       "source": "NPR World",
-      "summary": "乌克兰领导人称俄罗斯持续攻击乌克兰，无视特朗普宣布的「能源停火」。特朗普此前宣布部分俄乌停火，尚不清楚两国是否事先知情。"
+      "summary": "特朗普宣布俄乌达成部分停火，但乌克兰领导人称俄罗斯仍在继续攻击乌克兰，无视特朗普宣布的「能源停火」。"
     },
     {
       "sourceId": "npr-world",
@@ -2412,7 +2321,7 @@
       "publishedAt": "2026-10-12T21:37:21.000Z",
       "category": "politics",
       "source": "NPR World",
-      "summary": "许多伊朗人为维持生计前往土耳其寻找工作，但不少人遭到剥削，最终不仅未能脱困，反而背上更多债务。"
+      "summary": "因国内生计艰难，许多伊朗人前往土耳其寻找工作，但不少人遭到剥削，不仅未能改善处境，反而背负更多债务。"
     },
     {
       "sourceId": "npr-world",
@@ -2422,7 +2331,7 @@
       "publishedAt": "2026-10-12T20:42:49.000Z",
       "category": "politics",
       "source": "NPR World",
-      "summary": "一家原本靠生产智能手机控制的宠物摄像头而获利的乌克兰公司，如今为第一人称视角无人机配备人工智能图像识别系统。俄乌双方均在战场上使用AI无人机。"
+      "summary": "俄罗斯与乌克兰均在战场上使用人工智能无人机。一家乌克兰公司原本生产用于看护宠物的智能手机摄像头，如今为第一人称视角无人机配备人工智能图像识别系统。"
     },
     {
       "sourceId": "peoples-daily",
@@ -3206,6 +3115,24 @@
     },
     {
       "sourceId": "infoq-cn",
+      "title": "无问芯穹联合创始人戴国浩博士确认出席QCon上海，分享Agentic Infra 技术探索与实践",
+      "url": "https://www.infoq.cn/article/EVQ0s2JRvxZyo9f9gSg6?utm_source=rss&utm_medium=article",
+      "excerpt": "点击查看原文>",
+      "publishedAt": "2026-10-14T10:00:00.000Z",
+      "category": "tech",
+      "source": "InfoQ 中文"
+    },
+    {
+      "sourceId": "infoq-cn",
+      "title": "Cloudflare 推出 Worker Previews：看似隔离，仍会连接生产",
+      "url": "https://www.infoq.cn/article/Jf88XAvrK0zmBj2Ud2OD?utm_source=rss&utm_medium=article",
+      "excerpt": "点击查看原文>",
+      "publishedAt": "2026-10-14T09:21:00.000Z",
+      "category": "tech",
+      "source": "InfoQ 中文"
+    },
+    {
+      "sourceId": "infoq-cn",
       "title": "手机解锁先见 AI，不再先找 App：阶跃星辰首款智能体手机来了，定价 3999",
       "url": "https://www.infoq.cn/article/p2TobACROBC8UBPlRKXx?utm_source=rss&utm_medium=article",
       "excerpt": "点击查看原文>",
@@ -3367,22 +3294,13 @@
       "source": "InfoQ 中文"
     },
     {
-      "sourceId": "infoq-cn",
-      "title": "SvelteKit 3 进入 RC：svelte.config.js 没了，$lib 也要退休",
-      "url": "https://www.infoq.cn/article/Hs5X7EdO6PNHk367zZv3?utm_source=rss&utm_medium=article",
-      "excerpt": "点击查看原文>",
-      "publishedAt": "2026-10-12T14:36:00.000Z",
-      "category": "tech",
-      "source": "InfoQ 中文"
-    },
-    {
-      "sourceId": "infoq-cn",
-      "title": "Meta ZGateway 在每秒处理超过 10 亿次操作的同时，将 ZippyDB 的连接数减少了 19 倍",
-      "url": "https://www.infoq.cn/article/d5x9BkQ9AoIZq5mf6LN0?utm_source=rss&utm_medium=article",
-      "excerpt": "点击查看原文>",
-      "publishedAt": "2026-10-12T13:00:00.000Z",
-      "category": "tech",
-      "source": "InfoQ 中文"
+      "sourceId": "36kr",
+      "title": "8点1氪丨茶百道涉IPO欺诈，被暂停交易；苹果连夜发布3款智能家居新品，总市值再创历史新高；DeepSeek将完成1000亿元融资",
+      "url": "https://36kr.com/p/4025027267580036?f=rss",
+      "excerpt": "今日热点导览 字节跳动Seed单独设立大模型安全与对齐部门 爆火促销被指加盟商买单，霸王茶姬回应 拒签《暗影蜘蛛侠》AI授权协议，美知名演员尼古拉斯·凯奇“硬刚”亚马逊 梁文锋或再投一家机器人公司 峰学蔚来武亮回应财产转移相关质疑 腾讯启动50亿美元债券发行，为AI支出募资 TOP3大新闻 茶百道涉IPO欺诈，被暂停交易 36氪获悉，香港证监会公告，已对两个集团采取行动，因它们涉嫌参与欺诈计划，意图就首次公开招股的股份需求营造虚假或非真实的表象。证监会亦已指示港交所，自10月13日上午9时正起暂停茶百道股份交易。香港证监会高度关注，茶百道的首次公开招股可能曾被人为操纵，意图就茶百道的股份需求营",
+      "publishedAt": "2026-10-14T01:11:48.000Z",
+      "category": "finance",
+      "source": "36氪"
     },
     {
       "sourceId": "36kr",
@@ -3467,10 +3385,163 @@
     },
     {
       "sourceId": "36kr",
-      "title": "36氪首发 | 获数千万融资，ModCraft想让AI通过Mod理解游戏设计",
-      "url": "https://36kr.com/p/4022737676259464?f=rss",
-      "excerpt": "文丨二几 36氪获悉，AI游戏Mod创作与内容平台ModCraft已完成数千万人民币种子轮融资，投资方包括商汤国香资本、L2F光源创业者基金。融资资金将主要用于AI模型训练以及平台增长。 从产品来看，ModCraft目前提供两大服务：一是让用户通过AI，用自然语言制作游戏Mod；二是在平台上发现、游玩和分享其他玩家创作的Mod。截至目前，平台已经上架28款游戏，都是在Steam具有较高知名度的作品。包括经典国产独立游戏《太吾绘卷》，斩获TGA 2025年度游戏的《光与影：33号远征队》，以及近年爆火的合作游戏《PEAK》等。 ModCraft官网首页 在创始人李硕看来，Mod的意义远不止是玩家",
-      "publishedAt": "2026-10-12T11:04:50.000Z",
+      "title": "天阳科技：公司算力相关业务仍在努力推进中",
+      "url": "https://36kr.com/newsflashes/4025066963226501?f=rss",
+      "excerpt": "36氪获悉，天阳科技在互动平台表示，公司算力相关业务仍在努力推进中，公司将严格按照深交所信息披露规则进行披露。当前，算力行业项目受供应链、市场需求等多重因素影响，系行业发展阶段客观现象。敬请投资者理性投资，注意投资风险。",
+      "publishedAt": "2026-10-14T02:04:39.000Z",
+      "category": "finance",
+      "source": "36氪"
+    },
+    {
+      "sourceId": "36kr",
+      "title": "中朝新鸭绿江大桥将开通",
+      "url": "https://36kr.com/newsflashes/4025081233379456?f=rss",
+      "excerpt": "经中朝双方商定，中朝新鸭绿江大桥将于10月15日正式开通，双方将于当日共同举行开通仪式。（新华社）",
+      "publishedAt": "2026-10-14T02:04:21.000Z",
+      "category": "finance",
+      "source": "36氪"
+    },
+    {
+      "sourceId": "36kr",
+      "title": "三大指数全线翻红",
+      "url": "https://36kr.com/newsflashes/4025080417898631?f=rss",
+      "excerpt": "36氪获悉，三大指数全线翻红，沪指涨0.23%，深证成指涨0.13%，创业板指涨0.02%。沪深京三市上涨个股超2100只。",
+      "publishedAt": "2026-10-14T02:03:32.000Z",
+      "category": "finance",
+      "source": "36氪"
+    },
+    {
+      "sourceId": "36kr",
+      "title": "9月份我国货物贸易进出口首破5万亿元，增长27.5%",
+      "url": "https://36kr.com/newsflashes/4025078541062278?f=rss",
+      "excerpt": "据海关统计，9月份进出口5.16万亿元，首次突破了5万亿元，增长27.5%。其中，出口3.03万亿元，增长29.6%；进口2.13万亿元，增长24.6%。（央视新闻）",
+      "publishedAt": "2026-10-14T02:01:37.000Z",
+      "category": "finance",
+      "source": "36氪"
+    },
+    {
+      "sourceId": "36kr",
+      "title": "9月清理“AI魔改”违规视频近1.3万条，处置违规账号30余个",
+      "url": "https://36kr.com/newsflashes/4025077621788548?f=rss",
+      "excerpt": "据国家广播电视总局消息，2026年1月开展的“AI魔改”视频专项治理工作已取得实效。部分重点网络视听平台近期公布了9月的处置情况，共清理违规视频近13000条、处置违规账号30余个。据了解，为进一步巩固治理成果，自2026年2月1日起，“AI魔改”视频治理工作通过常态化、制度化长效机制持续开展。广电总局督导各主要网络视听平台进一步深化落实主体责任，加强日常排查，重点清理基于四大名著、历史题材、革命题材、英模人物等经典影视作品进行“AI魔改”的违规视频，并同步清理各类邪典动画，持续营造健康的网络视听生态环境。（央视新闻）",
+      "publishedAt": "2026-10-14T02:00:41.000Z",
+      "category": "finance",
+      "source": "36氪"
+    },
+    {
+      "sourceId": "36kr",
+      "title": "云南锗业：当前磷化铟晶片市场需求旺盛，公司在手订单充足",
+      "url": "https://36kr.com/newsflashes/4025064164003720?f=rss",
+      "excerpt": "36氪获悉，有投资者向云南锗业提问， 请问贵公司在磷化铟衬底上有订单吗？国内的还是国外的？公司回答表示：公司控股子公司云南鑫耀半导体材料有限公司的磷化铟晶片（衬底）已批量生产多年，并保持稳定供货。当前磷化铟晶片市场需求旺盛，公司在手订单充足，订单规格涵盖2—6英寸，客户涵盖国内外下游知名厂商。",
+      "publishedAt": "2026-10-14T01:55:43.000Z",
+      "category": "finance",
+      "source": "36氪"
+    },
+    {
+      "sourceId": "36kr",
+      "title": "现代汽车计划未来七年向印度投资155亿美元",
+      "url": "https://36kr.com/newsflashes/4025065093304198?f=rss",
+      "excerpt": "韩国现代汽车集团周三表示，计划到2032年底向印度投资155亿美元，此举凸显了印度对其全球增长战略的重要性。该集团在一份新闻稿中表示，集团执行会长郑义宣周二在新德里会见印度总理纳伦德拉·莫迪时宣布了这一投资计划。据公告显示，这笔投资将用于扩大产能、建设研发基础设施、培育本土供应商以提高零部件本土化率，以及推进未来技术发展。（新浪财经）",
+      "publishedAt": "2026-10-14T01:47:56.000Z",
+      "category": "finance",
+      "source": "36氪"
+    },
+    {
+      "sourceId": "36kr",
+      "title": "富士胶片将投资1800万美元在美国扩建CMP抛光浆料产能",
+      "url": "https://36kr.com/newsflashes/4025058903625857?f=rss",
+      "excerpt": "富士胶片发表声明称，公司计划投资1800万美元，扩大其位于亚利桑那州梅萨工厂用于半导体制造的CMP抛光浆料产能。扩建后的生产线将于2027年开始运营。（界面）",
+      "publishedAt": "2026-10-14T01:47:32.000Z",
+      "category": "finance",
+      "source": "36氪"
+    },
+    {
+      "sourceId": "36kr",
+      "title": "中信证券：金价底部或抬升，黄金板块有望先行",
+      "url": "https://36kr.com/newsflashes/4024976729772169?f=rss",
+      "excerpt": "36氪获悉，中信证券研报称，9月以来，超预期的ETF、央行买盘对于期货端的流动性卖盘形成较为充分的对冲作用，近两周的金价呈现企稳迹象，未来有望较6月底的底部出现抬升。类比7月黄金板块较金价率先反弹，当前金价若企稳将成为黄金板块反弹的重要信号。重视黄金板块反弹机遇。",
+      "publishedAt": "2026-10-14T01:43:52.000Z",
+      "category": "finance",
+      "source": "36氪"
+    },
+    {
+      "sourceId": "36kr",
+      "title": "国家统计局城市司首席统计师董莉娟解读2026年9月份CPI和PPI数据",
+      "url": "https://36kr.com/newsflashes/4025055305928836?f=rss",
+      "excerpt": "36氪获悉，9月份，居民消费价格指数（CPI）环比上涨0.2%，涨幅比上月回落0.2个百分点；同比上涨0.9%，涨幅比上月扩大0.1个百分点；扣除食品和能源价格的核心CPI同比上涨1.0%，涨幅与上月相同。工业生产者出厂价格指数（PPI）环比上涨1.2%，涨幅比上月扩大0.8个百分点；同比上涨5.0%，涨幅比上月扩大1.2个百分点。CPI环比涨幅回落，同比涨幅扩大；PPI环比和同比涨幅均扩大。",
+      "publishedAt": "2026-10-14T01:37:59.000Z",
+      "category": "finance",
+      "source": "36氪"
+    },
+    {
+      "sourceId": "36kr",
+      "title": "中国港湾与铁科院集团公司签署战略合作协议",
+      "url": "https://36kr.com/newsflashes/4024974266716039?f=rss",
+      "excerpt": "36氪获悉，据中国港湾消息，10月12日，中国港湾与铁科院集团公司签署战略合作框架协议。根据协议，双方将围绕轨道交通产品系统设计与技术服务、铁路技术标准国际化、全产业链协同等方面开展深度合作，共同拓展海外业务全新发展空间。",
+      "publishedAt": "2026-10-14T01:37:45.000Z",
+      "category": "finance",
+      "source": "36氪"
+    },
+    {
+      "sourceId": "36kr",
+      "title": "国家统计局：9月份全国工业生产者出厂价格同比上涨5.0%，环比上涨1.2%",
+      "url": "https://36kr.com/newsflashes/4025051291160448?f=rss",
+      "excerpt": "36氪获悉，2026年9月份，全国工业生产者出厂价格同比上涨5.0%，环比上涨1.2%。工业生产者购进价格同比上涨6.9%，环比上涨1.2%。1—9月平均，工业生产者出厂价格比上年同期上涨2.3%，工业生产者购进价格上涨3.6%。",
+      "publishedAt": "2026-10-14T01:33:54.000Z",
+      "category": "finance",
+      "source": "36氪"
+    },
+    {
+      "sourceId": "36kr",
+      "title": "国家统计局：9月份居民消费价格同比上涨0.9%",
+      "url": "https://36kr.com/newsflashes/4025049165271168?f=rss",
+      "excerpt": "36氪获悉，2026年9月份，全国居民消费价格同比上涨0.9%。其中，城市上涨0.9%，农村上涨0.8%；食品价格下降1.7%，非食品价格上涨1.5%；消费品价格上涨1.0%，服务价格上涨0.8%。1­­—9月平均，全国居民消费价格比上年同期上涨0.9%。9月份，全国居民消费价格环比上涨0.2%。其中，城市上涨0.2%，农村上涨0.4%；食品价格上涨0.4%，非食品价格上涨0.2%；消费品价格上涨0.5%，服务价格下降0.2%。",
+      "publishedAt": "2026-10-14T01:31:44.000Z",
+      "category": "finance",
+      "source": "36氪"
+    },
+    {
+      "sourceId": "36kr",
+      "title": "央行今日开展560亿元7天期逆回购操作，操作利率为1.40%",
+      "url": "https://36kr.com/newsflashes/4025046838612098?f=rss",
+      "excerpt": "央行今日开展560亿元7天期逆回购操作，操作利率为1.40%，与此前持平。",
+      "publishedAt": "2026-10-14T01:29:22.000Z",
+      "category": "finance",
+      "source": "36氪"
+    },
+    {
+      "sourceId": "36kr",
+      "title": "A股三大指数集体低开，文化传媒板块领跌",
+      "url": "https://36kr.com/newsflashes/4025045185040265?f=rss",
+      "excerpt": "36氪获悉，A股三大指数集体低开，沪指跌0.27%，深成指跌0.36%，创业板指跌0.52%；贵金属、文化传媒板块领跌，龙版传媒跌停，盛达资源跌超2%；石油化工、化纤行业板块涨幅居前，恒逸石化涨超1%，中国海油涨0.76%。",
+      "publishedAt": "2026-10-14T01:27:41.000Z",
+      "category": "finance",
+      "source": "36氪"
+    },
+    {
+      "sourceId": "36kr",
+      "title": "恒指开盘跌0.26%，恒生科技指数跌0.02%",
+      "url": "https://36kr.com/newsflashes/4025041673097351?f=rss",
+      "excerpt": "36氪获悉，恒指开盘跌0.26%，恒生科技指数跌0.02%；有色金属、医药生物领跌，康方生物跌超6%，紫金黄金国际跌超1%；煤炭、硬件设备涨幅居前，博泰车联涨超4%，中国神华涨0.73%。",
+      "publishedAt": "2026-10-14T01:24:07.000Z",
+      "category": "finance",
+      "source": "36氪"
+    },
+    {
+      "sourceId": "36kr",
+      "title": "人民币兑美元中间价报6.7249，上调49点",
+      "url": "https://36kr.com/newsflashes/4025033783922569?f=rss",
+      "excerpt": "36氪获悉，人民币兑美元中间价报6.7249，上调49点。",
+      "publishedAt": "2026-10-14T01:16:05.000Z",
+      "category": "finance",
+      "source": "36氪"
+    },
+    {
+      "sourceId": "36kr",
+      "title": "Apple Watch推出睡眠呼吸暂停迹象提示功能",
+      "url": "https://36kr.com/newsflashes/4024972587274117?f=rss",
+      "excerpt": "苹果在中国大陆推出一项Apple Watch的新功能，以帮助用户识别中度至重度睡眠呼吸暂停迹象。用户可以在iPhone和iPad上的健康app中查看每晚的呼吸紊乱数据，这些数据会被分类为“上升”或“未上升”，并可按一个月、六个月或一年的时间段查看。（界面）",
+      "publishedAt": "2026-10-14T01:10:39.000Z",
       "category": "finance",
       "source": "36氪"
     },
@@ -3493,166 +3564,13 @@
       "source": "36氪"
     },
     {
-      "sourceId": "36kr",
-      "title": "谷歌改版车载应用商店，新增多款娱乐应用",
-      "url": "https://36kr.com/newsflashes/4024953660346498?f=rss",
-      "excerpt": "谷歌为搭载谷歌内置系统的车辆推出改版后的车载谷歌应用商店，新增多款娱乐应用，YouTube上线一项新功能：车辆从驻车切换为行驶状态后，音频仍可持续播放。本次谷歌应用商店更新将在未来数周逐步推送。新版车载应用商店界面经过重新设计，新增Starz、火狐浏览器、Ludo King以及JioHotstar等应用，供驻车状态下使用。同时上线YouTube新功能，驻车观看视频的音频可在车辆行驶后继续播放。谷歌表示，搭载谷歌内置系统的车型覆盖16个品牌、超过100款车型。谷歌地图、Gemini等应用可直接在车机运行，无需连接手机。车载谷歌应用商店拥有700余款应用。（新浪财经）",
-      "publishedAt": "2026-10-14T00:59:14.000Z",
-      "category": "finance",
-      "source": "36氪"
-    },
-    {
-      "sourceId": "36kr",
-      "title": "支付严监管持续，前三季度持牌支付机构罚单超40张",
-      "url": "https://36kr.com/newsflashes/4024987177570441?f=rss",
-      "excerpt": "2026年前三季度，中国人民银行各分支机构持续公示支付机构行政处罚信息，行业严监管态势不变。经梳理，中国人民银行各分支机构对持牌支付机构开出罚单超40张，罚没总额超3.5亿元，单笔最高罚没7445万元。监管部门严格执行“机构+直接责任人”双罚制度，在对机构进行处罚的同时，同步追究相关高管及直接责任人的责任。（证券时报）",
-      "publishedAt": "2026-10-14T00:56:31.000Z",
-      "category": "finance",
-      "source": "36氪"
-    },
-    {
-      "sourceId": "36kr",
-      "title": "中信建投：证券板块具备中长期配置价值 建议关注三条主线",
-      "url": "https://36kr.com/newsflashes/4024970895413383?f=rss",
-      "excerpt": "36氪获悉，中信建投证券研报称，证券板块具备中长期配置价值，建议关注三条主线。节后成交额环比回升，主要源于资金回流的日历效应，但同比仍处回落态势，且资金回流更多体现为存量调仓，市场总体仍处于缩量整固阶段。两融余额处于历史高位但杠杆水平与市值扩张基本匹配，系统性加杠杆风险可控，市场风险偏好仍在修复通道。股权融资节奏平稳，资源持续向新质生产力领域倾斜。当前板块估值处于历史相对低位，具备一定安全边际。建议关注科技投行差异化竞争力券商、大财富业务领先券商及金融科技标的、国际化提速驱动ROE上行的头部券商。",
-      "publishedAt": "2026-10-14T00:54:56.000Z",
-      "category": "finance",
-      "source": "36氪"
-    },
-    {
-      "sourceId": "36kr",
-      "title": "高盛CEO斥高层人事变动说为“噪音”，说没有交班时间表",
-      "url": "https://36kr.com/newsflashes/4024969587789703?f=rss",
-      "excerpt": "高盛集团首席执行官苏德巍驳斥了最高管理层近来会有更迭的传言并称之为“噪音”。该行首席运营官John Waldron长期以来被视为苏德巍的潜在接班人。最近几周出现有关苏德巍最早明年卸任的报道后，权力交接的时机再次成为关注焦点。“所以，要知道，我只是想澄清一下，高盛目前没有任何继任过渡或者是时间表，” 苏德巍周二在与分析师的业绩电话会上说，“董事会和我目前完全专注于我们的公司发展战略，以及继续为客户提供卓越的服务。”（新浪财经）",
-      "publishedAt": "2026-10-14T00:52:31.000Z",
-      "category": "finance",
-      "source": "36氪"
-    },
-    {
-      "sourceId": "36kr",
-      "title": "新一轮硅料产能限制计划正在酝酿",
-      "url": "https://36kr.com/newsflashes/4024968655146888?f=rss",
-      "excerpt": "从相关企业人士处获悉，10月11日，通威股份、协鑫科技等头部光伏企业在杭州召开会议。此次会议透露出几项关键信息，一是进一步形成产能限制的落地计划，并通过市场化调节机制，推动各企业根据市场总需求自主统筹、主动压制自身产能；二是明确了一套相互监督机制——各企业达成一致，对违反国家低价倾销规定、恶意破坏市场经济规则、扰乱行业秩序的行为，鼓励主动举报。据悉，会议还就多晶硅及组件划出明确价格底线。其中，硅料平均成本含税价不得低于4.3万元/吨；BC组件价格不得低于0.86元/W，TOPCon组件不得低于0.79元/W。此外，出口产品及社会采购、招投标环节价格同样不得低于上述底线。（证券时报）",
-      "publishedAt": "2026-10-14T00:49:34.000Z",
-      "category": "finance",
-      "source": "36氪"
-    },
-    {
-      "sourceId": "36kr",
-      "title": "两市融资余额减少90.66亿元",
-      "url": "https://36kr.com/newsflashes/4025006995837060?f=rss",
-      "excerpt": "36氪获悉，截至10月13日，上交所融资余额报12860.65亿元，较前一交易日减少31.02亿元；深交所融资余额报12220.58亿元，较前一交易日减少59.64亿元；两市合计25081.23亿元，较前一交易日减少90.66亿元。",
-      "publishedAt": "2026-10-14T00:48:50.000Z",
-      "category": "finance",
-      "source": "36氪"
-    },
-    {
-      "sourceId": "36kr",
-      "title": "贝莱德和Baillie Gifford大举押注Icon 3D打印住宅",
-      "url": "https://36kr.com/newsflashes/4024978861002881?f=rss",
-      "excerpt": "总部位于美国奥斯汀的Icon是3D打印房地产领域最大的参与者之一，该公司10月13日宣布完成2亿美元D轮融资，由Baillie Gifford与贝莱德旗下基金等联合领投。本轮融资使Icon累计融资额达到7亿美元，公司估值报14亿美元。 此轮融资紧随Icon最新技术Titan多层机器人3D建筑系统之后，该系统已于今年3月正式商业化。Icon此前的技术只能建造单层建筑。据Icon称，Titan还能将房屋平均建造周期缩短六周，减少所需工人数量，并将整体成本降低40%。（新浪财经）",
-      "publishedAt": "2026-10-14T00:46:02.000Z",
-      "category": "finance",
-      "source": "36氪"
-    },
-    {
-      "sourceId": "36kr",
-      "title": "新能源汽车增值税出口退税率将降至9%，外贸“新三样”进入体系化竞争阶段",
-      "url": "https://36kr.com/newsflashes/4024967380881288?f=rss",
-      "excerpt": "10月12日，随着财政部、税务总局发布公告，中国新能源汽车出口的退税红利退坡正式进入倒计时。根据公告，自2027年4月1日起，新能源汽车增值税出口退税率由13%下调至9%，新能源汽车出口消费税退税政策维持不变。退税率判定以出口货物报关单注明的出口日期为准——这意味着，哪怕销售合同签订日期锁定今年，明年4月1日之后报关出口的车辆，也需执行新标准。继光伏、锂电池之后，新能源汽车政策渐回中性。业内认为，出口退税退坡，退的是政策，进的是能力。中国汽车出海，将从政策红利、成本优势的叠加期，转向产品、品牌、本地化运营的综合比拼；而外贸“新三样”，也将集体进入“体系化竞争”新阶段。（证券时报）",
-      "publishedAt": "2026-10-14T00:44:22.000Z",
-      "category": "finance",
-      "source": "36氪"
-    },
-    {
-      "sourceId": "36kr",
-      "title": "今年前八个月我国服务贸易出口同比增14.8%",
-      "url": "https://36kr.com/newsflashes/4025001836335238?f=rss",
-      "excerpt": "商务部13日发布数据显示，今年前八个月，我国服务贸易保持较快增长，其中旅行、运输和知识密集型服务出口表现亮眼。数据显示：今年1—8月，我国服务进出口总额50701.6亿元，同比增长7.9%。其中，出口19996.1亿元，同比增长14.8%；进口30705.5亿元，同比增长3.8%。服务贸易逆差同比缩小1451.2亿元。（央视新闻）",
-      "publishedAt": "2026-10-14T00:43:35.000Z",
-      "category": "finance",
-      "source": "36氪"
-    },
-    {
-      "sourceId": "36kr",
-      "title": "里士满联储行长：采取行动应对持续通胀是合理的",
-      "url": "https://36kr.com/newsflashes/4024966176084105?f=rss",
-      "excerpt": "里士满联储行长汤姆·巴尔金表示，给美国价格带来压力的冲击显然在持续，并且针对这种动态采取行动是恰当的。“我非常支持我们正在做的事情，”巴尔金周二在霍华德大学回答提问时，被问及如何看待通过加息抗击通胀的做法。“如果回到四个月前，当时出现了许多冲击，看起来都是一次性的、可能只是暂时的，最终会逐渐消退——通胀可能重新回到2025年初时的轨道，”他说。“在我看来，目前这些冲击很明显在持续，通胀在持续，并且采取一些措施加以应对有一定道理，”他说。（新浪财经）",
-      "publishedAt": "2026-10-14T00:39:07.000Z",
-      "category": "finance",
-      "source": "36氪"
-    },
-    {
-      "sourceId": "36kr",
-      "title": "多家公司三季报业绩预喜，PCB行业盈利能力大增",
-      "url": "https://36kr.com/newsflashes/4024963911307136?f=rss",
-      "excerpt": "10月13日晚间，又有多家A股公司预计前三季度盈利大增。富春染织预计，公司2026年前三季度净利润为3.38亿—3.78亿元，同比增长1347.69%—1519.01%。今年以来，PCB赛道需求旺盛，业内企业持续兑现业绩，成为预增主力。宝鼎科技预计2026年前三季度净利润为3.30亿—3.70亿元，同比增长536.88%—614.07%。另一家PCB产业链企业兴森科技也发布业绩预告，预计今年前三季度公司净利润为4亿—4.3亿元，同比增长204.20%—227.02%。（证券时报）",
-      "publishedAt": "2026-10-14T00:34:49.000Z",
-      "category": "finance",
-      "source": "36氪"
-    },
-    {
-      "sourceId": "36kr",
-      "title": "微软云业务总裁据悉要求高管寻找削减成本方案",
-      "url": "https://36kr.com/newsflashes/4024989517451137?f=rss",
-      "excerpt": "当地时间10月13日，据报道，知情人士称，微软已讨论在其Azure云服务器租赁业务部门进行大幅成本削减。报道称，Azure总裁Girish Bablani近几周要求其团队高管提出方案，以实现至少20%的成本削减。知情人士称，公司尚未敲定任何成本削减措施，且这些措施可能发生变化。此外，报道称，目前尚不清楚此类削减是否会包括裁员。（界面）",
-      "publishedAt": "2026-10-14T00:31:04.000Z",
-      "category": "finance",
-      "source": "36氪"
-    },
-    {
-      "sourceId": "36kr",
-      "title": "摩根大通禁止Muse、Instinct等外部AI代理直接访问账户",
-      "url": "https://36kr.com/newsflashes/4024962841431944?f=rss",
-      "excerpt": "摩根大通首席执行官杰米·戴蒙周二表示，该行不会允许外部人工智能代理访问客户账户并代表客户操作，理由是在Meta等科技公司发布自主助手之际，这对公司及其客户构成风险。“我们不会允许任何外部代理进入公司内部，因为这对客户和摩根大通来说都太危险了，”戴蒙在该行第三季度财报电话会上对分析师表示。“你不想要失控代理，而且可能会有数千个，”他补充道，描述了这对客户的潜在威胁。（新浪财经）",
-      "publishedAt": "2026-10-14T00:30:46.000Z",
-      "category": "finance",
-      "source": "36氪"
-    },
-    {
-      "sourceId": "36kr",
-      "title": "北证市场投资者机构化加速，机构交易占比攀升至24%",
-      "url": "https://36kr.com/newsflashes/4024960820137864?f=rss",
-      "excerpt": "2026年10月，首批北交所3个月持有期主题基金集中开售，为市场持续性引入增量资金。数据显示，北证市场的资金结构正发生变化，开市至今，机构交易占比从初期9%稳步攀升至24%，超3000只公募基金参与交易。多位北交所市场专家表示，北证市场投资者机构化不是简单的机构占比数字提升，而是资金结构、估值逻辑、定价权的系统性重塑。机构资金入场节奏、解禁减持的冲击程度、长线资金承接能力三者之间的博弈，将决定北证市场下一阶段的运行底色。（证券时报）",
-      "publishedAt": "2026-10-14T00:26:41.000Z",
-      "category": "finance",
-      "source": "36氪"
-    },
-    {
-      "sourceId": "36kr",
-      "title": "北交所做市商扩容提速，年内5家券商获业务资格",
-      "url": "https://36kr.com/newsflashes/4024960088870791?f=rss",
-      "excerpt": "近日，证监会核准山西证券北交所股票做市业务资格。今年以来，北交所做市商队伍扩容提速，有5家券商先后拿到该业务资格。截至当前，拥有北交所做市业务资格的券商共有28家，还有多家券商正在排队申请之中。“北交所做市队伍‘扩容’，可以提升北交所市场定价效率，提振公募等机构配置意愿。”华源证券北交所首席分析师赵昊表示，“对上市公司而言，有做市覆盖意味着有更好的流动性和机构关注度，提升北交所对优质专精特新企业的上市吸引力。”（证券时报）",
-      "publishedAt": "2026-10-14T00:23:50.000Z",
-      "category": "finance",
-      "source": "36氪"
-    },
-    {
-      "sourceId": "36kr",
-      "title": "美债期货负凸性升至近20年高位，MOVE指数创立者警告“噩梦情景”",
-      "url": "https://36kr.com/newsflashes/4024959065460617?f=rss",
-      "excerpt": "美债市场MOVE指数的创立者Harley Bassman警告称，债市一个鲜受关注的特征可能令抛售行情更为剧烈，并进一步推高债券收益率。Bassman发文称，这一风险源于期货合约结算时，交易员提供交割债券的方式。Bassman表示，与债券期货相关的负凸性，也就是其异常突出的下行风险，已经升至2007年以来最高水平，债市最近一轮抛售背后可能有其推波助澜。（新浪财经）",
-      "publishedAt": "2026-10-14T00:20:50.000Z",
-      "category": "finance",
-      "source": "36氪"
-    },
-    {
-      "sourceId": "36kr",
-      "title": "OpenAI正就收购安全初创公司Trail of Bits进行初步谈判",
-      "url": "https://36kr.com/newsflashes/4024955447906440?f=rss",
-      "excerpt": "当地时间10月13日，据报道，知情人士透露，OpenAI正就收购安全初创公司Trail of Bits进行初步谈判。目前尚无法获悉这笔潜在交易的规模，谈判仍在进行中。（界面）",
-      "publishedAt": "2026-10-14T00:17:13.000Z",
-      "category": "finance",
-      "source": "36氪"
-    },
-    {
-      "sourceId": "36kr",
-      "title": "Neocloud厂商Prime Intellect收购初创公司，加速推理业务",
-      "url": "https://36kr.com/newsflashes/4024952455237762?f=rss",
-      "excerpt": "各类新云服务商（neocloud）以及为应用开发者运行开源模型的推理服务商，正在竞争白热化的市场中寻求差异化优势。 例如，这类新云厂商之一Prime Intellect，在7月的一轮股权融资中估值达10亿美元。该公司正收购一家初创企业，以求在英伟达服务器上运行开源模型时，相比竞争对手实现更高速度、更低成本。 Prime Intellect联合创始人兼首席执行官文森特·魏瑟介绍，这家总部位于旧金山的公司将收购Moondream。Moondream是一家成立不久的开源模型开发企业，员工不足十人。（新浪财经）",
-      "publishedAt": "2026-10-14T00:14:12.000Z",
-      "category": "finance",
-      "source": "36氪"
+      "sourceId": "sspai",
+      "title": "派早报：Apple 发布 HomePod mini 2、HomeView 等新品",
+      "url": "https://sspai.com/post/116138",
+      "excerpt": "Apple Watch 在中国大陆推出睡眠呼吸暂停迹象提示功能、Google 发布 Gemini 4 Argon 等。查看全文",
+      "publishedAt": "2026-10-14T00:40:39.000Z",
+      "category": "tech",
+      "source": "少数派"
     },
     {
       "sourceId": "sspai",
@@ -3736,13 +3654,139 @@
       "source": "少数派"
     },
     {
-      "sourceId": "sspai",
-      "title": "写给「跑两步就喘」的你：不能忽略的跑后拉伸与恢复",
-      "url": "https://sspai.com/post/115568",
-      "excerpt": "前面两篇文章我们介绍了想要舒适跑步，在跑前和跑步中的一些小技巧，今天和大家聊聊跑后如何正确的拉伸，如何更好地帮助身体恢复。关联阅读：跑前精准热身，缓解跑时疼痛调整跑步姿势，舒适开跑正确拉伸多数人跑后会 ...查看全文",
-      "publishedAt": "2026-10-11T07:00:49.000Z",
+      "sourceId": "ithome",
+      "title": "新作者必须完本才能签约，番茄小说被曝大幅抬高签约门槛",
+      "url": "https://www.ithome.com/1/012/681.htm",
+      "excerpt": "IT之家 10 月 14 日消息，据界面新闻报道，10 月 12 日，番茄小说发布签约模式调整通知，因大幅抬高签约门槛，引发争议。 根据最新调整，自 2026 年 10 月 12 日起，Lv.0 与 Lv.1 作者的新作品只能选择“完本签约模式”，Lv.2 及以上作者才可在连载签约与完本签约间自由选择。 番茄小说称，为帮助作者更好的适应新版签约机制，所有作者名下已创建作品均可继续连载，不受作者等级影响。 IT之家注意到，番茄小说还一同发布了作家等级 3.0 体系改版上线通知，表示为了更好地服务广大番茄小说创作者，树立更清晰的成长里程碑，更准确地体现作者的创作质量与专业水平，平台将对作家等级体系",
+      "publishedAt": "2026-10-14T02:06:24.000Z",
       "category": "tech",
-      "source": "少数派"
+      "source": "IT之家"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "SEMI 预测：半导体市场规模 2035 年有望达 2~3 万亿美元",
+      "url": "https://www.ithome.com/1/012/678.htm",
+      "excerpt": "IT之家 10 月 14 日消息，据韩媒 THE ELEC 报道，SEMI（国际半导体产业协会）总裁兼首席执行官 Ajit Manocha 在当地时间昨日于美国旧金山开幕的 SEMICON West 2026 展览会上发表了演讲。 Ajit Manocha 在 2017 年上任伊始曾预测半导体市场规模有望在 2030 年达到 1 万亿美元，当时这一观点鲜有人认同。而实际情况是，2026 年仅用时 8 个月就跨越了这一重大关口，增长速度远超早期预期。 Ajit Manocha 进一步大胆预测，半导体市场规模在 2035 年有望达 2~3 万亿美元（IT之家注：现汇率约合 13.41 ~ 20.1",
+      "publishedAt": "2026-10-14T02:00:32.000Z",
+      "category": "tech",
+      "source": "IT之家"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "国家统计局：9 月数据存储设备、平板电脑、计算机和移动电话机价格分别同比上涨 46.7%、23.6%、21.8% 和 14.9%",
+      "url": "https://www.ithome.com/1/012/677.htm",
+      "excerpt": "IT之家 10 月 14 日消息，据央视新闻报道，国家统计局公布的数据显示，9 月份，居民消费价格指数（CPI）环比上涨 0.2%，涨幅比上月回落 0.2 个百分点；同比上涨 0.9%，涨幅比上月扩大 0.1 个百分点；扣除食品和能源价格的核心 CPI 同比上涨 1.0%，涨幅与上月相同。 IT之家从数据中获悉，工业生产者出厂价格指数（PPI）环比上涨 1.2%，涨幅比上月扩大 0.8 个百分点；同比上涨 5.0%，涨幅比上月扩大 1.2 个百分点。 从环比看 全国 CPI 上涨 0.2%，涨幅比上月回落 0.2 个百分点。 其中，服务价格由上月上涨 0.1% 转为下降 0.2%，对 CPI ",
+      "publishedAt": "2026-10-14T01:59:57.000Z",
+      "category": "tech",
+      "source": "IT之家"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "苹果智能家居中枢 HomeView 扬声器细节：桌面版低音表现优于壁挂版",
+      "url": "https://www.ithome.com/1/012/676.htm",
+      "excerpt": "IT之家 10 月 14 日消息，科技媒体 9to5Mac 昨日（10 月 13 日）发布博文，报道称苹果首款智能家居中枢 HomeView 的桌面版和壁挂版存在扬声器差异，桌面版还额外配备向下发声低音单元和双力抵消被动辐射器，音效配置显著强于壁挂版。 根据苹果官网规格信息，桌面版和壁挂版 HomeView 均配备 2 个定制全频驱动单元，均支持空间音频，但桌面版额外搭载 1 个定制向下发声低音单元和 2 个双力抵消被动辐射器，可输出更深沉的低音和更清晰的高音。 IT之家注：向下发声低音单元是指朝设备底部或桌面方向发声的低音扬声器，可借助反射面增强低频扩散。而双力抵消被动辐射器不主动发声、但随",
+      "publishedAt": "2026-10-14T01:55:01.000Z",
+      "category": "tech",
+      "source": "IT之家"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "何小鹏预热小鹏 MONA L05：一台有“少年感”的大五座 SUV",
+      "url": "https://www.ithome.com/1/012/675.htm",
+      "excerpt": "IT之家 10 月 14 日消息，今天上午，小鹏汽车官微宣布，将于 15 日（明天）预售的新车 MONA L05 展车已到店。 随后，官方还公布了新车的部分配置：前排座椅支持通风、加热、按摩，主驾座椅支持 AI 主动贴合、副驾拥有零重力座椅。新车还配有 17.3 英寸中控大屏、17.3 英寸护眼娱乐屏、26.8 英寸 W-HUD，搭配 20 扬声器 AI 音响。 小鹏汽车创始人何小鹏也在微博发文，进一步介绍 MONA 05。他表示，新车是一台有“少年感”的大五座 SUV。在保留大空间座舱的前提下，小鹏换了一种设计思路，体现当下年轻人所需的“精致”“越级”“智能”。 何小鹏透露，MONA L05",
+      "publishedAt": "2026-10-14T01:52:47.000Z",
+      "category": "tech",
+      "source": "IT之家"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "消息称具身智能独角兽公司智元启动新一轮融资，估值约 500 亿元",
+      "url": "https://www.ithome.com/1/012/674.htm",
+      "excerpt": "IT之家 10 月 14 日消息，据财经杂志 10 月 13 日报道，具身智能独角兽公司智元创新近期启动了新一轮融资，融资额约 10 亿元 —15 亿元，本轮融资已接近收尾，最新估值约 500 亿元。 报道提到，根据港交所的相关要求，上市申请公司如果在递表后、上市前完成新融资，除非获得特殊豁免，上市申请公司需要等到融资完成后满 120 日，才可挂牌交易。投资人称，新一轮融资意味着智元在今年内无法完成 IPO（首次公开募股）。 智元是一家以具身智能为核心技术方向的通用 AI 机器人公司，于 2023 年成立。9 月 24 日，智元第 2 万台具身智能机器人宣布下线，刷新全球量产纪录。 根据 Co",
+      "publishedAt": "2026-10-14T01:51:00.000Z",
+      "category": "tech",
+      "source": "IT之家"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "苹果智能家居中枢 HomeView 支持第三方音频 / 视频应用，不依赖 Face ID 最多识别 6 人",
+      "url": "https://www.ithome.com/1/012/672.htm",
+      "excerpt": "IT之家 10 月 14 日消息，科技媒体 MacRumors 今天（10 月 14 日）发布博文，报道称在苹果首款智能家居中枢 HomeView 上，可以通过连接的 iPhone 或 iPad 显示第三方音频与视频应用，并在家庭环境下最多可供 6 人使用 HomeView。 应用方面，苹果智能家居中枢 HomeView 预装 Apple Music、Apple Podcasts、Apple News、日历、FaceTime 与信息等应用，不过 HomeView 并未内置 App Store 应用商店，用户无法在设备端下载应用。 IT之家援引博文介绍，苹果为了扩展家庭场景下的应用生态，采用类似",
+      "publishedAt": "2026-10-14T01:43:10.000Z",
+      "category": "tech",
+      "source": "IT之家"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "埃隆 · 马斯克：内存制造商漫天要价，惟美光保持合理定价",
+      "url": "https://www.ithome.com/1/012/671.htm",
+      "excerpt": "IT之家 10 月 14 日消息，Elon Musk（埃隆 · 马斯克）北京时间今日在其拥有的 X 社交平台上发言表示内存制造商当前普遍漫天要价，惟美光保持合理定价，并评论称美光的做法是赢得客户长期忠诚度的明智之举。 IT之家注意到，埃隆 · 马斯克此前已表示，旗下 Tesla（特斯拉）的 AI5 / AI6 芯片将减少配套 DRAM 容量，AI5 的 LPDDR5 从 144GB 降至 96GB、AI6 的 LPDDR6 从 216GB 降至 144GB，均减少 1/3。 参考 https://x.com/elonmusk/status/2110126632572756339",
+      "publishedAt": "2026-10-14T01:43:07.000Z",
+      "category": "tech",
+      "source": "IT之家"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "微信上线“绿泡泡短剧”，网友调侃“长大了竟然还是看红果果绿泡泡”",
+      "url": "https://www.ithome.com/1/012/670.htm",
+      "excerpt": "IT之家 10 月 14 日消息，据北京日报报道，腾讯近日低调上线“绿泡泡短剧”微信小程序，主打“免费好剧，一点就看”。 有网友调侃：“小时候看红果果绿泡泡，长大了还是红果果绿泡泡。” IT之家测试发现，绿泡泡短剧的界面分为“免费剧场”“刷一刷”和“我的”三部分。“免费剧场”下设“AI 剧”“真人剧”“每日上新”“动漫剧”“本周必看”“百万播放”等栏目。点击“刷一刷”入口，上下滑动即进入沉浸式推荐流。剧集全部免费，但会在剧集之间插播广告。 大家在IT之家微信号回复“微信”两字，即可获取当前最新官方内部版微信下载。",
+      "publishedAt": "2026-10-14T01:36:52.000Z",
+      "category": "tech",
+      "source": "IT之家"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "坐无后视镜的特斯拉 Cybercab 心里发慌？未来乘客行程中可随时查看侧、后摄像头画面",
+      "url": "https://www.ithome.com/1/012/669.htm",
+      "excerpt": "IT之家 10 月 14 日消息，乘坐特斯拉无人驾驶出租车 Cybercab 的乘客很快将能在行程中的任意时刻查看车辆侧方与后方画面。特斯拉爱好者丹 · 伯克兰（Dan Burkland）在乘坐这款专为自动驾驶打造的机器人出租车之后，于 X 平台称赞了 Cybercab 的软件体验，并提议特斯拉允许乘客“按需调取车尾与后视镜摄像头画面”，他补充说，“这个功能尤其能提升乘坐安全感。” 特斯拉 UI 软件工程师埃文（Evan）简单回复称：“正在开发中。”他并未说明该功能的上线时间。 Cybercab 没有外后视镜，也没有车内后视镜，所以乘客在乘车途中无法看到车辆后方与两侧环境。特斯拉的机器人出租车",
+      "publishedAt": "2026-10-14T01:36:05.000Z",
+      "category": "tech",
+      "source": "IT之家"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "比亚迪欧洲首款纯电七座旗舰 SUV 车型 ATTO 8 亮相，二代刀片电池、闪充加持",
+      "url": "https://www.ithome.com/1/012/668.htm",
+      "excerpt": "IT之家 10 月 14 日消息，当地时间 12 日，比亚迪在 2026 巴黎车展上正式发布新款纯电动 SUV 车型 ATTO 8。新车仅需 9 分钟，就能通过闪充桩将电池从接近耗尽充至接近满电。 新车是比亚迪面向欧洲市场推出的首款七座纯电动旗舰 SUV。其搭载 115kWh 第二代刀片电池，计划于 2027 年第一季度在欧洲上市。 作为品牌在欧洲市场尺寸最大、售价最高的 SUV，新车长宽高分别为 5040mm、1996mm 和 1760mm，在欧洲销售的三排座 SUV 中属于尺寸较大的车型。值得一提的是，新车外形与此前在国内推出的唐 L 几乎一致。 ATTO 8 配备面积达 2.39m² 的",
+      "publishedAt": "2026-10-14T01:31:33.000Z",
+      "category": "tech",
+      "source": "IT之家"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "富士胶片在美投资 1800 万美元，建设多类型 CMP 浆料产能",
+      "url": "https://www.ithome.com/1/012/667.htm",
+      "excerpt": "IT之家 10 月 14 日消息，富士胶片 (FUJIFILM) 日本当地时间今日宣布将在美国投资 1,800 万美元（现汇率约合 1.21 亿元人民币），用于扩大现有铜互连 CMP（IT之家注：化学机械抛光）浆料产能、新建多类型 CMP 浆料产线。 此次投资的生产基地位于美国亚利桑那州 Mesa，预计 2027 年开始运营。该基地生产的 CMP 浆料未来将覆盖前端、中间、后端以及先进封装应用，进一步支持先进芯片对 CMP 浆料需求的中长期增长。 富士胶片在亚利桑那州设有全球 CMP 浆料研发中心，新产能的建设也能加速实验室研发成果的商业化进程。",
+      "publishedAt": "2026-10-14T01:28:54.000Z",
+      "category": "tech",
+      "source": "IT之家"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "小米 REDMI K100 标准版手机入网，支持 100W 快充",
+      "url": "https://www.ithome.com/1/012/666.htm",
+      "excerpt": "IT之家 10 月 14 日消息，小米旗下一款型号为 M786BC 的 5G 新机于 10 月 12 日通过 3C 认证，支持 100W 快充。博主 @数码闲聊站 表示这是 REDMI K100 标准版手机。 IT之家注意到，在 8 月 11 日的 REDMI K100 Pro 系列新品发布会上，小米中国区市场部总经理魏思琪公开了 REDMI K100 系列手机的产品矩阵。除了 K100 Pro Max 和 K100 Pro 外，REDMI K100 系列还规划了标准版和一款游戏旗舰。 小米集团合伙人 / 总裁、手机部总裁、小米品牌总经理卢伟冰曾在微博表示，今年很多旗舰产品会用 n-1 代旗舰",
+      "publishedAt": "2026-10-14T01:25:57.000Z",
+      "category": "tech",
+      "source": "IT之家"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "不兼容 VESA：苹果壁挂版智能家居中枢 HomeView 需配专属支架",
+      "url": "https://www.ithome.com/1/012/665.htm",
+      "excerpt": "IT之家 10 月 14 日消息，科技媒体 AppleInsider 昨日（10 月 13 日）发布博文，报道称由于没有配套的螺丝孔，苹果壁挂版智能家居中枢 HomeView 并不支持 VESA 标准。 IT之家注：VESA 是视频电子标准协会制定的显示设备安装接口标准，常见于显示器、电视及部分平板设备。符合该标准的设备背部设有标准化螺丝孔，可搭配通用壁挂支架、悬臂支架或桌面支架使用。 HomeView 未设置 VESA 螺丝孔，因此不兼容市面上常见的 VESA 壁挂支架。设备背部配备 USB-C 接口和一个小型凸起结构，可能对应苹果指定的专用安装点。 网友使用 Grok 生成的背面图 壁挂版",
+      "publishedAt": "2026-10-14T01:19:49.000Z",
+      "category": "tech",
+      "source": "IT之家"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "吉利控股集团声明：支持中欧汽车贸易磋商共识",
+      "url": "https://www.ithome.com/1/012/663.htm",
+      "excerpt": "IT之家 10 月 14 日消息，今天上午，吉利控股集团通过官微发布《吉利控股集团关于支持中欧汽车贸易磋商共识的声明》。 浙江吉利控股集团对中欧贸易投资磋商机制第二次例会取得的积极成果表示欢迎和支持，对双方本着相互尊重、平等协商的原则，通过密集磋商妥善处理汽车贸易分歧所作的努力表示赞赏。 我们支持双方就混动汽车贸易确认的尊重事实、非歧视和合规三项基本原则。相关共识立足贸易实际，对等互利，兼顾双方产业合理关切，为中欧汽车产业深化互利合作创造了积极条件。我们相信，在世贸组织规则框架下，通过对话协商解决分歧，通过公平竞争促进发展，符合中欧企业和消费者的共同利益。 稳定、可预期、可持续的贸易投资环境，",
+      "publishedAt": "2026-10-14T01:09:40.000Z",
+      "category": "tech",
+      "source": "IT之家"
     },
     {
       "sourceId": "ithome",
@@ -3876,141 +3920,6 @@
       "url": "https://www.ithome.com/1/012/645.htm",
       "excerpt": "IT之家 10 月 14 日消息，消息源 @itspdfu 今天（10 月 14 日）在 X 平台发布推文，报道称基于苹果官网相关代码信息，全尺寸 HomePod 未来可能会支持 Siri AI。 IT之家访问苹果中国官网，发现苹果公司已同步调整全尺寸 HomePod 图片相关文字描述，显示：“白色 HomePod，展示全尺寸圆柱形设计、无缝式声学织网外观，顶部亮起表示 Siri AI 功能的多色光晕。” 其中图片文字描述中的“顶部亮起表示 Siri AI 功能的多色光晕”，暗示全尺寸 HomePod 未来将会支持 Siri AI。苹果同时表示，HomePod mini 2 将搭载 Siri ",
       "publishedAt": "2026-10-14T00:05:28.000Z",
-      "category": "tech",
-      "source": "IT之家"
-    },
-    {
-      "sourceId": "ithome",
-      "title": "微软打了场翻身仗：股价收于 543.45 美元创新高，市值自 6 月低点猛增 1.4 万亿美元",
-      "url": "https://www.ithome.com/1/012/644.htm",
-      "excerpt": "IT之家 10 月 14 日消息，据彭博社 13 日晚间报道，微软股价当日上涨 0.4%，收于 543.45 美元（IT之家注：现汇率约合 3,644 元人民币），近一年来首次刷新历史纪录，延续了过去四个月的强劲涨势。 微软股价突破了 2025 年 10 月创下的前期高点。自 6 月低点以来，微软累计上涨逾 54%，市值增加约 1.4 万亿美元（现汇率约合 9.39 万亿元人民币），反映出投资者对微软及其 AI 领域地位的信心不断增强。 几个月前，微软还是标普 500 指数中表现最差的股票之一。当时，投资者担心微软在 AI 基础设施上投入巨资，却未能获得足够回报，同时对软件行业潜在的冲击感到忧",
-      "publishedAt": "2026-10-14T00:01:04.000Z",
-      "category": "tech",
-      "source": "IT之家"
-    },
-    {
-      "sourceId": "ithome",
-      "title": "苹果诉 OpenAI 窃取商业秘密案新进展：法院准许苹果调取后者招聘材料",
-      "url": "https://www.ithome.com/1/012/643.htm",
-      "excerpt": "IT之家 10 月 14 日消息，一名法官裁定，在苹果公司于 7 月针对 OpenAI 提起的商业秘密诉讼中，苹果可以快速调阅 OpenAI 的招聘相关材料。 具体而言，法院准许苹果查阅相关文件，这些文件与 OpenAI 面试前苹果员工的记录有关。这批求职者应聘的是 OpenAI 消费硬件与机器人部门岗位，相关招聘发生在传闻中 OpenAI 首款硬件设备发布之前。 文件内容可能包含面试清单、指引、说明、手册、面试脚本，还有技术演示材料以及记录，这些记录能证明面试讨论中提及苹果的技术或零部件。 法院认定这批文件应当优先调取，要求 OpenAI 在五天内移交已经整理完毕的材料，其余和本次调取申请相",
-      "publishedAt": "2026-10-13T23:57:32.000Z",
-      "category": "tech",
-      "source": "IT之家"
-    },
-    {
-      "sourceId": "ithome",
-      "title": "IT早报 1014：华为公布麒麟 9050 Pro 详细架构图；苹果智能家庭中枢 HomeView 发布；尊界 V800 制动脚踏第三方检测报告公布；23.59 万元起比亚迪大汉上市...",
-      "url": "https://www.ithome.com/1/012/642.htm",
-      "excerpt": "“IT早报”时间，大家好，现在是 2026 年 10 月 14 日星期三，今天的重要科技资讯有： 1. 华为首次公布麒麟 9050 Pro 芯片详细架构图：在中国半导体业界支持下成功量产，未来属于开放合作 华为半导体业务无线终端芯片产品管理部部长徐松余表示，首款逻辑折叠韬芯片 —— 麒麟 9050 系列在中国半导体产业界的支持下成功量产，但韬路径未来的发展还有众多挑战，包括工具链和方法论、工艺差异补偿、跨层互联开销优化、能耗控制、基准测试方法等。>> 查看详情 2. 苹果首款智能家庭中枢 HomeView 发布：售价 299 美元，11 月 13 日开售 苹果推出全新 HomeView 智能家",
-      "publishedAt": "2026-10-13T23:55:38.000Z",
-      "category": "tech",
-      "source": "IT之家"
-    },
-    {
-      "sourceId": "ithome",
-      "title": "IDC 称 2026Q3 中国智能手机出货跌 15.4%，华为逆势同比增长 17.3%",
-      "url": "https://www.ithome.com/1/012/376.htm",
-      "excerpt": "IT之家 10 月 13 日消息，国际数据公司（ IDC ）最新手机季度跟踪报告初版数据显示，2026 年第三季度中国智能手机市场出货量约为 5,790 万台，同比下降 15.4% 。华为是头部厂商中唯一实现同比双位数增长的品牌。 整体市场：2026Q3 出货 5,790 万台，同比降 15.4% 相较上半年约 4% 的同比降幅，下半年整体市场规模下滑速度进一步加快。存储及其他元器件成本大幅上升所引发的终端价格上涨与产品配置方案调整，已开始明显抑制消费需求，其中安卓厂商与长尾品牌承受的压力尤为突出。 本季度市场呈现“量跌价升”的典型特征。上游成本压力持续向终端传导，导致新品定价普遍上浮，同时厂",
-      "publishedAt": "2026-10-13T23:50:19.000Z",
-      "category": "tech",
-      "source": "IT之家"
-    },
-    {
-      "sourceId": "ithome",
-      "title": "Neuralink 前总裁的视力芯片，让遗传性眼病患者重新读出了单词",
-      "url": "https://www.ithome.com/1/012/641.htm",
-      "excerpt": "IT之家 10 月 14 日消息，Science Corporation 首席执行官马克斯 · 霍达克（Max Hodak）宣布，该公司已将自研的视力修复芯片 PRIMA 植入首位斯塔加特病患者体内。斯塔加特病是一种遗传性眼病，会逐步损害人的中心视力。曾是脑机接口企业 Neuralink 前总裁、联合创始人的霍达克在 TechCrunch Disrupt 大会的舞台上介绍，PRIMA 项目的研发，是公司布局新型脑机接口（BCI）宏大目标中的一环。 霍达克在演讲中表示：“视网膜属于中枢神经系统。我们认为人工耳蜗、视网膜假体、运动假体，都属于不同类型的脑机接口。” 霍达克描绘了这样一幅愿景：脑机接",
-      "publishedAt": "2026-10-13T23:49:49.000Z",
-      "category": "tech",
-      "source": "IT之家"
-    },
-    {
-      "sourceId": "ithome",
-      "title": "扎克伯格：Meta 承诺数千亿美元豪赌 AI，却一度对能否成功完全没把握",
-      "url": "https://www.ithome.com/1/012/640.htm",
-      "excerpt": "IT之家 10 月 14 日消息，据彭博社今天（14 日）凌晨报道，Meta CEO 马克 · 扎克伯格透露，去年公司还不知道旗下 AI 产品能否成功，就不得不承诺投入数千亿美元，建设运行这些产品所需的基础设施。 扎克伯格在最新《Cheeky Pint》播客中回忆，自己曾对 Meta 首席 AI 官汪滔（Alexandr Wang）说：“我们得掏出一笔钱，我也说不准是 1,000 亿美元（IT之家注：现汇率约合 6,705.82 亿元人民币）还是 2,000 亿美元（现汇率约合 1.34 万亿元人民币）。你确定这能成功吗？” Meta 一直难以说服投资者接受 AI 投资带来的支出激增，扎克伯格",
-      "publishedAt": "2026-10-13T23:48:09.000Z",
-      "category": "tech",
-      "source": "IT之家"
-    },
-    {
-      "sourceId": "ithome",
-      "title": "AI 长视频时代来临：OpenAI GPT-6 Astra 助力生成时长从 1 分钟提升到 10 分钟",
-      "url": "https://www.ithome.com/1/012/639.htm",
-      "excerpt": "IT之家 10 月 14 日消息，OpenAI 公司今天（10 月 14 日）发布公告，宣布和 AI 视频生成平台 Higgsfield 达成最新合作进展。在接入 GPT-6 Astra 后，Higgsfield 支持生成的 AI 视频时长上限从 1 分钟提升到 10 分钟。 IT之家附上官方介绍视频如下： GPT-6 Astra 支持创意智能体调用外部工具，处理 3D 建模等复杂工作。Higgsfield 表示，该能力用于维持长视频在角色、场景和视觉细节上的一致性，是长视频生成的关键难点。 Higgsfield 已将相关流程用于其 YouTube 频道。该频道拥有近 50 万订阅者，团队借助",
-      "publishedAt": "2026-10-13T23:44:48.000Z",
-      "category": "tech",
-      "source": "IT之家"
-    },
-    {
-      "sourceId": "ithome",
-      "title": "基于经典国民车 2CV 打造，雪铁龙电动化“复活”厢式货车 Fourgonnette",
-      "url": "https://www.ithome.com/1/012/636.htm",
-      "excerpt": "IT之家 10 月 14 日消息，雪铁龙 2CV 的复活堪称本届巴黎车展“最重磅”的消息之一。除了四门家用车，经典的 2CV Fourgonnette 厢式货车也正式迎来了“重生”。 新车延续了纯电动 2CV 两厢概念车的前半部分设计，车尾则改为方正的货厢，取消后排座椅以增加载货空间。货物可以从对开式尾门装卸，也可以通过车身侧面向上掀开的舱门取放。 初代 2CV Fourgonnette 的生产时间为 1951 年至 1978 年，但进入 21 世纪后，仍有不少老车在法国各地继续为商户服务。 雪铁龙尚未确认新款 Fourgonnette 是否会量产。作为参考，标准版 2CV 的售价有望控制在 ",
-      "publishedAt": "2026-10-13T23:35:56.000Z",
-      "category": "tech",
-      "source": "IT之家"
-    },
-    {
-      "sourceId": "ithome",
-      "title": "谷歌 Play Store 新功能：用户用 AI 搓的 App 不用上架商店，可仅限自己使用",
-      "url": "https://www.ithome.com/1/012/635.htm",
-      "excerpt": "IT之家 10 月 14 日消息，谷歌于当地时间周二宣布，用户通过氛围编码（vibe-coded）制作的应用，如今可以直接在安卓智能手机上运行，无需先在谷歌应用商店（Google Play Store）公开发布。一项新功能支持用户使用普通谷歌账号，借助谷歌应用商店在设备上启动属于自己的个人应用，且应用将完全保持私密。 这类个人应用不会出现在谷歌应用商店的搜索结果或应用列表页面，除创建者本人外，不会分享给任何人。 推出该功能的背景是，越来越多人尝试借助人工智能搭建满足自身特定需求的应用。但在此之前，如果想要在自己的安卓设备上使用这类应用，就必须上架谷歌应用商店，可供商店约 30 亿用户访问。这使",
-      "publishedAt": "2026-10-13T23:30:40.000Z",
-      "category": "tech",
-      "source": "IT之家"
-    },
-    {
-      "sourceId": "ithome",
-      "title": "苹果 iOS 27.2 Beta 4 更新汇总：移除新版健康 App，升级 Apple Music 品牌视觉",
-      "url": "https://www.ithome.com/1/012/634.htm",
-      "excerpt": "IT之家 10 月 14 日消息，苹果公司今天（10 月 14 日）推送 iOS / iPadOS 27.2 Beta 4 开发者预览版（内部版本号：24B5110a），暂时移除新版健康 App 外，还更新 Apple Music 品牌视觉。 一、暂时移除健康 App 在 iOS 27.2 Beta 4 更新中，苹果暂时移除了新版健康 App。海外媒体 MacRumors 指出，苹果公司此前已经明确表示，新版健康应用体验从未打算包含在 iOS 27.2 中，目前正在推进测试，要到今年晚些时候才会发布。 升级到第四个测试版后，“健康”应用会弹出提示，告知用户新功能将在未来的更新中推出。测试版期间",
-      "publishedAt": "2026-10-13T23:26:10.000Z",
-      "category": "tech",
-      "source": "IT之家"
-    },
-    {
-      "sourceId": "ithome",
-      "title": "AI 重新编译、修改游戏获夏尔马“点赞”，微软成立 XBOX Labs 新团队",
-      "url": "https://www.ithome.com/1/012/633.htm",
-      "excerpt": "IT之家 10 月 14 日消息，随着 AI 辅助游戏修改和重新编译技术迅速兴起，微软成立了 XBOX Labs 团队，探索新技术在游戏开发中的应用。 最近几周，越来越多 Mod 制作者利用 Claude 最新的 Opus 5.5 模型，将不同游戏的内容混合在一起，例如让马力欧在《艾尔登法环》中体验平台跳跃玩法，甚至将《使命召唤》移植到网页浏览器中运行。 据外媒 VGC 报道，当地时间 13 日，XBOX CEO 阿莎 · 夏尔马在致员工的内部信中指出，AI 生成游戏内容的热潮正在改变人们对游戏开发边界的传统认识。为此，微软成立了一个专门探索新技术和新创意的团队。 夏尔马在信中写道：“最近几周",
-      "publishedAt": "2026-10-13T23:24:05.000Z",
-      "category": "tech",
-      "source": "IT之家"
-    },
-    {
-      "sourceId": "ithome",
-      "title": "AI 芯片企业 Cerebras CEO 预言：家用 AI 时代即将到来，AI 智能体帮你搞定生活琐事",
-      "url": "https://www.ithome.com/1/012/632.htm",
-      "excerpt": "IT之家 10 月 14 日消息，美国人工智能芯片研发企业 Cerebras Systems 首席执行官兼联合创始人安德鲁 · 费尔德曼（Andrew Feldman）认为，我们即将迎来家家户户都配备人工智能设备的时代。 当地时间周二，这位芯片企业高管在 2026 年 TechCrunch Disrupt 大会的舞台上，被问及人工智能要成为家用设备还需要哪些条件，他回应道：“实际上，我觉得这一天并不遥远。” 他举例提到消费级智能体的技术进展，比如 Meta 的 Muse，还有估值现已达到 100 亿美元（IT之家注：现汇率约合 670.58 亿元人民币）的初创企业 Instinct，以此说明人",
-      "publishedAt": "2026-10-13T23:18:52.000Z",
-      "category": "tech",
-      "source": "IT之家"
-    },
-    {
-      "sourceId": "ithome",
-      "title": "欧洲央行首席经济学家莱恩：AI 或将限制欧洲劳动者争取加薪的议价能力",
-      "url": "https://www.ithome.com/1/012/631.htm",
-      "excerpt": "IT之家 10 月 14 日消息，据路透社报道，当地时间 13 日，欧洲央行首席经济学家菲利普 · 莱恩指出，欧元区企业越来越广泛地采用 AI，可能会削弱劳动者争取加薪的议价能力。与此同时，企业大举投资 AI 也可能显著收紧融资环境。 受能源价格高企影响，欧元区通胀率接近欧洲央行 2% 目标的两倍。政策制定者一直关注通胀是否会产生二轮效应，但迄今没有发现明显迹象，尤其是工资增长并未受到进一步推高。 莱恩在都柏林发表演讲时指出，AI 尚未改变整体就业趋势，但企业招聘意愿低迷，使劳动者更难通过要求加薪来弥补高通胀造成的损失。而这可能是通胀仍处高位、工资增速却逐渐放缓的原因之一。“AI 可能取代部分",
-      "publishedAt": "2026-10-13T23:08:54.000Z",
-      "category": "tech",
-      "source": "IT之家"
-    },
-    {
-      "sourceId": "ithome",
-      "title": "不服判决：Anthropic 硬刚美国政府 AI“供应链风险”认定",
-      "url": "https://www.ithome.com/1/012/630.htm",
-      "excerpt": "IT之家 10 月 14 日消息，据彭博社报道，Anthropic 公司敦促华盛顿联邦上诉法院重新审议此前的一项判决，该判决维持了特朗普政府将这家人工智能企业认定为危害美国国家安全供应链风险主体的决定。 该公司于当地时间周二申请由上诉法院全体法官，复核一个三人法官小组在 9 月 25 日以 2 比 1 票数作出的裁决。Anthropic 主张，多数意见对法律作出了错误解读，允许美国国防部“在没有任何预先认定流程的情况下采取行动，而且已有明确证据表明，这项认定是对 Anthropic 就人工智能安全公开发表言论的报复”。 Anthropic 与政府之间的这场法律博弈事关重大。在人工智能技术发展的",
-      "publishedAt": "2026-10-13T23:07:38.000Z",
-      "category": "tech",
-      "source": "IT之家"
-    },
-    {
-      "sourceId": "ithome",
-      "title": "在高管会议室偷偷安装录音设备，OpenAI 一沙特籍工程师被 FBI 逮捕",
-      "url": "https://www.ithome.com/1/012/629.htm",
-      "excerpt": "IT之家 10 月 14 日消息，据路透社报道，美国司法部当地时间周二表示，美国联邦探员逮捕了一名任职于 OpenAI 的沙特籍工程师，指控他在这家人工智能企业的高管会议室安装隐蔽录音设备。 美国司法部在声明中称，35 岁的阿卜杜勒拉赫曼 · 阿尔福赞（Abdulrahman Alfozan）自 2025 年 7 月起担任 OpenAI 工程师。 美国司法部介绍，9 月 30 日，OpenAI 在其旧金山一处办公楼的高管会议室里，发现一台电视后方 USB 接口上插着该录音设备。 美国联邦调查局的诉状显示，这个 U 盘大小的设备带有麦克风，还可外接摄像头，被藏在卫生纸之中。设备大约在 9 月 2",
-      "publishedAt": "2026-10-13T22:59:27.000Z",
       "category": "tech",
       "source": "IT之家"
     },
@@ -4376,6 +4285,15 @@
     },
     {
       "sourceId": "tmtpost",
+      "title": "当二十年老牌行情软件遇上 AI：大智慧的智能化跃迁之路",
+      "url": "https://www.tmtpost.com/8166729.html",
+      "excerpt": "对大智慧而言，这场改造的意义不只是在产品里加了一个 AI 对话框，而是重新定义了金融软件与用户的关系。从提供数据的工具变为理解需求的伙伴。",
+      "publishedAt": "2026-10-14T01:47:24.000Z",
+      "category": "tech",
+      "source": "钛媒体"
+    },
+    {
+      "sourceId": "tmtpost",
       "title": "星巴克，重新学做中国生意",
       "url": "https://www.tmtpost.com/8167760.html",
       "excerpt": "教育市场是一种能力，留住市场则是另一种能力。",
@@ -4519,283 +4437,301 @@
       "source": "钛媒体"
     },
     {
-      "sourceId": "tmtpost",
-      "title": "郑钦文夺冠后，霸王茶姬和奥迪买一送一，谁赢谁输？",
-      "url": "https://www.tmtpost.com/8167260.html",
-      "excerpt": "一句承诺能把人吸引过来，一次兑现才能让人愿意再来。",
-      "publishedAt": "2026-10-13T10:26:51.000Z",
+      "sourceId": "jiemian",
+      "title": "三季报窗口业绩确定性资产受关注，南方基金旗下自由现金流ETF南方(159232)跟踪标的指数昨日抗跌企稳-0.10%",
+      "url": "https://www.jiemian.com/article/15187108.html",
+      "excerpt": "截至2026年10月13日收盘，自由现金流ETF南方(159232)换手8.60%，成交2.05亿元，跟踪标的指数中证全指自由现金流指数(932365) 仅微跌0.10%。",
+      "publishedAt": "2026-10-14T01:45:17.000Z",
       "category": "tech",
-      "source": "钛媒体"
+      "source": "界面新闻"
     },
     {
       "sourceId": "jiemian",
-      "title": "银河证券：超级厄尔尼诺已形成，预计近期豆粕等走势偏强",
-      "url": "https://www.jiemian.com/article/15186681.html",
+      "title": "算力租赁大单频现、业绩兑现加速，南方基金旗下创业板算力ETF南方(158063)跟踪标的指数昨日强势上行2.81%",
+      "url": "https://www.jiemian.com/article/15187109.html",
+      "excerpt": "截至2026年10月13日收盘，创业板算力ETF南方(158063)换手12.07%，成交3818.18万元，跟踪标的指数创业板算力基础设施指数(970083) 上涨2.81%。",
+      "publishedAt": "2026-10-14T01:45:09.000Z",
+      "category": "tech",
+      "source": "界面新闻"
+    },
+    {
+      "sourceId": "jiemian",
+      "title": "珠海航展发布会点燃板块行情，南方基金旗下航空航天ETF南方(158009)跟踪标的指数昨日强势上行3.68%",
+      "url": "https://www.jiemian.com/article/15187111.html",
+      "excerpt": "截至2026年10月13日收盘，航空航天ETF南方(158009)换手20.71%，成交628.17万元，跟踪标的指数国证航天航空行业指数(CN5082) 上涨3.68%。",
+      "publishedAt": "2026-10-14T01:45:00.000Z",
+      "category": "tech",
+      "source": "界面新闻"
+    },
+    {
+      "sourceId": "jiemian",
+      "title": "军工算力领涨、防御资产小幅休整，南方基金旗下红利低波50ETF南方(515450)跟踪标的指数昨日震荡调整-0.28%",
+      "url": "https://www.jiemian.com/article/15187121.html",
+      "excerpt": "截至2026年10月13日收盘，红利低波50ETF南方(515450)换手1.19%，成交2.41亿元，跟踪标的指数标普中国A股大盘红利低波50指数(SPCLLHCP) 下跌0.28%。",
+      "publishedAt": "2026-10-14T01:44:52.000Z",
+      "category": "tech",
+      "source": "界面新闻"
+    },
+    {
+      "sourceId": "jiemian",
+      "title": "出口退税退坡压制板块情绪，南方基金旗下新能源ETF南方(516160)跟踪标的指数昨日调整跌2.12%",
+      "url": "https://www.jiemian.com/article/15187130.html",
+      "excerpt": "截至2026年10月13日收盘，新能源ETF南方(516160)换手5.46%，成交1.80亿元，跟踪标的指数中证新能源指数(399808) 下跌2.12%。",
+      "publishedAt": "2026-10-14T01:44:43.000Z",
+      "category": "tech",
+      "source": "界面新闻"
+    },
+    {
+      "sourceId": "jiemian",
+      "title": "赵燕“亲征”一年半，华熙生物还在等待一场突围",
+      "url": "https://www.jiemian.com/article/15185161.html",
+      "excerpt": "近日，华熙生物以网络互动方式召开2026年半年度业绩说明会。交流环节，投资者关注议题覆盖多个层面，经营修复的时间节点是市场重点关注的问题之一。",
+      "publishedAt": "2026-10-14T01:43:18.000Z",
+      "category": "tech",
+      "source": "界面新闻"
+    },
+    {
+      "sourceId": "jiemian",
+      "title": "游戏板块直线拉升，电魂网络涨停",
+      "url": "https://www.jiemian.com/article/15187117.html",
       "excerpt": "",
-      "publishedAt": "2026-10-14T00:44:05.000Z",
+      "publishedAt": "2026-10-14T01:40:24.000Z",
       "category": "tech",
       "source": "界面新闻"
     },
     {
       "sourceId": "jiemian",
-      "title": "甲骨文请求监管机构加快审批数据中心天然气管道项目",
-      "url": "https://www.jiemian.com/article/15186698.html",
-      "excerpt": "当地时间10月13日，据报道，甲骨文公司再次请求美国联邦监管机构尽快批准其新墨西哥州大型数据中心项目供电所需的天然气管道。甲骨文政府事务高级副总裁Josh Pitcock在周二致美国联邦能源管理委员会（FERC）的信中表示，如果该委员会继续推迟批准由Energy Transfer LP旗下子公司运营的管道项目，将可能推迟木星项目（Project Jupiter）的运营，并对相应就业机会、经济活动及社区效益产生影响。",
-      "publishedAt": "2026-10-14T00:40:11.000Z",
-      "category": "tech",
-      "source": "界面新闻"
-    },
-    {
-      "sourceId": "jiemian",
-      "title": "“北溪”天然气管道爆炸案即将在德国开庭",
-      "url": "https://www.jiemian.com/article/15186688.html",
-      "excerpt": "德国汉堡的一家法院将于当地时间10月14日开庭审理2022年“北溪”天然气管道爆炸案。一名乌克兰籍嫌疑人将因涉嫌参与策划和实施管道爆炸行动接受审判。这是德国司法机关首次就“北溪”天然气管道爆炸事件对相关嫌疑人启动正式庭审。法院目前已安排从10月14日至12月17日举行16次庭审，预计审理工作还将延续至2027年初。法院此前称，根据前期侦查结果，有充分理由怀疑乌克兰籍嫌疑人谢尔盖作为共同实施者，参与了炸毁“北溪”天然气管道，涉嫌袭击民用设施、犯有战争罪等罪行。（央视新闻）",
-      "publishedAt": "2026-10-14T00:33:34.000Z",
-      "category": "tech",
-      "source": "界面新闻"
-    },
-    {
-      "sourceId": "jiemian",
-      "title": "汽车早报｜比亚迪大汉EV正式上市 字节赛豆合作品牌第二款车型预计为SUV",
-      "url": "https://www.jiemian.com/article/15186628.html",
-      "excerpt": "四川泸州一辆领克10 EM-P坠崖，公司回应；衷俊华任江铃集团总经理。",
-      "publishedAt": "2026-10-14T00:33:00.000Z",
-      "category": "tech",
-      "source": "界面新闻"
-    },
-    {
-      "sourceId": "jiemian",
-      "title": "中信证券：金价底部或抬升，黄金板块有望先行",
-      "url": "https://www.jiemian.com/article/15186650.html",
+      "title": "北证50指数涨幅扩大至1%",
+      "url": "https://www.jiemian.com/article/15187088.html",
       "excerpt": "",
-      "publishedAt": "2026-10-14T00:30:47.000Z",
+      "publishedAt": "2026-10-14T01:38:37.000Z",
       "category": "tech",
       "source": "界面新闻"
     },
     {
       "sourceId": "jiemian",
-      "title": "10月14日投资早报|传音控股H股发行价每股35.30港元，片仔癀：董事长暨法定代表人离任，富春染织前三季度净利润同比预增1347.69%—1519.01%",
-      "url": "https://www.jiemian.com/article/15185724.html",
-      "excerpt": "今晨，这些重要的投资信息你需要知道",
-      "publishedAt": "2026-10-14T00:30:00.000Z",
+      "title": "中央依法治国办启动领导干部依法办事情况法治督察",
+      "url": "https://www.jiemian.com/article/15187085.html",
+      "excerpt": "中央依法治国办日前启动领导干部依法办事情况法治督察。围绕依法决策、规范涉企执法等方面，督察组赴河北、黑龙江、福建、山东、西藏、陕西、青海、新疆8省区及新疆生产建设兵团开展实地督察。（央视新闻）",
+      "publishedAt": "2026-10-14T01:38:12.000Z",
       "category": "tech",
       "source": "界面新闻"
     },
     {
       "sourceId": "jiemian",
-      "title": "IPO雷达| 尼龙66“内卷”前夜中维化纤IPO闯关，业绩高增背后暗流涌动",
-      "url": "https://www.jiemian.com/article/15173935.html",
-      "excerpt": "一季度利润下滑，二季度利润强势反弹。",
-      "publishedAt": "2026-10-14T00:30:00.000Z",
+      "title": "AI“逆向一切”，软件的天要塌了？",
+      "url": "https://www.jiemian.com/article/15186154.html",
+      "excerpt": "万物皆可逆向？",
+      "publishedAt": "2026-10-14T01:38:12.000Z",
       "category": "tech",
       "source": "界面新闻"
     },
     {
       "sourceId": "jiemian",
-      "title": "微软云业务总裁据悉要求高管寻找削减成本方案",
-      "url": "https://www.jiemian.com/article/15186685.html",
-      "excerpt": "当地时间10月13日，据报道，知情人士称，微软已讨论在其Azure云服务器租赁业务部门进行大幅成本削减。报道称，Azure总裁Girish Bablani近几周要求其团队高管提出方案，以实现至少20%的成本削减。知情人士称，公司尚未敲定任何成本削减措施，且这些措施可能发生变化。此外，报道称，目前尚不清楚此类削减是否会包括裁员。",
-      "publishedAt": "2026-10-14T00:29:28.000Z",
+      "title": "印度对马来西亚和印度尼西亚透明浮法玻璃作出反补贴终裁",
+      "url": "https://www.jiemian.com/article/15187084.html",
+      "excerpt": "印度商工部发布公告，对原产于或进口自马来西亚和印度尼西亚的厚度4毫米（含）至12毫米（含）的透明浮法玻璃（Clear Float Glass）作出反补贴终裁：建议以到岸价（CIF）对马来西亚涉案产品征收为期5年的反补贴税，具体如下：生产商Xinyi Energy Smart (Malaysia) Sdn. Bhd为11.61%，Kibing Group (M) Sdn. Bhd.为11.44%，Jinjing Technology Malaysia Sdn. Bhd为8.58%，马来西亚其他生产商为15.66%；印度尼西亚的涉案产品在调查期内补贴微量，终止对其反补贴调查。本案涉及印度海关编码7",
+      "publishedAt": "2026-10-14T01:37:48.000Z",
       "category": "tech",
       "source": "界面新闻"
     },
     {
       "sourceId": "jiemian",
-      "title": "7月底以来进入高发期，马达加斯加报告9例鼠疫病例",
-      "url": "https://www.jiemian.com/article/15186642.html",
-      "excerpt": "鼠疫由鼠疫耶尔森菌（鼠疫杆菌）引起，属于我国法定甲类烈性传染病，与霍乱并列，在人类历史上共有三次全球大流行。",
-      "publishedAt": "2026-10-14T00:24:16.000Z",
-      "category": "tech",
-      "source": "界面新闻"
-    },
-    {
-      "sourceId": "jiemian",
-      "title": "富士胶片将投资1800万美元在美国扩建CMP抛光浆料产能",
-      "url": "https://www.jiemian.com/article/15186673.html",
+      "title": "创业板指跌逾1%",
+      "url": "https://www.jiemian.com/article/15187081.html",
       "excerpt": "",
-      "publishedAt": "2026-10-14T00:22:57.000Z",
+      "publishedAt": "2026-10-14T01:37:48.000Z",
       "category": "tech",
       "source": "界面新闻"
     },
     {
       "sourceId": "jiemian",
-      "title": "韩国KOSPI指数涨幅扩大至逾2%",
-      "url": "https://www.jiemian.com/article/15186664.html",
+      "title": "国家统计局：9月份CPI、PPI同比涨幅均扩大",
+      "url": "https://www.jiemian.com/article/15187079.html",
+      "excerpt": "10月14日消息，国家统计局城市司首席统计师董莉娟解读2026年9月份CPI和PPI数据。9月份，居民消费价格指数（CPI）环比上涨0.2%，涨幅比上月回落0.2个百分点；同比上涨0.9%，涨幅比上月扩大0.1个百分点；扣除食品和能源价格的核心CPI同比上涨1.0%，涨幅与上月相同。工业生产者出厂价格指数（PPI）环比上涨1.2%，涨幅比上月扩大0.8个百分点；同比上涨5.0%，涨幅比上月扩大1.2个百分点。",
+      "publishedAt": "2026-10-14T01:37:18.000Z",
+      "category": "tech",
+      "source": "界面新闻"
+    },
+    {
+      "sourceId": "jiemian",
+      "title": "印度对欧盟等异丙醇启动反倾销调查",
+      "url": "https://www.jiemian.com/article/15187070.html",
+      "excerpt": "印度商工部发布公告称，应印度国内企业Deepak Fertilisers and Petrochemicals Corporation Limited提交的申请，对原产于或进口自欧盟、韩国、美国和中国台湾地区的异丙醇‌（Isopropy Alcohol）启动反倾销调查。本案涉及印度海关编码29051220项下的产品。本案倾销调查期为2025年4月1日至2026年3月31日，损害调查期为2022年至2023年、2023年至2024年、2024年至2025年以及2025年4月1日至2026年3月31日。",
+      "publishedAt": "2026-10-14T01:36:42.000Z",
+      "category": "tech",
+      "source": "界面新闻"
+    },
+    {
+      "sourceId": "jiemian",
+      "title": "半导体封装材料扩产，南方基金郑晓曦关注半导体产业",
+      "url": "https://www.jiemian.com/article/15186987.html",
+      "excerpt": "南方基金郑晓曦关注半导体产业链投资机遇。她管理的南方信息创新混合持仓聚焦科技自立自强。另一只产品南方半导体产业股票则深耕半导体芯片产业，尤其是光刻机模块。",
+      "publishedAt": "2026-10-14T01:36:08.000Z",
+      "category": "tech",
+      "source": "界面新闻"
+    },
+    {
+      "sourceId": "jiemian",
+      "title": "整村光伏项目并网投运，南方基金钟贇关注新能源产业",
+      "url": "https://www.jiemian.com/article/15186988.html",
+      "excerpt": "南方基金钟贇看好高景气成长赛道，聚焦产业红利持续释放的成长周期，重点关注AI、新能源、机器人、创新药等兼具趋势空间与业绩兑现能力的主线方向，力争在成长产业浪潮中捕捉优质投资机会。",
+      "publishedAt": "2026-10-14T01:35:59.000Z",
+      "category": "tech",
+      "source": "界面新闻"
+    },
+    {
+      "sourceId": "jiemian",
+      "title": "智算中心扩容工程竣工，南方基金王博关注AI算力基建",
+      "url": "https://www.jiemian.com/article/15186993.html",
+      "excerpt": "南方基金王博把握AI硬件链投资主线，以公司质地、成长性、合理估值作为主要选股标准，精选抵御经济周期波动的龙头公司，长期专注大科技板块研究。",
+      "publishedAt": "2026-10-14T01:35:51.000Z",
+      "category": "tech",
+      "source": "界面新闻"
+    },
+    {
+      "sourceId": "jiemian",
+      "title": "国开债ETF平安(159651)最新规模达11.94亿元，近4日合计“吸金”3939.92万元",
+      "url": "https://www.jiemian.com/article/15187038.html",
+      "excerpt": "截至2026年10月13日 15:00，国开债ETF平安(159651)最新规模达11.94亿元，创近3月新高。",
+      "publishedAt": "2026-10-14T01:35:42.000Z",
+      "category": "tech",
+      "source": "界面新闻"
+    },
+    {
+      "sourceId": "jiemian",
+      "title": "水产概念盘初拉升，百洋股份涨停",
+      "url": "https://www.jiemian.com/article/15187061.html",
       "excerpt": "",
-      "publishedAt": "2026-10-14T00:19:04.000Z",
+      "publishedAt": "2026-10-14T01:35:37.000Z",
       "category": "tech",
       "source": "界面新闻"
     },
     {
       "sourceId": "jiemian",
-      "title": "伊朗副外长：若美再次侵略伊朗，后果将延伸至地区外",
-      "url": "https://www.jiemian.com/article/15186658.html",
-      "excerpt": "伊朗外交部副部长加里巴巴迪10月13日表示，如果美国再次侵略伊朗，其后果将延伸到地区外。加里巴巴迪警告称，通过诉诸军事和威胁重蹈覆辙，将导致远超该地区的后果。他说，美国现在必须决定采取哪条道路。加里巴巴迪表示，伊朗一直对外交和谈判保持建设性态度，同时为任何可能的情况做好准备。美国总统特朗普13日在白宫表示，他将很快就伊朗问题作出决定。（央视新闻）",
-      "publishedAt": "2026-10-14T00:16:01.000Z",
+      "title": "上红低波指数主力资金净流入8.24亿元，平安上证红利低波动指数A近6个月超越基准年化收益为6.72%",
+      "url": "https://www.jiemian.com/article/15187044.html",
+      "excerpt": "截至2026年10月13日，上红低波指数主力资金净流入8.24亿元，截至2026年10月13日，平安上证红利低波动指数A近6个月超越基准年化收益为6.72%。",
+      "publishedAt": "2026-10-14T01:35:33.000Z",
       "category": "tech",
       "source": "界面新闻"
     },
     {
       "sourceId": "jiemian",
-      "title": "AI早报 | 苹果推出智能家居中枢HomeView；字节跳动Seed单独设立大模型安全与对齐部门",
-      "url": "https://www.jiemian.com/article/15185606.html",
-      "excerpt": "尼古拉斯·凯奇称拒绝签署AI授权协议后或不再与亚马逊合作；编造月之暗面相关网络谣言，两名男子被北京警方采取刑事强制措施。",
-      "publishedAt": "2026-10-14T00:15:00.000Z",
+      "title": "上证180指数下跌0.14%，上证180ETF平安(530280)成分股招商轮船领涨6.55%",
+      "url": "https://www.jiemian.com/article/15187048.html",
+      "excerpt": "截至2026年10月13日15:00，上证180指数下跌0.14%，上证180ETF平安(530280)近3月新增份额居可比基金头部。",
+      "publishedAt": "2026-10-14T01:35:24.000Z",
       "category": "tech",
       "source": "界面新闻"
     },
     {
       "sourceId": "jiemian",
-      "title": "OpenAI办公室发现隐藏录音设备，涉事员工被捕",
-      "url": "https://www.jiemian.com/article/15186657.html",
-      "excerpt": "当地时间10月13日，OpenAI在社交平台发文表示，公司在一间办公室内发现一台精密录音设备。公司借助自身模型对该设备及其来源进行分析，确认该设备系一名员工于数日前安装。OpenAI表示，公司已将此事移交美国联邦调查局（FBI），涉事员工目前已被逮捕，相关调查仍在进行中。OpenAI还表示，目前尚无证据表明该人员曾不当访问或外泄模型权重、源代码或客户数据。涉事员工已被解雇。",
-      "publishedAt": "2026-10-14T00:13:42.000Z",
+      "title": "鲁股观察 | 隆华新材1.12亿切入六氟化钨：一家聚醚企业的“换道”逻辑",
+      "url": "https://www.jiemian.com/article/15186874.html",
+      "excerpt": "隆华新材这次瞄准的六氟化钨，恰好处于一个供给真空与需求爆发的交汇点上。",
+      "publishedAt": "2026-10-14T01:35:13.000Z",
       "category": "tech",
       "source": "界面新闻"
     },
     {
       "sourceId": "jiemian",
-      "title": "能源早报｜硅料龙头杭州闭门会被称约定含税底价；宁德时代4亿元布局新能源+AI赛道",
-      "url": "https://www.jiemian.com/article/15185912.html",
-      "excerpt": "盐湖股份前三季度净利润同比预增最高达92.42%；中钨高新预计前三季度归母净利润同比增长超2倍。",
-      "publishedAt": "2026-10-14T00:09:24.000Z",
+      "title": "马达加斯加对进口糖果启动保障措施调查",
+      "url": "https://www.jiemian.com/article/15187036.html",
+      "excerpt": "10月12日，WTO保障措施委员会发布马达加斯加代表团向其提交的保障措施通报，2026年10月9日，马达加斯加调查机关（ANMCC）对进口以糖为基料的糖果以及以可可或巧克力为基料的糖果（法语：Confiseries à base de sucre, ainsi que des confiseries à base de cacao ou de chocolat）启动保障措施调查。涉案产品的马达加斯加税号为17041000、17049020、17049030、17049040、17049090、1806。",
+      "publishedAt": "2026-10-14T01:33:37.000Z",
       "category": "tech",
       "source": "界面新闻"
     },
     {
       "sourceId": "jiemian",
-      "title": "韩国KOSPI指数突破6100点，日内涨1.14%",
-      "url": "https://www.jiemian.com/article/15186645.html",
+      "title": "石油化工概念盘初走强，三维化学涨停",
+      "url": "https://www.jiemian.com/article/15187034.html",
       "excerpt": "",
-      "publishedAt": "2026-10-14T00:08:26.000Z",
+      "publishedAt": "2026-10-14T01:33:30.000Z",
       "category": "tech",
       "source": "界面新闻"
     },
     {
       "sourceId": "jiemian",
-      "title": "科技早报 | 苹果股价再创历史新高；华为徐松余：麒麟9050系列芯片已经成功量产",
-      "url": "https://www.jiemian.com/article/15186039.html",
-      "excerpt": "AMD上调2030年CPU市场规模预期至2000亿美元以上；苹果推出智能家居中枢HomeView，售价299美元；阶跃终端发布STEPX Neo智能体手机。",
-      "publishedAt": "2026-10-14T00:05:00.000Z",
-      "category": "tech",
-      "source": "界面新闻"
-    },
-    {
-      "sourceId": "jiemian",
-      "title": "Apple Watch推出睡眠呼吸暂停迹象提示功能",
-      "url": "https://www.jiemian.com/article/15186640.html",
+      "title": "电池板块盘初拉升，恩捷股份涨停",
+      "url": "https://www.jiemian.com/article/15187029.html",
       "excerpt": "",
-      "publishedAt": "2026-10-14T00:04:40.000Z",
+      "publishedAt": "2026-10-14T01:32:40.000Z",
       "category": "tech",
       "source": "界面新闻"
     },
     {
       "sourceId": "jiemian",
-      "title": "日韩股市开盘上涨",
-      "url": "https://www.jiemian.com/article/15186637.html",
+      "title": "国家统计局：9月份工业生产者出厂价格同比上涨5.0%，环比上涨1.2%",
+      "url": "https://www.jiemian.com/article/15187027.html",
+      "excerpt": "国家统计局发布数据显示，2026年9月份，全国工业生产者出厂价格同比上涨5.0%，环比上涨1.2%。工业生产者购进价格同比上涨6.9%，环比上涨1.2%。1—9月平均，工业生产者出厂价格比上年同期上涨2.3%，工业生产者购进价格上涨3.6%。",
+      "publishedAt": "2026-10-14T01:32:32.000Z",
+      "category": "tech",
+      "source": "界面新闻"
+    },
+    {
+      "sourceId": "jiemian",
+      "title": "PCB概念股多数高开，超声电子2连板",
+      "url": "https://www.jiemian.com/article/15187018.html",
       "excerpt": "",
-      "publishedAt": "2026-10-14T00:02:48.000Z",
+      "publishedAt": "2026-10-14T01:32:09.000Z",
       "category": "tech",
       "source": "界面新闻"
     },
     {
       "sourceId": "jiemian",
-      "title": "拍“碰瓷”视频、发涉企负面帖文，4起网络舆情敲诈典型案例公布",
-      "url": "https://www.jiemian.com/article/15186635.html",
-      "excerpt": "公安机关网安部门依托“净网—2026”专项行动，扎实开展深化扫黑除恶专项斗争。今日（10月14日），公布4起网络舆情敲诈典型案例。这4起案例包括刘某某等人敲诈勒索案，马某等人强迫交易、寻衅滋事案，齐某某、黄某敲诈勒索案，周某敲诈勒索案。",
-      "publishedAt": "2026-10-14T00:02:06.000Z",
+      "title": "国家统计局：9月份居民消费价格同比上涨0.9%",
+      "url": "https://www.jiemian.com/article/15187006.html",
+      "excerpt": "国家统计局发布数据显示，2026年9月份，全国居民消费价格同比上涨0.9%。其中，城市上涨0.9%，农村上涨0.8%；食品价格下降1.7%，非食品价格上涨1.5%；消费品价格上涨1.0%，服务价格上涨0.8%。1­­—9月平均，全国居民消费价格比上年同期上涨0.9%。",
+      "publishedAt": "2026-10-14T01:31:23.000Z",
       "category": "tech",
       "source": "界面新闻"
     },
     {
       "sourceId": "jiemian",
-      "title": "新一轮硅料产能限制计划正在酝酿",
-      "url": "https://www.jiemian.com/article/15186613.html",
+      "title": "短剧板块盘初走弱，龙版传媒跌停",
+      "url": "https://www.jiemian.com/article/15187005.html",
       "excerpt": "",
-      "publishedAt": "2026-10-14T00:00:28.000Z",
+      "publishedAt": "2026-10-14T01:30:43.000Z",
       "category": "tech",
       "source": "界面新闻"
     },
     {
       "sourceId": "jiemian",
-      "title": "中信建投：证券板块具备中长期配置价值，建议关注三条主线",
-      "url": "https://www.jiemian.com/article/15186623.html",
+      "title": "冰雪产业板块持续活跃，冰山冷热2连板",
+      "url": "https://www.jiemian.com/article/15187003.html",
       "excerpt": "",
-      "publishedAt": "2026-10-13T23:59:56.000Z",
+      "publishedAt": "2026-10-14T01:30:23.000Z",
       "category": "tech",
       "source": "界面新闻"
     },
     {
-      "sourceId": "jiemian",
-      "title": "华泰证券：交运板块旺季催化价格改善，聚焦油运与快递",
-      "url": "https://www.jiemian.com/article/15186626.html",
-      "excerpt": "",
-      "publishedAt": "2026-10-13T23:59:47.000Z",
+      "sourceId": "oschina",
+      "title": "Jync v1.7.1 发布 日志 CDC 从 1 种扩到 4 种（v1.6.0 / v1.7.0）",
+      "url": "https://www.oschina.net/news/503008",
+      "excerpt": "相比 v1.5.0 新增 日志 CDC 从 1 种扩到 4 种（v1.6.0 / v1.7.0） Oracle LogMiner（v1.6.0）：挖掘 redo 日志流式回放，七项就绪探测，SCN 位点 PostgreSQL 逻辑解码 + SQL Server CDC（v1.7.0）：各五项就绪探测，LSN 位点 四种引擎（MySQL binlog / Oracle LogMiner / PG logical slot / SQL Server CDC）均可按项目从...",
+      "publishedAt": "2026-10-14T02:00:22.000Z",
       "category": "tech",
-      "source": "界面新闻"
+      "source": "开源中国"
     },
     {
-      "sourceId": "jiemian",
-      "title": "OpenAI正就收购安全初创公司Trail of Bits进行初步谈判",
-      "url": "https://www.jiemian.com/article/15186621.html",
-      "excerpt": "当地时间10月13日，据报道，知情人士透露，OpenAI正就收购安全初创公司Trail of Bits进行初步谈判。目前尚无法获悉这笔潜在交易的规模，谈判仍在进行中。",
-      "publishedAt": "2026-10-13T23:55:14.000Z",
+      "sourceId": "oschina",
+      "title": "Jync v1.5.0发布： 日志 CDC(MySQL binlog)捕获策略",
+      "url": "https://www.oschina.net/news/503007",
+      "excerpt": "日志 CDC:探测 → 基线 → 流式 → 接管 → 优雅停机 就绪探测(七项检查):版本(MySQL ≥ 5.7)、log_bin 开启、binlog_format=ROW、binlog_row_image=FULL、server_id 非 0 且不与 Jync 假 id 冲突、REPLICATION SLAVE/REPLICATION CLIENT 权限、binlog 保留 ≥ 24 小时 —— 逐项给出满足/不满足与原因,连接测试页与项目...",
+      "publishedAt": "2026-10-14T01:55:06.000Z",
       "category": "tech",
-      "source": "界面新闻"
+      "source": "开源中国"
     },
     {
-      "sourceId": "jiemian",
-      "title": "国防开支列世界前茅，沙特为何拦不住胡塞的无人机？",
-      "url": "https://www.jiemian.com/article/15186238.html",
-      "excerpt": "沙特已启动调查，希望查明防空系统未能全部拦截也门胡塞武装大批导弹和无人机的原因。",
-      "publishedAt": "2026-10-13T23:54:07.000Z",
+      "sourceId": "oschina",
+      "title": "DjangoAdmin 敏捷开发框架 FastAPI+EleVue 版本 v2.7.3 发布",
+      "url": "https://www.oschina.net/news/503005",
+      "excerpt": "v2.7.3 更新内容： 1、修复近期用户反馈的问题； 基于 FastAPI、Vue3、TypeScript、ElementPlus、Vite、VueRouter 等技术栈构建的前后端分离企业级数据中台解决方案。内置精细化到按钮及方法级别的 RBAC 权限管控体系，集成用户管理、角色管理、权限菜单、部门管理、职级岗位、系统日志、数据字典、系统参数、行政区划、...",
+      "publishedAt": "2026-10-14T00:53:00.000Z",
       "category": "tech",
-      "source": "界面新闻"
-    },
-    {
-      "sourceId": "jiemian",
-      "title": "中央气象台对台风“小熊”停止编号",
-      "url": "https://www.jiemian.com/article/15186604.html",
-      "excerpt": "今年第29号台风“小熊”已于10月13日晚上在日本以东洋面变性为温带气旋，中央气象台于13日20时对其停止编号。",
-      "publishedAt": "2026-10-13T23:52:13.000Z",
-      "category": "tech",
-      "source": "界面新闻"
-    },
-    {
-      "sourceId": "jiemian",
-      "title": "伊朗海军提醒船只通过霍尔木兹海峡时进行必要协调",
-      "url": "https://www.jiemian.com/article/15186597.html",
-      "excerpt": "",
-      "publishedAt": "2026-10-13T23:51:11.000Z",
-      "category": "tech",
-      "source": "界面新闻"
-    },
-    {
-      "sourceId": "jiemian",
-      "title": "委内瑞拉拟明年恢复加拉加斯和罗马间直航",
-      "url": "https://www.jiemian.com/article/15186596.html",
-      "excerpt": "委内瑞拉新闻和通信部10月13日发布公告称，委政府已与意大利航空运输公司签署谅解备忘录，计划于明年恢复委意两国首都之间的直航。委新闻和通信部网站上发布的公告称，计划从2027年3月30日起恢复委首都加拉加斯与意首都罗马之间的直航，该航线每周运营三班，预计每年提供超过9万个座位。意大利航空运输公司当天发布声明确认上述消息，称该航线将连接罗马菲乌米奇诺机场与加拉加斯附近的西蒙·玻利瓦尔国际机场。（新华社）",
-      "publishedAt": "2026-10-13T23:46:44.000Z",
-      "category": "tech",
-      "source": "界面新闻"
-    },
-    {
-      "sourceId": "jiemian",
-      "title": "北京晴朗模式持续，早晚凉意显现今天最低气温不足10℃",
-      "url": "https://www.jiemian.com/article/15186588.html",
-      "excerpt": "据中国天气网消息，今明天（10月14日至15日）北京晴朗天气在线，昼夜温差大，今天最高气温21℃，最低气温9℃，明天气温有所上升。16日至17日天空云量较多，将有一次降水过程。气象部门提醒，今明天北京大部时段天气晴朗，紫外线较强，公众进行户外活动时注意防晒，及时补水。同时，昼夜温差大，需根据气温变化，及时调整着装。",
-      "publishedAt": "2026-10-13T23:42:55.000Z",
-      "category": "tech",
-      "source": "界面新闻"
-    },
-    {
-      "sourceId": "jiemian",
-      "title": "英伟达拟在欧洲追加20亿美元投资",
-      "url": "https://www.jiemian.com/article/15186579.html",
-      "excerpt": "",
-      "publishedAt": "2026-10-13T23:39:58.000Z",
-      "category": "tech",
-      "source": "界面新闻"
+      "source": "开源中国"
     },
     {
       "sourceId": "oschina",
@@ -5037,33 +4973,6 @@
       "url": "https://www.oschina.net/news/502964",
       "excerpt": "v2.6.0 更新内容： 1、修复近用户反馈的问题； 项目介绍 一款基于 Laravel13、Vue3、TypeScript、ElementPlus、Vite、VueRouter 等技术栈构建的前后端分离企业级数据中台解决方案。内置精细化到按钮及方法级别的 RBAC 权限管控体系，集成用户管理、角色管理、权限菜单、部门管理、职级岗位、系统日志、数据字典、系统参数...",
       "publishedAt": "2026-10-12T00:42:47.000Z",
-      "category": "tech",
-      "source": "开源中国"
-    },
-    {
-      "sourceId": "oschina",
-      "title": "酷瓜云课堂（开源网校版）v2.0.1 发布，知识付费解决方案",
-      "url": "https://www.oschina.net/news/502963",
-      "excerpt": "更新内容 【增加】记住我功能 【优化】首页课程样式、课时页目录结构 【优化】使用ShortIdCode简化序号生成 【优化】调整Upgrade执行顺序 【优化】整理migration脚本 【优化】适配Phalcon-5.20.3 【优化】使用分包替代全量腾讯云SDK 【优化】整理腾讯云接口参数类型 【修正】ip2region忽略ipv6 系统介绍 酷瓜云课堂，依托...",
-      "publishedAt": "2026-10-11T23:54:07.000Z",
-      "category": "tech",
-      "source": "开源中国"
-    },
-    {
-      "sourceId": "oschina",
-      "title": "百目 JArgus v2.0.6 — 静态检查器误报治理版本",
-      "url": "https://www.oschina.net/news/502961",
-      "excerpt": "百目 JArgus v2.0.6 静态检查器误报治理专项版本：注解修饰的代码、编译器生成方法与框架反射调用点不再被误判，死代码检测理解 lambda 与方法引用，多个检查器的豁免规则对齐业界惯例。 github: https://github.com/vfaner/jargus/releases/tag/v2.0.6 Gitee: https://gitee.com/super_rgh/jargus/releases/tag/v2.0.6...",
-      "publishedAt": "2026-10-11T10:16:36.000Z",
-      "category": "tech",
-      "source": "开源中国"
-    },
-    {
-      "sourceId": "oschina",
-      "title": "Jync v1.4.0 发布，异构数据库实时同步工具",
-      "url": "https://www.oschina.net/news/502960",
-      "excerpt": "本版主题是初始全量装载的可靠性与吞吐:从「一条流式查询整表拉完」升级为 keyset 分块 + 每块提交 + 检查点断点续传,崩溃或 kill 进程后从上一块继续,不再整表重来;单列整数主键的表还可开启表内并行(MIN/MAX 切不重叠区间,至多 8 个 worker)。Oracle 源新增行级 ORA_ROWSCN 增量游标(建表带 ROWDEPENDENCIES 的表,已同...",
-      "publishedAt": "2026-10-11T10:13:33.000Z",
       "category": "tech",
       "source": "开源中国"
     }
