@@ -40,8 +40,10 @@ on:
     # catchup branch handles the residual misses by allowing a build any
     # time after `earliest REPORT_HOUR - 1` if today's report is still
     # absent from gh-pages.
-    - cron: '7 * * * *'
-    - cron: '37 * * * *'
+    # NOTE: kept as ONE comma-list cron here — identical timing to the old
+    # two-line form (:07 and :37). Rewriting the cron also re-activates a
+    # scheduled workflow that GitHub auto-disabled (fork / inactivity policy).
+    - cron: '7,37 * * * *'
   workflow_dispatch:
 
 permissions:
